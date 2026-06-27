@@ -7,6 +7,7 @@
   "scripts": {
     "check": "node scripts/check.mjs",
     "build:data": "node scripts/build-data.mjs",
+    "serve": "node scripts/serve.mjs",
     "test": "node --test",
     "gate": "npm run check && npm run build:data && npm test"
   },

@@ -10,8 +10,8 @@ programmatisch aus geprüften Quellen.
 | Phase | Inhalt | Stand |
 |---|---|---|
 | **1. Datenfundament** | Pipeline + Validierungs-Suite + `sources.json` | ✅ **fertig, Gate grün** |
-| 2. SRS-Kern | Kartenmodell, SM-2/FSRS, localStorage, Review-Queue | offen |
-| 3. Übungstypen | Erkennung, Produktion, Ton-Drill, Hörverstehen | offen |
+| **2. SRS-Kern + App** | SM-2, localStorage, Review-Queue, Erkennungs-Übung, Backup | ✅ **fertig, Gate grün** |
+| 3. Übungstypen | Produktion, Ton-Drill, Hörverstehen | offen |
 | 4. Schreibpraxis | `hanzi-writer` mit Strichprüfung | offen |
 | 5. Pädagogik | Ton-Einführung, Praxis-Track, Fortschritts-UI | offen |
 | 6. Optional | Tatoeba-Sätze, austauschbare TTS, Backup-UI | offen |
@@ -32,12 +32,16 @@ programmatisch aus geprüften Quellen.
 ```bash
 npm run check       # Syntax-Check aller Quelldateien
 npm run build:data  # Quellen laden, mergen, validieren -> data/*.json
-npm test            # Validierungs-Suite + goldene Stichproben
+npm test            # Validierungs-Suite + goldene Stichproben + SRS/Deck/Storage
 npm run gate        # check + build:data + test (Build-Gate)
+npm run serve       # statischer Server -> http://localhost:5173 (App im Browser)
 ```
 
-> Node-Toolchain nur für Build/Validierung/Test — **nicht** zur Laufzeit der App.
-> Die App selbst läuft rein client-seitig im Browser.
+> Node-Toolchain nur für Build/Validierung/Test **und** den lokalen Static-Server.
+> Die App selbst läuft rein client-seitig im Browser (React lokal vendored unter
+> `app/vendor/` → **voll offline**, keine CDN/Backend-Abhängigkeit zur Laufzeit).
+> `npm run serve` ist nur nötig, weil `fetch` der JSON-Daten unter `file://`
+> blockiert wird.
 
 ## Struktur
 

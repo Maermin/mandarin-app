@@ -9,6 +9,7 @@ oder durch ein Sprachmodell erfunden.
 | **CC-CEDICT** | <https://www.mdbg.net/chinese/dictionary?page=cc-cedict> | CC BY-SA 4.0 | Pinyin-Wahrheit (Töne), englische Bedeutung, vereinfacht/traditionell |
 | **Make Me a Hanzi** | <https://github.com/skishore/makemeahanzi> | LGPL (Code) / Arphic Public License (Daten) | Zeichen-Zerlegung, Radikale, später Strichreihenfolge |
 | **complete-hsk-vocabulary** | <https://github.com/drkameleon/complete-hsk-vocabulary> | MIT | HSK-2.0-Stufenzuordnung (nur Reihenfolge-Gerüst) |
+| **React / ReactDOM 18** | <https://react.dev> | MIT | UI-Bibliothek, lokal vendored unter `app/vendor/` (Offline-Betrieb) |
 | **HanDeDict** | <http://www.handedict.de/> | CC BY-SA 2.0 DE | Deutsche Übersetzung (Version 2011-05-28) |
 
 ## Weitergabe-Pflicht (CC BY-SA)
