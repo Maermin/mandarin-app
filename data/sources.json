@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-27",
+  "hsk_version": "HSK 2.0 (6 Stufen)",
+  "note": "HSK nur als Reihenfolge-Geruest, keine Pflichtpruefung. Pinyin-Wahrheit = CC-CEDICT.",
+  "sources": {
+    "cc-cedict": {
+      "name": "CC-CEDICT",
+      "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+      "license": "CC BY-SA 4.0",
+      "version": [
+        "version=1",
+        "subversion=0",
+        "format=ts",
+        "charset=UTF-8",
+        "entries=125051",
+        "publisher=MDBG",
+        "license=https://creativecommons.org/licenses/by-sa/4.0/",
+        "date=2026-06-26T05:32:48Z",
+        "time=1782451968"
+      ],
+      "downloaded": "2026-06-27"
+    },
+    "handedict": {
+      "name": "HanDeDict (deutsche Uebersetzung)",
+      "url": "https://handedict.zydeo.net/",
+      "license": "CC BY-SA",
+      "status": "NICHT geladen: zydeo liefert nur SPA-HTML, keine statische Datei. Deutsch = EN-Fallback, markiert pro Eintrag (de_fallback).",
+      "downloaded": null
+    },
+    "makemeahanzi": {
+      "name": "Make Me a Hanzi (dictionary)",
+      "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt",
+      "license": "LGPL (code) / Arphic Public License (data)",
+      "downloaded": "2026-06-27"
+    },
+    "hsk": {
+      "name": "complete-hsk-vocabulary (HSK 2.0, Stufen 1-6)",
+      "url": "https://raw.githubusercontent.com/drkameleon/complete-hsk-vocabulary/main/wordlists/exclusive/old/",
+      "license": "MIT",
+      "downloaded": "2026-06-27"
+    }
+  }
+}

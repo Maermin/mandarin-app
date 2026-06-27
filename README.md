@@ -1,0 +1,55 @@
+# Mandarin-Lern-App (verifizierte Daten)
+
+Client-seitige Web-App, die deutschsprachigen Anfängern Hochchinesisch (Mandarin,
+vereinfachte Zeichen) für Alltag & Familie beibringt. **Oberstes Gebot:
+Korrektheit aller Sprachdaten** — nichts wird vom LLM erfunden, alles stammt
+programmatisch aus geprüften Quellen.
+
+## Status
+
+| Phase | Inhalt | Stand |
+|---|---|---|
+| **1. Datenfundament** | Pipeline + Validierungs-Suite + `sources.json` | ✅ **fertig, Gate grün** |
+| 2. SRS-Kern | Kartenmodell, SM-2/FSRS, localStorage, Review-Queue | offen |
+| 3. Übungstypen | Erkennung, Produktion, Ton-Drill, Hörverstehen | offen |
+| 4. Schreibpraxis | `hanzi-writer` mit Strichprüfung | offen |
+| 5. Pädagogik | Ton-Einführung, Praxis-Track, Fortschritts-UI | offen |
+| 6. Optional | Tatoeba-Sätze, austauschbare TTS, Backup-UI | offen |
+
+## Datenstand (Phase 1)
+
+- **4986 Vokabeln** (HSK 2.0, Stufen 1–6), alle gegen CC-CEDICT aufgelöst.
+- **0 Validierungsfehler**, 5 Wörter bewusst ausgeschlossen (mehrdeutige Lesung /
+  nicht in CC-CEDICT) → siehe `data/validation-report.json`.
+- **2628 Zeichen** mit Zerlegung/Radikal (Make Me a Hanzi).
+- Pinyin + Töne kommen **pro Wort** aus CC-CEDICT (Schutz vor 多音字-Fehlern).
+- Deutsch: HanDeDict aktuell nicht abrufbar → EN-Fallback, pro Eintrag markiert
+  (`de_fallback: true`). Kein geratenes Deutsch. Details: `ATTRIBUTION.md`.
+
+## Befehle
+
+```bash
+npm run check       # Syntax-Check aller Quelldateien
+npm run build:data  # Quellen laden, mergen, validieren -> data/*.json
+npm test            # Validierungs-Suite + goldene Stichproben
+npm run gate        # check + build:data + test (Build-Gate)
+```
+
+> Node-Toolchain nur für Build/Validierung/Test — **nicht** zur Laufzeit der App.
+> Die App selbst läuft rein client-seitig im Browser.
+
+## Struktur
+
+```
+scripts/build-data.mjs   # deterministische Daten-Pipeline
+scripts/lib/             # cedict-Parser, pinyin-Konverter, Validierung
+tests/                   # Validierungs-Suite + goldene Stichproben
+data/                    # Build-Output (vocab.json, chars.json, sources.json, report)
+data/raw/                # heruntergeladene Rohquellen (git-ignoriert)
+ATTRIBUTION.md           # Lizenz-Nachweise (CC BY-SA Pflicht)
+```
+
+## Lizenz
+
+Abgeleitete Daten in `data/` stehen unter **CC BY-SA 4.0** (Pflicht aus CC-CEDICT).
+Siehe `ATTRIBUTION.md`.

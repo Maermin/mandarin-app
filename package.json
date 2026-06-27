@@ -1,0 +1,14 @@
+{
+  "name": "mandarin-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Client-seitige Mandarin-Lern-App fuer deutschsprachige Anfaenger. Sprachdaten ausschliesslich aus geprueften Quellen.",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "test": "node --test",
+    "gate": "npm run check && npm run build:data && npm test"
+  },
+  "license": "CC-BY-SA-4.0"
+}

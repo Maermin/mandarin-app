@@ -1,0 +1,10514 @@
+{
+ "爱": {
+  "radical": "爫",
+  "decomposition": "⿱⿱爫冖友"
+ },
+ "八": {
+  "radical": "八",
+  "decomposition": "？"
+ },
+ "爸": {
+  "radical": "父",
+  "decomposition": "⿱父巴"
+ },
+ "杯": {
+  "radical": "木",
+  "decomposition": "⿰木不"
+ },
+ "子": {
+  "radical": "子",
+  "decomposition": "⿻了一"
+ },
+ "北": {
+  "radical": "匕",
+  "decomposition": "⿰？匕"
+ },
+ "京": {
+  "radical": "亠",
+  "decomposition": "⿳亠口小"
+ },
+ "本": {
+  "radical": "木",
+  "decomposition": "⿻木一"
+ },
+ "不": {
+  "radical": "一",
+  "decomposition": "⿱一？"
+ },
+ "客": {
+  "radical": "宀",
+  "decomposition": "⿱宀各"
+ },
+ "气": {
+  "radical": "气",
+  "decomposition": "⿱亻？"
+ },
+ "菜": {
+  "radical": "艹",
+  "decomposition": "⿱艹采"
+ },
+ "茶": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱人木"
+ },
+ "吃": {
+  "radical": "口",
+  "decomposition": "⿰口乞"
+ },
+ "出": {
+  "radical": "凵",
+  "decomposition": "⿱屮凵"
+ },
+ "租": {
+  "radical": "禾",
+  "decomposition": "⿰禾且"
+ },
+ "车": {
+  "radical": "车",
+  "decomposition": "⿻七十"
+ },
+ "打": {
+  "radical": "扌",
+  "decomposition": "⿰扌丁"
+ },
+ "电": {
+  "radical": "曰",
+  "decomposition": "⿻曰乚"
+ },
+ "话": {
+  "radical": "讠",
+  "decomposition": "⿰讠舌"
+ },
+ "大": {
+  "radical": "大",
+  "decomposition": "⿻一人"
+ },
+ "的": {
+  "radical": "白",
+  "decomposition": "⿰白勺"
+ },
+ "点": {
+  "radical": "灬",
+  "decomposition": "⿱占灬"
+ },
+ "脑": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼⿱亠凶"
+ },
+ "视": {
+  "radical": "见",
+  "decomposition": "⿰礻见"
+ },
+ "影": {
+  "radical": "彡",
+  "decomposition": "⿰景彡"
+ },
+ "东": {
+  "radical": "一",
+  "decomposition": "⿻七小"
+ },
+ "西": {
+  "radical": "西",
+  "decomposition": "⿻兀囗"
+ },
+ "都": {
+  "radical": "阝",
+  "decomposition": "⿰者阝"
+ },
+ "读": {
+  "radical": "讠",
+  "decomposition": "⿰讠卖"
+ },
+ "对": {
+  "radical": "寸",
+  "decomposition": "⿰又寸"
+ },
+ "起": {
+  "radical": "走",
+  "decomposition": "⿺走己"
+ },
+ "多": {
+  "radical": "夕",
+  "decomposition": "⿱夕夕"
+ },
+ "少": {
+  "radical": "小",
+  "decomposition": "⿱小丿"
+ },
+ "儿": {
+  "radical": "儿",
+  "decomposition": "⿰丿乚"
+ },
+ "二": {
+  "radical": "二",
+  "decomposition": "⿱一一"
+ },
+ "饭": {
+  "radical": "饣",
+  "decomposition": "⿰饣反"
+ },
+ "馆": {
+  "radical": "饣",
+  "decomposition": "⿰饣官"
+ },
+ "飞": {
+  "radical": "飞",
+  "decomposition": "⿻？？"
+ },
+ "机": {
+  "radical": "木",
+  "decomposition": "⿰木几"
+ },
+ "分": {
+  "radical": "刀",
+  "decomposition": "⿱八刀"
+ },
+ "钟": {
+  "radical": "钅",
+  "decomposition": "⿰钅中"
+ },
+ "高": {
+  "radical": "高",
+  "decomposition": "⿳亠口冋"
+ },
+ "兴": {
+  "radical": "八",
+  "decomposition": "⿳⺍一八"
+ },
+ "个": {
+  "radical": "丨",
+  "decomposition": "⿱人丨"
+ },
+ "工": {
+  "radical": "工",
+  "decomposition": "⿱一丄"
+ },
+ "作": {
+  "radical": "亻",
+  "decomposition": "⿰亻乍"
+ },
+ "狗": {
+  "radical": "犭",
+  "decomposition": "⿰犭句"
+ },
+ "汉": {
+  "radical": "氵",
+  "decomposition": "⿰氵又"
+ },
+ "语": {
+  "radical": "讠",
+  "decomposition": "⿰讠吾"
+ },
+ "好": {
+  "radical": "女",
+  "decomposition": "⿰女子"
+ },
+ "喝": {
+  "radical": "口",
+  "decomposition": "⿰口曷"
+ },
+ "和": {
+  "radical": "口",
+  "decomposition": "⿰禾口"
+ },
+ "很": {
+  "radical": "彳",
+  "decomposition": "⿰彳艮"
+ },
+ "后": {
+  "radical": "口",
+  "decomposition": "⿸？口"
+ },
+ "面": {
+  "radical": "面",
+  "decomposition": "⿱？？"
+ },
+ "回": {
+  "radical": "囗",
+  "decomposition": "⿴囗口"
+ },
+ "会": {
+  "radical": "人",
+  "decomposition": "⿱人云"
+ },
+ "火": {
+  "radical": "火",
+  "decomposition": "⿻丷人"
+ },
+ "站": {
+  "radical": "立",
+  "decomposition": "⿰立占"
+ },
+ "几": {
+  "radical": "几",
+  "decomposition": "⿰丿乙"
+ },
+ "家": {
+  "radical": "宀",
+  "decomposition": "⿱宀豕"
+ },
+ "叫": {
+  "radical": "口",
+  "decomposition": "⿰口丩"
+ },
+ "今": {
+  "radical": "人",
+  "decomposition": "⿱人？"
+ },
+ "天": {
+  "radical": "大",
+  "decomposition": "⿱一大"
+ },
+ "九": {
+  "radical": "乙",
+  "decomposition": "⿻丿乙"
+ },
+ "开": {
+  "radical": "廾",
+  "decomposition": "⿱一廾"
+ },
+ "看": {
+  "radical": "目",
+  "decomposition": "⿱手目"
+ },
+ "见": {
+  "radical": "见",
+  "decomposition": "⿵冂儿"
+ },
+ "块": {
+  "radical": "土",
+  "decomposition": "⿰土夬"
+ },
+ "来": {
+  "radical": "木",
+  "decomposition": "⿻未丷"
+ },
+ "老": {
+  "radical": "老",
+  "decomposition": "⿱耂匕"
+ },
+ "师": {
+  "radical": "巾",
+  "decomposition": "⿰刂帀"
+ },
+ "了": {
+  "radical": "亅",
+  "decomposition": "⿱乛亅"
+ },
+ "冷": {
+  "radical": "冫",
+  "decomposition": "⿰冫令"
+ },
+ "里": {
+  "radical": "里",
+  "decomposition": "⿱田土"
+ },
+ "零": {
+  "radical": "雨",
+  "decomposition": "⿱雨令"
+ },
+ "六": {
+  "radical": "八",
+  "decomposition": "⿱亠八"
+ },
+ "妈": {
+  "radical": "女",
+  "decomposition": "⿰女马"
+ },
+ "吗": {
+  "radical": "口",
+  "decomposition": "⿰口马"
+ },
+ "买": {
+  "radical": "大",
+  "decomposition": "⿱乛头"
+ },
+ "猫": {
+  "radical": "犭",
+  "decomposition": "⿰犭苗"
+ },
+ "没": {
+  "radical": "氵",
+  "decomposition": "⿰氵殳"
+ },
+ "关": {
+  "radical": "丷",
+  "decomposition": "⿱丷天"
+ },
+ "系": {
+  "radical": "糸",
+  "decomposition": "⿱丿糸"
+ },
+ "米": {
+  "radical": "米",
+  "decomposition": "⿻丷木"
+ },
+ "名": {
+  "radical": "口",
+  "decomposition": "⿸夕口"
+ },
+ "字": {
+  "radical": "子",
+  "decomposition": "⿱宀子"
+ },
+ "明": {
+  "radical": "日",
+  "decomposition": "⿰日月"
+ },
+ "哪": {
+  "radical": "口",
+  "decomposition": "⿰口那"
+ },
+ "那": {
+  "radical": "阝",
+  "decomposition": "⿰⿹？？阝"
+ },
+ "呢": {
+  "radical": "口",
+  "decomposition": "⿰口尼"
+ },
+ "能": {
+  "radical": "⺼",
+  "decomposition": "⿰⿱厶⺼⿱匕匕"
+ },
+ "你": {
+  "radical": "亻",
+  "decomposition": "⿰亻尔"
+ },
+ "年": {
+  "radical": "干",
+  "decomposition": "⿻干？"
+ },
+ "女": {
+  "radical": "女",
+  "decomposition": "？"
+ },
+ "朋": {
+  "radical": "月",
+  "decomposition": "⿰月月"
+ },
+ "友": {
+  "radical": "又",
+  "decomposition": "⿸？又"
+ },
+ "漂": {
+  "radical": "氵",
+  "decomposition": "⿰氵票"
+ },
+ "亮": {
+  "radical": "亠",
+  "decomposition": "⿳亠口⿱冖几"
+ },
+ "苹": {
+  "radical": "艹",
+  "decomposition": "⿱艹平"
+ },
+ "果": {
+  "radical": "木",
+  "decomposition": "⿱田木"
+ },
+ "七": {
+  "radical": "一",
+  "decomposition": "⿻一乚"
+ },
+ "前": {
+  "radical": "刂",
+  "decomposition": "⿱⿱丷一刖"
+ },
+ "钱": {
+  "radical": "钅",
+  "decomposition": "⿰钅戋"
+ },
+ "请": {
+  "radical": "讠",
+  "decomposition": "⿰讠青"
+ },
+ "去": {
+  "radical": "厶",
+  "decomposition": "⿱土厶"
+ },
+ "热": {
+  "radical": "灬",
+  "decomposition": "⿱执灬"
+ },
+ "人": {
+  "radical": "人",
+  "decomposition": "？"
+ },
+ "认": {
+  "radical": "讠",
+  "decomposition": "⿰讠人"
+ },
+ "识": {
+  "radical": "讠",
+  "decomposition": "⿰讠只"
+ },
+ "日": {
+  "radical": "日",
+  "decomposition": "⿴口一"
+ },
+ "三": {
+  "radical": "一",
+  "decomposition": "⿱一二"
+ },
+ "商": {
+  "radical": "口",
+  "decomposition": "⿱⿱亠丷冏"
+ },
+ "店": {
+  "radical": "广",
+  "decomposition": "⿸广占"
+ },
+ "上": {
+  "radical": "一",
+  "decomposition": "⿱⺊一"
+ },
+ "午": {
+  "radical": "十",
+  "decomposition": "⿻丿干"
+ },
+ "什": {
+  "radical": "亻",
+  "decomposition": "⿰亻十"
+ },
+ "么": {
+  "radical": "丿",
+  "decomposition": "⿱丿厶"
+ },
+ "十": {
+  "radical": "十",
+  "decomposition": "⿻一丨"
+ },
+ "时": {
+  "radical": "日",
+  "decomposition": "⿰日寸"
+ },
+ "候": {
+  "radical": "亻",
+  "decomposition": "⿰亻矦"
+ },
+ "是": {
+  "radical": "日",
+  "decomposition": "⿱日疋"
+ },
+ "书": {
+  "radical": "丨",
+  "decomposition": "⿻？丨"
+ },
+ "谁": {
+  "radical": "讠",
+  "decomposition": "⿰讠隹"
+ },
+ "水": {
+  "radical": "水",
+  "decomposition": "⿻亅？"
+ },
+ "睡": {
+  "radical": "目",
+  "decomposition": "⿰目垂"
+ },
+ "觉": {
+  "radical": "见",
+  "decomposition": "⿳⺍冖见"
+ },
+ "说": {
+  "radical": "讠",
+  "decomposition": "⿰讠兑"
+ },
+ "四": {
+  "radical": "囗",
+  "decomposition": "⿴囗儿"
+ },
+ "岁": {
+  "radical": "山",
+  "decomposition": "⿱山夕"
+ },
+ "他": {
+  "radical": "亻",
+  "decomposition": "⿰亻也"
+ },
+ "她": {
+  "radical": "女",
+  "decomposition": "⿰女也"
+ },
+ "太": {
+  "radical": "大",
+  "decomposition": "⿵大丶"
+ },
+ "听": {
+  "radical": "口",
+  "decomposition": "⿰口斤"
+ },
+ "同": {
+  "radical": "口",
+  "decomposition": "⿵凡口"
+ },
+ "学": {
+  "radical": "子",
+  "decomposition": "⿱⿱⺍冖子"
+ },
+ "喂": {
+  "radical": "口",
+  "decomposition": "⿰口畏"
+ },
+ "我": {
+  "radical": "戈",
+  "decomposition": "⿰扌戈"
+ },
+ "们": {
+  "radical": "亻",
+  "decomposition": "⿰亻门"
+ },
+ "五": {
+  "radical": "二",
+  "decomposition": "⿴二？"
+ },
+ "喜": {
+  "radical": "口",
+  "decomposition": "⿱壴口"
+ },
+ "欢": {
+  "radical": "欠",
+  "decomposition": "⿰又欠"
+ },
+ "下": {
+  "radical": "一",
+  "decomposition": "⿱一卜"
+ },
+ "雨": {
+  "radical": "雨",
+  "decomposition": "⿻帀？"
+ },
+ "先": {
+  "radical": "儿",
+  "decomposition": "⿱⿰？土儿"
+ },
+ "生": {
+  "radical": "生",
+  "decomposition": "⿻一土"
+ },
+ "现": {
+  "radical": "王",
+  "decomposition": "⿰王见"
+ },
+ "在": {
+  "radical": "土",
+  "decomposition": "⿸才土"
+ },
+ "想": {
+  "radical": "心",
+  "decomposition": "⿱相心"
+ },
+ "小": {
+  "radical": "小",
+  "decomposition": "⿻亅八"
+ },
+ "姐": {
+  "radical": "女",
+  "decomposition": "⿰女且"
+ },
+ "些": {
+  "radical": "二",
+  "decomposition": "⿱此二"
+ },
+ "写": {
+  "radical": "冖",
+  "decomposition": "⿱冖与"
+ },
+ "谢": {
+  "radical": "讠",
+  "decomposition": "⿰讠射"
+ },
+ "星": {
+  "radical": "日",
+  "decomposition": "⿱日生"
+ },
+ "期": {
+  "radical": "月",
+  "decomposition": "⿰其月"
+ },
+ "习": {
+  "radical": "冫",
+  "decomposition": "⿹？冫"
+ },
+ "校": {
+  "radical": "木",
+  "decomposition": "⿰木交"
+ },
+ "一": {
+  "radical": "一",
+  "decomposition": "？"
+ },
+ "衣": {
+  "radical": "衣",
+  "decomposition": "⿱亠？"
+ },
+ "服": {
+  "radical": "月",
+  "decomposition": "⿰月⿸卩又"
+ },
+ "医": {
+  "radical": "匸",
+  "decomposition": "⿷匸矢"
+ },
+ "院": {
+  "radical": "阝",
+  "decomposition": "⿰阝完"
+ },
+ "椅": {
+  "radical": "木",
+  "decomposition": "⿰木奇"
+ },
+ "有": {
+  "radical": "月",
+  "decomposition": "⿸？月"
+ },
+ "月": {
+  "radical": "月",
+  "decomposition": "⿵冂二"
+ },
+ "再": {
+  "radical": "冂",
+  "decomposition": "⿱一冉"
+ },
+ "怎": {
+  "radical": "心",
+  "decomposition": "⿱乍心"
+ },
+ "样": {
+  "radical": "木",
+  "decomposition": "⿰木羊"
+ },
+ "这": {
+  "radical": "辶",
+  "decomposition": "⿺辶文"
+ },
+ "中": {
+  "radical": "丨",
+  "decomposition": "⿻口丨"
+ },
+ "国": {
+  "radical": "囗",
+  "decomposition": "⿴囗玉"
+ },
+ "住": {
+  "radical": "亻",
+  "decomposition": "⿰亻主"
+ },
+ "桌": {
+  "radical": "木",
+  "decomposition": "⿱卓木"
+ },
+ "昨": {
+  "radical": "日",
+  "decomposition": "⿰日乍"
+ },
+ "坐": {
+  "radical": "土",
+  "decomposition": "⿻从土"
+ },
+ "做": {
+  "radical": "亻",
+  "decomposition": "⿰亻故"
+ },
+ "吧": {
+  "radical": "口",
+  "decomposition": "⿰口巴"
+ },
+ "白": {
+  "radical": "白",
+  "decomposition": "⿻？日"
+ },
+ "百": {
+  "radical": "白",
+  "decomposition": "⿱一白"
+ },
+ "帮": {
+  "radical": "巾",
+  "decomposition": "⿱邦巾"
+ },
+ "助": {
+  "radical": "力",
+  "decomposition": "⿰且力"
+ },
+ "报": {
+  "radical": "扌",
+  "decomposition": "⿰扌⿸卩又"
+ },
+ "纸": {
+  "radical": "纟",
+  "decomposition": "⿰纟氏"
+ },
+ "比": {
+  "radical": "比",
+  "decomposition": "⿰匕匕"
+ },
+ "便": {
+  "radical": "亻",
+  "decomposition": "⿰亻更"
+ },
+ "宜": {
+  "radical": "宀",
+  "decomposition": "⿱宀且"
+ },
+ "别": {
+  "radical": "刂",
+  "decomposition": "⿰另刂"
+ },
+ "唱": {
+  "radical": "口",
+  "decomposition": "⿰口昌"
+ },
+ "歌": {
+  "radical": "欠",
+  "decomposition": "⿰哥欠"
+ },
+ "穿": {
+  "radical": "穴",
+  "decomposition": "⿱穴牙"
+ },
+ "船": {
+  "radical": "舟",
+  "decomposition": "⿰舟⿱几口"
+ },
+ "次": {
+  "radical": "欠",
+  "decomposition": "⿰冫欠"
+ },
+ "从": {
+  "radical": "人",
+  "decomposition": "⿰人人"
+ },
+ "错": {
+  "radical": "钅",
+  "decomposition": "⿰钅昔"
+ },
+ "但": {
+  "radical": "亻",
+  "decomposition": "⿰亻旦"
+ },
+ "到": {
+  "radical": "刂",
+  "decomposition": "⿰至刂"
+ },
+ "得": {
+  "radical": "彳",
+  "decomposition": "⿰彳⿱旦寸"
+ },
+ "弟": {
+  "radical": "弓",
+  "decomposition": "⿱丷⿻弓？"
+ },
+ "第": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮弟"
+ },
+ "懂": {
+  "radical": "忄",
+  "decomposition": "⿰忄董"
+ },
+ "房": {
+  "radical": "户",
+  "decomposition": "⿸户方"
+ },
+ "间": {
+  "radical": "门",
+  "decomposition": "⿵门日"
+ },
+ "非": {
+  "radical": "非",
+  "decomposition": "⿰？？"
+ },
+ "常": {
+  "radical": "巾",
+  "decomposition": "⿱尚巾"
+ },
+ "务": {
+  "radical": "夂",
+  "decomposition": "⿱夂力"
+ },
+ "员": {
+  "radical": "口",
+  "decomposition": "⿱口贝"
+ },
+ "告": {
+  "radical": "口",
+  "decomposition": "⿱牛口"
+ },
+ "诉": {
+  "radical": "讠",
+  "decomposition": "⿰讠斥"
+ },
+ "哥": {
+  "radical": "口",
+  "decomposition": "⿱可可"
+ },
+ "给": {
+  "radical": "纟",
+  "decomposition": "⿰纟合"
+ },
+ "公": {
+  "radical": "八",
+  "decomposition": "⿱八厶"
+ },
+ "共": {
+  "radical": "八",
+  "decomposition": "⿳廾一八"
+ },
+ "汽": {
+  "radical": "氵",
+  "decomposition": "⿰氵气"
+ },
+ "斤": {
+  "radical": "斤",
+  "decomposition": "⿸厂下"
+ },
+ "司": {
+  "radical": "口",
+  "decomposition": "⿹？口"
+ },
+ "贵": {
+  "radical": "贝",
+  "decomposition": "⿱⿱中一贝"
+ },
+ "还": {
+  "radical": "辶",
+  "decomposition": "⿺辶不"
+ },
+ "孩": {
+  "radical": "子",
+  "decomposition": "⿰子亥"
+ },
+ "号": {
+  "radical": "口",
+  "decomposition": "⿱口丂"
+ },
+ "黑": {
+  "radical": "黑",
+  "decomposition": "⿱？灬"
+ },
+ "红": {
+  "radical": "纟",
+  "decomposition": "⿰纟工"
+ },
+ "迎": {
+  "radical": "辶",
+  "decomposition": "⿺辶卬"
+ },
+ "答": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮合"
+ },
+ "场": {
+  "radical": "土",
+  "decomposition": "⿰土勿"
+ },
+ "鸡": {
+  "radical": "鸟",
+  "decomposition": "⿰又鸟"
+ },
+ "蛋": {
+  "radical": "虫",
+  "decomposition": "⿱疋虫"
+ },
+ "件": {
+  "radical": "亻",
+  "decomposition": "⿰亻牛"
+ },
+ "教": {
+  "radical": "攵",
+  "decomposition": "⿰孝攵"
+ },
+ "室": {
+  "radical": "宀",
+  "decomposition": "⿱宀至"
+ },
+ "介": {
+  "radical": "人",
+  "decomposition": "⿱人？"
+ },
+ "绍": {
+  "radical": "纟",
+  "decomposition": "⿰纟召"
+ },
+ "近": {
+  "radical": "辶",
+  "decomposition": "⿺辶斤"
+ },
+ "进": {
+  "radical": "辶",
+  "decomposition": "⿺辶井"
+ },
+ "就": {
+  "radical": "尢",
+  "decomposition": "⿰京尤"
+ },
+ "咖": {
+  "radical": "口",
+  "decomposition": "⿰口加"
+ },
+ "啡": {
+  "radical": "口",
+  "decomposition": "⿰口非"
+ },
+ "始": {
+  "radical": "女",
+  "decomposition": "⿰女台"
+ },
+ "考": {
+  "radical": "耂",
+  "decomposition": "⿸耂丂"
+ },
+ "试": {
+  "radical": "讠",
+  "decomposition": "⿰讠式"
+ },
+ "可": {
+  "radical": "口",
+  "decomposition": "⿻丁口"
+ },
+ "以": {
+  "radical": "人",
+  "decomposition": "⿰？人"
+ },
+ "课": {
+  "radical": "讠",
+  "decomposition": "⿰讠果"
+ },
+ "快": {
+  "radical": "忄",
+  "decomposition": "⿰忄夬"
+ },
+ "乐": {
+  "radical": "丿",
+  "decomposition": "⿻⿱丿？小"
+ },
+ "累": {
+  "radical": "糸",
+  "decomposition": "⿱田糸"
+ },
+ "离": {
+  "radical": "禸",
+  "decomposition": "⿱⿱亠凶禸"
+ },
+ "两": {
+  "radical": "一",
+  "decomposition": "⿱一⿻冂从"
+ },
+ "路": {
+  "radical": "足",
+  "decomposition": "⿰足各"
+ },
+ "旅": {
+  "radical": "方",
+  "decomposition": "⿰方⿱？氏"
+ },
+ "游": {
+  "radical": "氵",
+  "decomposition": "⿰氵斿"
+ },
+ "卖": {
+  "radical": "十",
+  "decomposition": "⿱十买"
+ },
+ "慢": {
+  "radical": "忄",
+  "decomposition": "⿰忄曼"
+ },
+ "忙": {
+  "radical": "忄",
+  "decomposition": "⿰忄亡"
+ },
+ "每": {
+  "radical": "母",
+  "decomposition": "⿱？母"
+ },
+ "妹": {
+  "radical": "女",
+  "decomposition": "⿰女未"
+ },
+ "门": {
+  "radical": "门",
+  "decomposition": "⿰⿱丶丨？"
+ },
+ "男": {
+  "radical": "田",
+  "decomposition": "⿱田力"
+ },
+ "您": {
+  "radical": "心",
+  "decomposition": "⿱你心"
+ },
+ "牛": {
+  "radical": "牛",
+  "decomposition": "？"
+ },
+ "奶": {
+  "radical": "女",
+  "decomposition": "⿰女乃"
+ },
+ "旁": {
+  "radical": "方",
+  "decomposition": "⿱立方"
+ },
+ "边": {
+  "radical": "辶",
+  "decomposition": "⿺辶力"
+ },
+ "跑": {
+  "radical": "足",
+  "decomposition": "⿰足包"
+ },
+ "步": {
+  "radical": "止",
+  "decomposition": "⿱止？"
+ },
+ "票": {
+  "radical": "示",
+  "decomposition": "⿱覀示"
+ },
+ "妻": {
+  "radical": "女",
+  "decomposition": "⿱⿻十彐女"
+ },
+ "床": {
+  "radical": "广",
+  "decomposition": "⿸广木"
+ },
+ "千": {
+  "radical": "十",
+  "decomposition": "⿱丿十"
+ },
+ "晴": {
+  "radical": "日",
+  "decomposition": "⿰日青"
+ },
+ "让": {
+  "radical": "讠",
+  "decomposition": "⿰讠上"
+ },
+ "班": {
+  "radical": "王",
+  "decomposition": "⿲王刂王"
+ },
+ "身": {
+  "radical": "身",
+  "decomposition": "？"
+ },
+ "体": {
+  "radical": "亻",
+  "decomposition": "⿰亻本"
+ },
+ "病": {
+  "radical": "疒",
+  "decomposition": "⿸疒丙"
+ },
+ "事": {
+  "radical": "亅",
+  "decomposition": "⿻⿳一口彐亅"
+ },
+ "情": {
+  "radical": "忄",
+  "decomposition": "⿰忄青"
+ },
+ "手": {
+  "radical": "手",
+  "decomposition": "？"
+ },
+ "表": {
+  "radical": "衣",
+  "decomposition": "⿱毛衣"
+ },
+ "送": {
+  "radical": "辶",
+  "decomposition": "⿺辶关"
+ },
+ "所": {
+  "radical": "户",
+  "decomposition": "⿰户斤"
+ },
+ "它": {
+  "radical": "宀",
+  "decomposition": "⿱宀匕"
+ },
+ "踢": {
+  "radical": "足",
+  "decomposition": "⿰足易"
+ },
+ "题": {
+  "radical": "页",
+  "decomposition": "⿺是页"
+ },
+ "跳": {
+  "radical": "足",
+  "decomposition": "⿰足兆"
+ },
+ "舞": {
+  "radical": "舛",
+  "decomposition": "⿱無舛"
+ },
+ "外": {
+  "radical": "夕",
+  "decomposition": "⿰夕卜"
+ },
+ "完": {
+  "radical": "宀",
+  "decomposition": "⿱宀元"
+ },
+ "玩": {
+  "radical": "王",
+  "decomposition": "⿰王元"
+ },
+ "晚": {
+  "radical": "日",
+  "decomposition": "⿰日免"
+ },
+ "为": {
+  "radical": "丶",
+  "decomposition": "⿻丶⿴力丶"
+ },
+ "问": {
+  "radical": "门",
+  "decomposition": "⿵门口"
+ },
+ "希": {
+  "radical": "巾",
+  "decomposition": "⿱乂布"
+ },
+ "望": {
+  "radical": "月",
+  "decomposition": "⿱⿰亡月王"
+ },
+ "洗": {
+  "radical": "氵",
+  "decomposition": "⿰氵先"
+ },
+ "瓜": {
+  "radical": "瓜",
+  "decomposition": "⿵？厶"
+ },
+ "向": {
+  "radical": "口",
+  "decomposition": "⿵？口"
+ },
+ "笑": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮夭"
+ },
+ "新": {
+  "radical": "斤",
+  "decomposition": "⿰亲斤"
+ },
+ "姓": {
+  "radical": "女",
+  "decomposition": "⿰女生"
+ },
+ "休": {
+  "radical": "亻",
+  "decomposition": "⿰亻木"
+ },
+ "息": {
+  "radical": "心",
+  "decomposition": "⿱自心"
+ },
+ "雪": {
+  "radical": "雨",
+  "decomposition": "⿱雨彐"
+ },
+ "颜": {
+  "radical": "页",
+  "decomposition": "⿰彦页"
+ },
+ "色": {
+  "radical": "色",
+  "decomposition": "⿱⺈巴"
+ },
+ "眼": {
+  "radical": "目",
+  "decomposition": "⿰目艮"
+ },
+ "睛": {
+  "radical": "目",
+  "decomposition": "⿰目青"
+ },
+ "羊": {
+  "radical": "羊",
+  "decomposition": "⿱丷？"
+ },
+ "肉": {
+  "radical": "肉",
+  "decomposition": "⿻冂仌"
+ },
+ "药": {
+  "radical": "艹",
+  "decomposition": "⿱艹约"
+ },
+ "要": {
+  "radical": "覀",
+  "decomposition": "⿱覀女"
+ },
+ "也": {
+  "radical": "乚",
+  "decomposition": "⿻？乚"
+ },
+ "已": {
+  "radical": "己",
+  "decomposition": "？"
+ },
+ "经": {
+  "radical": "纟",
+  "decomposition": "⿰纟⿱？工"
+ },
+ "意": {
+  "radical": "心",
+  "decomposition": "⿱音心"
+ },
+ "思": {
+  "radical": "心",
+  "decomposition": "⿱田心"
+ },
+ "因": {
+  "radical": "囗",
+  "decomposition": "⿴囗大"
+ },
+ "阴": {
+  "radical": "阝",
+  "decomposition": "⿰阝月"
+ },
+ "泳": {
+  "radical": "氵",
+  "decomposition": "⿰氵永"
+ },
+ "右": {
+  "radical": "口",
+  "decomposition": "⿸？口"
+ },
+ "鱼": {
+  "radical": "鱼",
+  "decomposition": "⿱⿱⺈田一"
+ },
+ "元": {
+  "radical": "儿",
+  "decomposition": "⿱二儿"
+ },
+ "远": {
+  "radical": "辶",
+  "decomposition": "⿺辶元"
+ },
+ "运": {
+  "radical": "辶",
+  "decomposition": "⿺辶云"
+ },
+ "动": {
+  "radical": "力",
+  "decomposition": "⿰云力"
+ },
+ "早": {
+  "radical": "日",
+  "decomposition": "⿱日十"
+ },
+ "张": {
+  "radical": "弓",
+  "decomposition": "⿰弓长"
+ },
+ "长": {
+  "radical": "长",
+  "decomposition": "⿻？一"
+ },
+ "丈": {
+  "radical": "一",
+  "decomposition": "⿻一又"
+ },
+ "夫": {
+  "radical": "大",
+  "decomposition": "⿻一大"
+ },
+ "找": {
+  "radical": "扌",
+  "decomposition": "⿰扌戈"
+ },
+ "着": {
+  "radical": "目",
+  "decomposition": "⿸羊目"
+ },
+ "真": {
+  "radical": "目",
+  "decomposition": "⿱直几"
+ },
+ "正": {
+  "radical": "止",
+  "decomposition": "⿱一止"
+ },
+ "知": {
+  "radical": "矢",
+  "decomposition": "⿰矢口"
+ },
+ "道": {
+  "radical": "辶",
+  "decomposition": "⿺辶首"
+ },
+ "准": {
+  "radical": "冫",
+  "decomposition": "⿰冫隹"
+ },
+ "备": {
+  "radical": "夂",
+  "decomposition": "⿱夂田"
+ },
+ "自": {
+  "radical": "自",
+  "decomposition": "⿻目？"
+ },
+ "行": {
+  "radical": "行",
+  "decomposition": "⿰彳亍"
+ },
+ "走": {
+  "radical": "走",
+  "decomposition": "⿱土止"
+ },
+ "最": {
+  "radical": "曰",
+  "decomposition": "⿱日取"
+ },
+ "左": {
+  "radical": "工",
+  "decomposition": "⿸？工"
+ },
+ "阿": {
+  "radical": "阝",
+  "decomposition": "⿰阝可"
+ },
+ "姨": {
+  "radical": "女",
+  "decomposition": "⿰女夷"
+ },
+ "啊": {
+  "radical": "口",
+  "decomposition": "⿰口阿"
+ },
+ "矮": {
+  "radical": "矢",
+  "decomposition": "⿰矢委"
+ },
+ "安": {
+  "radical": "宀",
+  "decomposition": "⿱宀女"
+ },
+ "静": {
+  "radical": "青",
+  "decomposition": "⿰青争"
+ },
+ "把": {
+  "radical": "扌",
+  "decomposition": "⿰扌巴"
+ },
+ "搬": {
+  "radical": "扌",
+  "decomposition": "⿰扌般"
+ },
+ "办": {
+  "radical": "力",
+  "decomposition": "⿻力八"
+ },
+ "法": {
+  "radical": "氵",
+  "decomposition": "⿰氵去"
+ },
+ "半": {
+  "radical": "十",
+  "decomposition": "⿻丷牛"
+ },
+ "包": {
+  "radical": "勹",
+  "decomposition": "⿹勹巳"
+ },
+ "饱": {
+  "radical": "饣",
+  "decomposition": "⿰饣包"
+ },
+ "方": {
+  "radical": "方",
+  "decomposition": "⿱亠？"
+ },
+ "被": {
+  "radical": "衤",
+  "decomposition": "⿰衤皮"
+ },
+ "鼻": {
+  "radical": "鼻",
+  "decomposition": "⿱自畀"
+ },
+ "较": {
+  "radical": "车",
+  "decomposition": "⿰车交"
+ },
+ "赛": {
+  "radical": "贝",
+  "decomposition": "⿱宀⿱？贝"
+ },
+ "必": {
+  "radical": "心",
+  "decomposition": "⿻心丿"
+ },
+ "须": {
+  "radical": "彡",
+  "decomposition": "⿰彡页"
+ },
+ "变": {
+  "radical": "又",
+  "decomposition": "⿱亦又"
+ },
+ "化": {
+  "radical": "匕",
+  "decomposition": "⿰亻匕"
+ },
+ "示": {
+  "radical": "示",
+  "decomposition": "⿱二小"
+ },
+ "演": {
+  "radical": "氵",
+  "decomposition": "⿰氵寅"
+ },
+ "宾": {
+  "radical": "宀",
+  "decomposition": "⿱宀兵"
+ },
+ "冰": {
+  "radical": "冫",
+  "decomposition": "⿰冫水"
+ },
+ "箱": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮相"
+ },
+ "才": {
+  "radical": "扌",
+  "decomposition": "⿻扌？"
+ },
+ "单": {
+  "radical": "丷",
+  "decomposition": "⿱丷？"
+ },
+ "参": {
+  "radical": "厶",
+  "decomposition": "⿱⿱厶大彡"
+ },
+ "加": {
+  "radical": "力",
+  "decomposition": "⿰力口"
+ },
+ "草": {
+  "radical": "艹",
+  "decomposition": "⿱艹早"
+ },
+ "层": {
+  "radical": "尸",
+  "decomposition": "⿸尸云"
+ },
+ "差": {
+  "radical": "工",
+  "decomposition": "⿸羊工"
+ },
+ "超": {
+  "radical": "走",
+  "decomposition": "⿺走召"
+ },
+ "市": {
+  "radical": "巾",
+  "decomposition": "⿱亠巾"
+ },
+ "衬": {
+  "radical": "衤",
+  "decomposition": "⿰衤寸"
+ },
+ "衫": {
+  "radical": "衤",
+  "decomposition": "⿰衤彡"
+ },
+ "成": {
+  "radical": "戈",
+  "decomposition": "⿰丁戈"
+ },
+ "绩": {
+  "radical": "纟",
+  "decomposition": "⿰纟责"
+ },
+ "城": {
+  "radical": "土",
+  "decomposition": "⿰土成"
+ },
+ "迟": {
+  "radical": "辶",
+  "decomposition": "⿺辶尺"
+ },
+ "除": {
+  "radical": "阝",
+  "decomposition": "⿰阝余"
+ },
+ "厨": {
+  "radical": "厂",
+  "decomposition": "⿸厂⿰豆寸"
+ },
+ "春": {
+  "radical": "日",
+  "decomposition": "⿱？日"
+ },
+ "词": {
+  "radical": "讠",
+  "decomposition": "⿰讠司"
+ },
+ "聪": {
+  "radical": "耳",
+  "decomposition": "⿰耳总"
+ },
+ "扫": {
+  "radical": "扌",
+  "decomposition": "⿰扌彐"
+ },
+ "算": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮具"
+ },
+ "带": {
+  "radical": "巾",
+  "decomposition": "⿱卅⿱冖巾"
+ },
+ "担": {
+  "radical": "扌",
+  "decomposition": "⿰扌旦"
+ },
+ "心": {
+  "radical": "心",
+  "decomposition": "？"
+ },
+ "糕": {
+  "radical": "米",
+  "decomposition": "⿰米羔"
+ },
+ "当": {
+  "radical": "⺌",
+  "decomposition": "⿱⺌彐"
+ },
+ "然": {
+  "radical": "灬",
+  "decomposition": "⿱肰灬"
+ },
+ "地": {
+  "radical": "土",
+  "decomposition": "⿰土也"
+ },
+ "铁": {
+  "radical": "钅",
+  "decomposition": "⿰钅失"
+ },
+ "图": {
+  "radical": "囗",
+  "decomposition": "⿴囗冬"
+ },
+ "灯": {
+  "radical": "火",
+  "decomposition": "⿰火丁"
+ },
+ "低": {
+  "radical": "亻",
+  "decomposition": "⿰亻氐"
+ },
+ "梯": {
+  "radical": "木",
+  "decomposition": "⿰木弟"
+ },
+ "冬": {
+  "radical": "⺀",
+  "decomposition": "⿱夂⺀"
+ },
+ "物": {
+  "radical": "牛",
+  "decomposition": "⿰牛勿"
+ },
+ "短": {
+  "radical": "矢",
+  "decomposition": "⿰矢豆"
+ },
+ "段": {
+  "radical": "殳",
+  "decomposition": "⿰？殳"
+ },
+ "锻": {
+  "radical": "钅",
+  "decomposition": "⿰钅段"
+ },
+ "炼": {
+  "radical": "火",
+  "decomposition": "⿰火柬"
+ },
+ "饿": {
+  "radical": "饣",
+  "decomposition": "⿰饣我"
+ },
+ "而": {
+  "radical": "而",
+  "decomposition": "？"
+ },
+ "且": {
+  "radical": "一",
+  "decomposition": "⿱月一"
+ },
+ "耳": {
+  "radical": "耳",
+  "decomposition": "⿻？二"
+ },
+ "朵": {
+  "radical": "木",
+  "decomposition": "⿱几木"
+ },
+ "发": {
+  "radical": "又",
+  "decomposition": "⿸？又"
+ },
+ "烧": {
+  "radical": "火",
+  "decomposition": "⿰火尧"
+ },
+ "放": {
+  "radical": "攵",
+  "decomposition": "⿰方攵"
+ },
+ "附": {
+  "radical": "阝",
+  "decomposition": "⿰阝付"
+ },
+ "复": {
+  "radical": "夊",
+  "decomposition": "⿱亻⿱日夂"
+ },
+ "敢": {
+  "radical": "攵",
+  "decomposition": "⿰⿱？耳攵"
+ },
+ "感": {
+  "radical": "心",
+  "decomposition": "⿱咸心"
+ },
+ "冒": {
+  "radical": "冂",
+  "decomposition": "⿱日目"
+ },
+ "干": {
+  "radical": "十",
+  "decomposition": "⿱一十"
+ },
+ "净": {
+  "radical": "冫",
+  "decomposition": "⿰冫争"
+ },
+ "刚": {
+  "radical": "刂",
+  "decomposition": "⿰冈刂"
+ },
+ "根": {
+  "radical": "木",
+  "decomposition": "⿰木艮"
+ },
+ "据": {
+  "radical": "扌",
+  "decomposition": "⿰扌居"
+ },
+ "跟": {
+  "radical": "足",
+  "decomposition": "⿰足艮"
+ },
+ "更": {
+  "radical": "曰",
+  "decomposition": "⿱一⿻曰乂"
+ },
+ "园": {
+  "radical": "囗",
+  "decomposition": "⿴囗元"
+ },
+ "故": {
+  "radical": "攵",
+  "decomposition": "⿰古攵"
+ },
+ "刮": {
+  "radical": "刂",
+  "decomposition": "⿰舌刂"
+ },
+ "于": {
+  "radical": "二",
+  "decomposition": "⿻二亅"
+ },
+ "汁": {
+  "radical": "氵",
+  "decomposition": "⿰氵十"
+ },
+ "过": {
+  "radical": "辶",
+  "decomposition": "⿺辶寸"
+ },
+ "害": {
+  "radical": "宀",
+  "decomposition": "⿱宀⿱丰口"
+ },
+ "怕": {
+  "radical": "忄",
+  "decomposition": "⿰忄白"
+ },
+ "河": {
+  "radical": "氵",
+  "decomposition": "⿰氵可"
+ },
+ "板": {
+  "radical": "木",
+  "decomposition": "⿰木反"
+ },
+ "护": {
+  "radical": "扌",
+  "decomposition": "⿰扌户"
+ },
+ "照": {
+  "radical": "灬",
+  "decomposition": "⿱昭灬"
+ },
+ "花": {
+  "radical": "艹",
+  "decomposition": "⿱艹化"
+ },
+ "画": {
+  "radical": "田",
+  "decomposition": "⿱一⿶凵田"
+ },
+ "坏": {
+  "radical": "土",
+  "decomposition": "⿰土不"
+ },
+ "环": {
+  "radical": "王",
+  "decomposition": "⿰王不"
+ },
+ "境": {
+  "radical": "土",
+  "decomposition": "⿰土竟"
+ },
+ "换": {
+  "radical": "扌",
+  "decomposition": "⿰扌奂"
+ },
+ "黄": {
+  "radical": "黄",
+  "decomposition": "⿱？⿱由八"
+ },
+ "议": {
+  "radical": "讠",
+  "decomposition": "⿰讠义"
+ },
+ "或": {
+  "radical": "戈",
+  "decomposition": "⿹戈⿱口一"
+ },
+ "者": {
+  "radical": "耂",
+  "decomposition": "⿸耂日"
+ },
+ "极": {
+  "radical": "木",
+  "decomposition": "⿰木及"
+ },
+ "乎": {
+  "radical": "丿",
+  "decomposition": "⿻丿⿻？丷"
+ },
+ "记": {
+  "radical": "讠",
+  "decomposition": "⿰讠己"
+ },
+ "季": {
+  "radical": "子",
+  "decomposition": "⿱禾子"
+ },
+ "节": {
+  "radical": "艹",
+  "decomposition": "⿱艹？"
+ },
+ "检": {
+  "radical": "木",
+  "decomposition": "⿰木佥"
+ },
+ "查": {
+  "radical": "木",
+  "decomposition": "⿱木旦"
+ },
+ "简": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮间"
+ },
+ "健": {
+  "radical": "亻",
+  "decomposition": "⿰亻建"
+ },
+ "康": {
+  "radical": "广",
+  "decomposition": "⿸广隶"
+ },
+ "讲": {
+  "radical": "讠",
+  "decomposition": "⿰讠井"
+ },
+ "角": {
+  "radical": "角",
+  "decomposition": "⿱⺈用"
+ },
+ "脚": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼却"
+ },
+ "接": {
+  "radical": "扌",
+  "decomposition": "⿰扌妾"
+ },
+ "街": {
+  "radical": "行",
+  "decomposition": "⿻行圭"
+ },
+ "目": {
+  "radical": "目",
+  "decomposition": "⿴口二"
+ },
+ "结": {
+  "radical": "纟",
+  "decomposition": "⿰纟吉"
+ },
+ "婚": {
+  "radical": "女",
+  "decomposition": "⿰女昏"
+ },
+ "束": {
+  "radical": "木",
+  "decomposition": "⿻木口"
+ },
+ "解": {
+  "radical": "角",
+  "decomposition": "⿰角⿱刀牛"
+ },
+ "决": {
+  "radical": "冫",
+  "decomposition": "⿰冫夬"
+ },
+ "借": {
+  "radical": "亻",
+  "decomposition": "⿰亻昔"
+ },
+ "理": {
+  "radical": "王",
+  "decomposition": "⿰王里"
+ },
+ "久": {
+  "radical": "丿",
+  "decomposition": "⿻勹？"
+ },
+ "旧": {
+  "radical": "日",
+  "decomposition": "⿰丨日"
+ },
+ "举": {
+  "radical": "丶",
+  "decomposition": "⿱兴扌"
+ },
+ "句": {
+  "radical": "口",
+  "decomposition": "⿹勹口"
+ },
+ "定": {
+  "radical": "宀",
+  "decomposition": "⿱宀疋"
+ },
+ "渴": {
+  "radical": "氵",
+  "decomposition": "⿰氵曷"
+ },
+ "刻": {
+  "radical": "刂",
+  "decomposition": "⿰亥刂"
+ },
+ "空": {
+  "radical": "穴",
+  "decomposition": "⿱穴工"
+ },
+ "调": {
+  "radical": "讠",
+  "decomposition": "⿰讠周"
+ },
+ "口": {
+  "radical": "口",
+  "decomposition": "⿱冂一"
+ },
+ "哭": {
+  "radical": "口",
+  "decomposition": "⿱⿰口口犬"
+ },
+ "裤": {
+  "radical": "衤",
+  "decomposition": "⿰衤库"
+ },
+ "筷": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮快"
+ },
+ "蓝": {
+  "radical": "艹",
+  "decomposition": "⿱艹监"
+ },
+ "礼": {
+  "radical": "礻",
+  "decomposition": "⿰礻乚"
+ },
+ "历": {
+  "radical": "厂",
+  "decomposition": "⿸厂力"
+ },
+ "史": {
+  "radical": "口",
+  "decomposition": "⿻口乂"
+ },
+ "脸": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼佥"
+ },
+ "练": {
+  "radical": "纟",
+  "decomposition": "⿰纟柬"
+ },
+ "辆": {
+  "radical": "车",
+  "decomposition": "⿰车两"
+ },
+ "邻": {
+  "radical": "阝",
+  "decomposition": "⿰令阝"
+ },
+ "居": {
+  "radical": "户",
+  "decomposition": "⿸户古"
+ },
+ "楼": {
+  "radical": "木",
+  "decomposition": "⿰木娄"
+ },
+ "绿": {
+  "radical": "纟",
+  "decomposition": "⿰纟录"
+ },
+ "马": {
+  "radical": "马",
+  "decomposition": "⿹？一"
+ },
+ "满": {
+  "radical": "氵",
+  "decomposition": "⿰氵⿱艹两"
+ },
+ "帽": {
+  "radical": "巾",
+  "decomposition": "⿰巾冒"
+ },
+ "条": {
+  "radical": "木",
+  "decomposition": "⿱夂木"
+ },
+ "拿": {
+  "radical": "手",
+  "decomposition": "⿱合手"
+ },
+ "南": {
+  "radical": "十",
+  "decomposition": "⿱十⿵冂⿱丷干"
+ },
+ "难": {
+  "radical": "又",
+  "decomposition": "⿰又隹"
+ },
+ "级": {
+  "radical": "纟",
+  "decomposition": "⿰纟及"
+ },
+ "轻": {
+  "radical": "车",
+  "decomposition": "⿰车⿱又工"
+ },
+ "鸟": {
+  "radical": "鸟",
+  "decomposition": "？"
+ },
+ "努": {
+  "radical": "力",
+  "decomposition": "⿱奴力"
+ },
+ "力": {
+  "radical": "力",
+  "decomposition": "⿻丿？"
+ },
+ "爬": {
+  "radical": "爪",
+  "decomposition": "⿺爪巴"
+ },
+ "山": {
+  "radical": "山",
+  "decomposition": "⿶凵丨"
+ },
+ "盘": {
+  "radical": "皿",
+  "decomposition": "⿱舟皿"
+ },
+ "胖": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼半"
+ },
+ "啤": {
+  "radical": "口",
+  "decomposition": "⿰口卑"
+ },
+ "酒": {
+  "radical": "酉",
+  "decomposition": "⿰氵酉"
+ },
+ "葡": {
+  "radical": "艹",
+  "decomposition": "⿱艹匍"
+ },
+ "萄": {
+  "radical": "艹",
+  "decomposition": "⿱艹匋"
+ },
+ "普": {
+  "radical": "日",
+  "decomposition": "⿱並日"
+ },
+ "通": {
+  "radical": "辶",
+  "decomposition": "⿺辶甬"
+ },
+ "其": {
+  "radical": "八",
+  "decomposition": "⿱甘⿱一八"
+ },
+ "实": {
+  "radical": "宀",
+  "decomposition": "⿱宀头"
+ },
+ "奇": {
+  "radical": "大",
+  "decomposition": "⿱大可"
+ },
+ "怪": {
+  "radical": "忄",
+  "decomposition": "⿰忄圣"
+ },
+ "骑": {
+  "radical": "马",
+  "decomposition": "⿰马奇"
+ },
+ "铅": {
+  "radical": "钅",
+  "decomposition": "⿰钅⿱几口"
+ },
+ "笔": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮毛"
+ },
+ "清": {
+  "radical": "氵",
+  "decomposition": "⿰氵青"
+ },
+ "楚": {
+  "radical": "木",
+  "decomposition": "⿱林疋"
+ },
+ "秋": {
+  "radical": "禾",
+  "decomposition": "⿰禾火"
+ },
+ "裙": {
+  "radical": "衤",
+  "decomposition": "⿰衤君"
+ },
+ "容": {
+  "radical": "宀",
+  "decomposition": "⿱宀谷"
+ },
+ "易": {
+  "radical": "日",
+  "decomposition": "⿱日勿"
+ },
+ "如": {
+  "radical": "女",
+  "decomposition": "⿰女口"
+ },
+ "伞": {
+  "radical": "人",
+  "decomposition": "⿱人？"
+ },
+ "网": {
+  "radical": "网",
+  "decomposition": "⿵冂⿰乂乂"
+ },
+ "声": {
+  "radical": "士",
+  "decomposition": "⿱士？"
+ },
+ "音": {
+  "radical": "音",
+  "decomposition": "⿱立日"
+ },
+ "使": {
+  "radical": "亻",
+  "decomposition": "⿰亻吏"
+ },
+ "世": {
+  "radical": "一",
+  "decomposition": "⿻廿？"
+ },
+ "界": {
+  "radical": "田",
+  "decomposition": "⿱田介"
+ },
+ "瘦": {
+  "radical": "疒",
+  "decomposition": "⿸疒叟"
+ },
+ "叔": {
+  "radical": "又",
+  "decomposition": "⿰⿱上小又"
+ },
+ "舒": {
+  "radical": "舌",
+  "decomposition": "⿰舍予"
+ },
+ "树": {
+  "radical": "木",
+  "decomposition": "⿰木对"
+ },
+ "数": {
+  "radical": "攵",
+  "decomposition": "⿰娄攵"
+ },
+ "刷": {
+  "radical": "刂",
+  "decomposition": "⿰⿸尸巾刂"
+ },
+ "双": {
+  "radical": "又",
+  "decomposition": "⿰又又"
+ },
+ "平": {
+  "radical": "广",
+  "decomposition": "⿻干丷"
+ },
+ "虽": {
+  "radical": "虫",
+  "decomposition": "⿱口虫"
+ },
+ "阳": {
+  "radical": "阝",
+  "decomposition": "⿰阝日"
+ },
+ "糖": {
+  "radical": "米",
+  "decomposition": "⿰米唐"
+ },
+ "特": {
+  "radical": "牛",
+  "decomposition": "⿰牛寺"
+ },
+ "疼": {
+  "radical": "疒",
+  "decomposition": "⿸疒冬"
+ },
+ "提": {
+  "radical": "扌",
+  "decomposition": "⿰扌是"
+ },
+ "育": {
+  "radical": "⺼",
+  "decomposition": "⿱⿱亠厶⺼"
+ },
+ "甜": {
+  "radical": "甘",
+  "decomposition": "⿰舌甘"
+ },
+ "头": {
+  "radical": "大",
+  "decomposition": "⿻⺀大"
+ },
+ "突": {
+  "radical": "穴",
+  "decomposition": "⿱穴犬"
+ },
+ "腿": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼退"
+ },
+ "碗": {
+  "radical": "石",
+  "decomposition": "⿰石宛"
+ },
+ "万": {
+  "radical": "一",
+  "decomposition": "⿱一？"
+ },
+ "忘": {
+  "radical": "心",
+  "decomposition": "⿱亡心"
+ },
+ "位": {
+  "radical": "亻",
+  "decomposition": "⿰亻立"
+ },
+ "文": {
+  "radical": "文",
+  "decomposition": "⿱亠乂"
+ },
+ "惯": {
+  "radical": "忄",
+  "decomposition": "⿰忄贯"
+ },
+ "澡": {
+  "radical": "氵",
+  "decomposition": "⿰氵喿"
+ },
+ "夏": {
+  "radical": "夊",
+  "decomposition": "⿳一自夂"
+ },
+ "相": {
+  "radical": "目",
+  "decomposition": "⿰木目"
+ },
+ "信": {
+  "radical": "亻",
+  "decomposition": "⿰亻言"
+ },
+ "香": {
+  "radical": "香",
+  "decomposition": "⿱禾日"
+ },
+ "蕉": {
+  "radical": "艹",
+  "decomposition": "⿱艹焦"
+ },
+ "像": {
+  "radical": "亻",
+  "decomposition": "⿰亻象"
+ },
+ "鞋": {
+  "radical": "革",
+  "decomposition": "⿰革圭"
+ },
+ "闻": {
+  "radical": "门",
+  "decomposition": "⿵门耳"
+ },
+ "鲜": {
+  "radical": "鱼",
+  "decomposition": "⿰鱼羊"
+ },
+ "李": {
+  "radical": "木",
+  "decomposition": "⿱木子"
+ },
+ "趣": {
+  "radical": "走",
+  "decomposition": "⿺走取"
+ },
+ "熊": {
+  "radical": "灬",
+  "decomposition": "⿱能灬"
+ },
+ "需": {
+  "radical": "雨",
+  "decomposition": "⿱雨而"
+ },
+ "选": {
+  "radical": "辶",
+  "decomposition": "⿺辶先"
+ },
+ "择": {
+  "radical": "扌",
+  "decomposition": "⿰扌？"
+ },
+ "镜": {
+  "radical": "钅",
+  "decomposition": "⿰钅竟"
+ },
+ "求": {
+  "radical": "氺",
+  "decomposition": "⿻一氺"
+ },
+ "爷": {
+  "radical": "父",
+  "decomposition": "⿱父卩"
+ },
+ "般": {
+  "radical": "舟",
+  "decomposition": "⿰舟殳"
+ },
+ "直": {
+  "radical": "目",
+  "decomposition": "⿳十目一"
+ },
+ "银": {
+  "radical": "钅",
+  "decomposition": "⿰钅艮"
+ },
+ "应": {
+  "radical": "广",
+  "decomposition": "⿸广⿱⺍一"
+ },
+ "该": {
+  "radical": "讠",
+  "decomposition": "⿰讠亥"
+ },
+ "响": {
+  "radical": "口",
+  "decomposition": "⿰口向"
+ },
+ "用": {
+  "radical": "用",
+  "decomposition": "⿵冂？"
+ },
+ "戏": {
+  "radical": "戈",
+  "decomposition": "⿰又戈"
+ },
+ "又": {
+  "radical": "又",
+  "decomposition": "？"
+ },
+ "遇": {
+  "radical": "辶",
+  "decomposition": "⿺辶禺"
+ },
+ "愿": {
+  "radical": "心",
+  "decomposition": "⿸原心"
+ },
+ "越": {
+  "radical": "走",
+  "decomposition": "⿺走戉"
+ },
+ "云": {
+  "radical": "二",
+  "decomposition": "⿱二厶"
+ },
+ "顾": {
+  "radical": "页",
+  "decomposition": "⿰厄页"
+ },
+ "片": {
+  "radical": "片",
+  "decomposition": "⿸？？"
+ },
+ "急": {
+  "radical": "心",
+  "decomposition": "⿱刍心"
+ },
+ "只": {
+  "radical": "口",
+  "decomposition": "⿱口八"
+ },
+ "终": {
+  "radical": "纟",
+  "decomposition": "⿰纟冬"
+ },
+ "种": {
+  "radical": "禾",
+  "decomposition": "⿰禾中"
+ },
+ "重": {
+  "radical": "里",
+  "decomposition": "⿻千里"
+ },
+ "周": {
+  "radical": "口",
+  "decomposition": "⿵冂⿱土口"
+ },
+ "末": {
+  "radical": "木",
+  "decomposition": "⿻木一"
+ },
+ "主": {
+  "radical": "丶",
+  "decomposition": "⿱丶王"
+ },
+ "注": {
+  "radical": "氵",
+  "decomposition": "⿰氵主"
+ },
+ "祝": {
+  "radical": "礻",
+  "decomposition": "⿰礻兄"
+ },
+ "典": {
+  "radical": "八",
+  "decomposition": "⿱曲八"
+ },
+ "己": {
+  "radical": "己",
+  "decomposition": "⿱？乚"
+ },
+ "总": {
+  "radical": "心",
+  "decomposition": "⿳丷口心"
+ },
+ "业": {
+  "radical": "一",
+  "decomposition": "⿱？一"
+ },
+ "排": {
+  "radical": "扌",
+  "decomposition": "⿰扌非"
+ },
+ "全": {
+  "radical": "入",
+  "decomposition": "⿱入玉"
+ },
+ "按": {
+  "radical": "扌",
+  "decomposition": "⿰扌安"
+ },
+ "暗": {
+  "radical": "日",
+  "decomposition": "⿰日音"
+ },
+ "括": {
+  "radical": "扌",
+  "decomposition": "⿰扌舌"
+ },
+ "保": {
+  "radical": "亻",
+  "decomposition": "⿰亻呆"
+ },
+ "证": {
+  "radical": "讠",
+  "decomposition": "⿰讠正"
+ },
+ "抱": {
+  "radical": "扌",
+  "decomposition": "⿰扌包"
+ },
+ "歉": {
+  "radical": "欠",
+  "decomposition": "⿰兼欠"
+ },
+ "倍": {
+  "radical": "亻",
+  "decomposition": "⿰亻咅"
+ },
+ "笨": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮本"
+ },
+ "毕": {
+  "radical": "比",
+  "decomposition": "⿱比十"
+ },
+ "遍": {
+  "radical": "辶",
+  "decomposition": "⿺辶扁"
+ },
+ "标": {
+  "radical": "木",
+  "decomposition": "⿰木示"
+ },
+ "达": {
+  "radical": "辶",
+  "decomposition": "⿺辶大"
+ },
+ "格": {
+  "radical": "木",
+  "decomposition": "⿰木各"
+ },
+ "扬": {
+  "radical": "扌",
+  "decomposition": "⿰扌昜"
+ },
+ "饼": {
+  "radical": "饣",
+  "decomposition": "⿰饣并"
+ },
+ "并": {
+  "radical": "干",
+  "decomposition": "⿱丷开"
+ },
+ "博": {
+  "radical": "十",
+  "decomposition": "⿰十尃"
+ },
+ "士": {
+  "radical": "士",
+  "decomposition": "？"
+ },
+ "管": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮官"
+ },
+ "仅": {
+  "radical": "亻",
+  "decomposition": "⿰亻又"
+ },
+ "部": {
+  "radical": "阝",
+  "decomposition": "⿰咅阝"
+ },
+ "擦": {
+  "radical": "扌",
+  "decomposition": "⿰扌察"
+ },
+ "猜": {
+  "radical": "犭",
+  "decomposition": "⿰犭青"
+ },
+ "材": {
+  "radical": "木",
+  "decomposition": "⿰木才"
+ },
+ "料": {
+  "radical": "斗",
+  "decomposition": "⿰米斗"
+ },
+ "观": {
+  "radical": "见",
+  "decomposition": "⿰又见"
+ },
+ "尝": {
+  "radical": "⺌",
+  "decomposition": "⿱尚云"
+ },
+ "吵": {
+  "radical": "口",
+  "decomposition": "⿰口少"
+ },
+ "功": {
+  "radical": "力",
+  "decomposition": "⿰工力"
+ },
+ "熟": {
+  "radical": "灬",
+  "decomposition": "⿱孰灬"
+ },
+ "诚": {
+  "radical": "讠",
+  "decomposition": "⿰讠成"
+ },
+ "乘": {
+  "radical": "丿",
+  "decomposition": "⿻禾北"
+ },
+ "惊": {
+  "radical": "忄",
+  "decomposition": "⿰忄京"
+ },
+ "抽": {
+  "radical": "扌",
+  "decomposition": "⿰扌由"
+ },
+ "烟": {
+  "radical": "火",
+  "decomposition": "⿰火因"
+ },
+ "传": {
+  "radical": "亻",
+  "decomposition": "⿰亻专"
+ },
+ "窗": {
+  "radical": "穴",
+  "decomposition": "⿱穴囱"
+ },
+ "户": {
+  "radical": "户",
+  "decomposition": "⿱丶尸"
+ },
+ "粗": {
+  "radical": "米",
+  "decomposition": "⿰米且"
+ },
+ "案": {
+  "radical": "木",
+  "decomposition": "⿱安木"
+ },
+ "扮": {
+  "radical": "扌",
+  "decomposition": "⿰扌分"
+ },
+ "扰": {
+  "radical": "扌",
+  "decomposition": "⿰扌尤"
+ },
+ "印": {
+  "radical": "卩",
+  "decomposition": "⿰？卩"
+ },
+ "折": {
+  "radical": "扌",
+  "decomposition": "⿰扌斤"
+ },
+ "针": {
+  "radical": "钅",
+  "decomposition": "⿰钅十"
+ },
+ "概": {
+  "radical": "木",
+  "decomposition": "⿰木既"
+ },
+ "约": {
+  "radical": "纟",
+  "decomposition": "⿰纟勺"
+ },
+ "代": {
+  "radical": "亻",
+  "decomposition": "⿰亻弋"
+ },
+ "替": {
+  "radical": "曰",
+  "decomposition": "⿱⿰夫夫日"
+ },
+ "戴": {
+  "radical": "戈",
+  "decomposition": "⿻⿱十異戈"
+ },
+ "弹": {
+  "radical": "弓",
+  "decomposition": "⿰弓单"
+ },
+ "刀": {
+  "radical": "刀",
+  "decomposition": "⿹？丿"
+ },
+ "导": {
+  "radical": "寸",
+  "decomposition": "⿱巳寸"
+ },
+ "处": {
+  "radical": "夂",
+  "decomposition": "⿺夂卜"
+ },
+ "底": {
+  "radical": "广",
+  "decomposition": "⿸广氐"
+ },
+ "球": {
+  "radical": "王",
+  "decomposition": "⿰王求"
+ },
+ "址": {
+  "radical": "土",
+  "decomposition": "⿰土止"
+ },
+ "等": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮寺"
+ },
+ "掉": {
+  "radical": "扌",
+  "decomposition": "⿰扌卓"
+ },
+ "丢": {
+  "radical": "一",
+  "decomposition": "⿱王厶"
+ },
+ "堵": {
+  "radical": "土",
+  "decomposition": "⿰土者"
+ },
+ "肚": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼土"
+ },
+ "断": {
+  "radical": "斤",
+  "decomposition": "⿰⿺？米斤"
+ },
+ "顿": {
+  "radical": "页",
+  "decomposition": "⿰屯页"
+ },
+ "童": {
+  "radical": "立",
+  "decomposition": "⿱立里"
+ },
+ "展": {
+  "radical": "尸",
+  "decomposition": "⿸尸⿻？衣"
+ },
+ "律": {
+  "radical": "彳",
+  "decomposition": "⿰彳聿"
+ },
+ "翻": {
+  "radical": "羽",
+  "decomposition": "⿰番羽"
+ },
+ "译": {
+  "radical": "讠",
+  "decomposition": "⿰讠？"
+ },
+ "烦": {
+  "radical": "火",
+  "decomposition": "⿰火页"
+ },
+ "恼": {
+  "radical": "忄",
+  "decomposition": "⿰忄⿱亠凶"
+ },
+ "反": {
+  "radical": "又",
+  "decomposition": "⿸厂又"
+ },
+ "映": {
+  "radical": "日",
+  "decomposition": "⿰日央"
+ },
+ "范": {
+  "radical": "艹",
+  "decomposition": "⿱艹氾"
+ },
+ "围": {
+  "radical": "囗",
+  "decomposition": "⿴囗韦"
+ },
+ "访": {
+  "radical": "讠",
+  "decomposition": "⿰讠方"
+ },
+ "弃": {
+  "radical": "廾",
+  "decomposition": "⿳亠厶廾"
+ },
+ "暑": {
+  "radical": "日",
+  "decomposition": "⿱日者"
+ },
+ "假": {
+  "radical": "亻",
+  "decomposition": "⿰亻叚"
+ },
+ "之": {
+  "radical": "丿",
+  "decomposition": "⿱丶？"
+ },
+ "份": {
+  "radical": "亻",
+  "decomposition": "⿰亻分"
+ },
+ "丰": {
+  "radical": "丨",
+  "decomposition": "⿻三丨"
+ },
+ "富": {
+  "radical": "宀",
+  "decomposition": "⿱宀畐"
+ },
+ "风": {
+  "radical": "风",
+  "decomposition": "⿵几乂"
+ },
+ "景": {
+  "radical": "日",
+  "decomposition": "⿱日京"
+ },
+ "否": {
+  "radical": "口",
+  "decomposition": "⿱不口"
+ },
+ "则": {
+  "radical": "刂",
+  "decomposition": "⿰贝刂"
+ },
+ "符": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮付"
+ },
+ "合": {
+  "radical": "口",
+  "decomposition": "⿱亼口"
+ },
+ "父": {
+  "radical": "父",
+  "decomposition": "⿱八乂"
+ },
+ "亲": {
+  "radical": "立",
+  "decomposition": "⿱立⿻一小"
+ },
+ "负": {
+  "radical": "贝",
+  "decomposition": "⿱⺈贝"
+ },
+ "责": {
+  "radical": "贝",
+  "decomposition": "⿱龶贝"
+ },
+ "杂": {
+  "radical": "木",
+  "decomposition": "⿱九木"
+ },
+ "改": {
+  "radical": "攵",
+  "decomposition": "⿰己攵"
+ },
+ "燥": {
+  "radical": "火",
+  "decomposition": "⿰火喿"
+ },
+ "各": {
+  "radical": "口",
+  "decomposition": "⿱夂口"
+ },
+ "具": {
+  "radical": "八",
+  "decomposition": "⿱目⿱一八"
+ },
+ "资": {
+  "radical": "贝",
+  "decomposition": "⿱次贝"
+ },
+ "购": {
+  "radical": "贝",
+  "decomposition": "⿰贝勾"
+ },
+ "够": {
+  "radical": "夕",
+  "decomposition": "⿰句多"
+ },
+ "估": {
+  "radical": "亻",
+  "decomposition": "⿰亻古"
+ },
+ "计": {
+  "radical": "讠",
+  "decomposition": "⿰讠十"
+ },
+ "孤": {
+  "radical": "子",
+  "decomposition": "⿰子瓜"
+ },
+ "鼓": {
+  "radical": "鼓",
+  "decomposition": "⿰壴支"
+ },
+ "励": {
+  "radical": "力",
+  "decomposition": "⿰厉力"
+ },
+ "掌": {
+  "radical": "手",
+  "decomposition": "⿱尚手"
+ },
+ "挂": {
+  "radical": "扌",
+  "decomposition": "⿰扌圭"
+ },
+ "键": {
+  "radical": "钅",
+  "decomposition": "⿰钅建"
+ },
+ "众": {
+  "radical": "人",
+  "decomposition": "⿱人⿰人人"
+ },
+ "光": {
+  "radical": "儿",
+  "decomposition": "⿱⺌兀"
+ },
+ "广": {
+  "radical": "广",
+  "decomposition": "⿱丶厂"
+ },
+ "播": {
+  "radical": "扌",
+  "decomposition": "⿰扌番"
+ },
+ "逛": {
+  "radical": "辶",
+  "decomposition": "⿺辶狂"
+ },
+ "规": {
+  "radical": "见",
+  "decomposition": "⿰夫见"
+ },
+ "际": {
+  "radical": "阝",
+  "decomposition": "⿰阝示"
+ },
+ "程": {
+  "radical": "禾",
+  "decomposition": "⿰禾呈"
+ },
+ "咳": {
+  "radical": "口",
+  "decomposition": "⿰口亥"
+ },
+ "嗽": {
+  "radical": "口",
+  "decomposition": "⿰口欶"
+ },
+ "海": {
+  "radical": "氵",
+  "decomposition": "⿰氵每"
+ },
+ "洋": {
+  "radical": "氵",
+  "decomposition": "⿰氵羊"
+ },
+ "羞": {
+  "radical": "羊",
+  "decomposition": "⿸羊丑"
+ },
+ "寒": {
+  "radical": "宀",
+  "decomposition": "⿱宀⿱？？"
+ },
+ "汗": {
+  "radical": "氵",
+  "decomposition": "⿰氵干"
+ },
+ "航": {
+  "radical": "舟",
+  "decomposition": "⿰舟亢"
+ },
+ "码": {
+  "radical": "石",
+  "decomposition": "⿰石马"
+ },
+ "适": {
+  "radical": "辶",
+  "decomposition": "⿺辶舌"
+ },
+ "盒": {
+  "radical": "皿",
+  "decomposition": "⿱合皿"
+ },
+ "猴": {
+  "radical": "犭",
+  "decomposition": "⿰犭侯"
+ },
+ "悔": {
+  "radical": "忄",
+  "decomposition": "⿰忄每"
+ },
+ "厚": {
+  "radical": "厂",
+  "decomposition": "⿸⿸厂日子"
+ },
+ "忽": {
+  "radical": "心",
+  "decomposition": "⿱勿心"
+ },
+ "互": {
+  "radical": "二",
+  "decomposition": "⿴二？"
+ },
+ "怀": {
+  "radical": "忄",
+  "decomposition": "⿰忄不"
+ },
+ "疑": {
+  "radical": "疋",
+  "decomposition": "⿰⿱匕矢⿱？疋"
+ },
+ "忆": {
+  "radical": "忄",
+  "decomposition": "⿰忄乙"
+ },
+ "活": {
+  "radical": "氵",
+  "decomposition": "⿰氵舌"
+ },
+ "泼": {
+  "radical": "氵",
+  "decomposition": "⿰氵发"
+ },
+ "获": {
+  "radical": "艹",
+  "decomposition": "⿱艹犾"
+ },
+ "积": {
+  "radical": "禾",
+  "decomposition": "⿰禾只"
+ },
+ "基": {
+  "radical": "土",
+  "decomposition": "⿱其土"
+ },
+ "础": {
+  "radical": "石",
+  "decomposition": "⿰石出"
+ },
+ "激": {
+  "radical": "氵",
+  "decomposition": "⿰氵敫"
+ },
+ "及": {
+  "radical": "又",
+  "decomposition": "⿻？又"
+ },
+ "即": {
+  "radical": "卩",
+  "decomposition": "⿰？卩"
+ },
+ "集": {
+  "radical": "隹",
+  "decomposition": "⿱隹木"
+ },
+ "划": {
+  "radical": "刂",
+  "decomposition": "⿰戈刂"
+ },
+ "技": {
+  "radical": "扌",
+  "decomposition": "⿰扌支"
+ },
+ "术": {
+  "radical": "木",
+  "decomposition": "⿺木丶"
+ },
+ "既": {
+  "radical": "旡",
+  "decomposition": "⿰？旡"
+ },
+ "继": {
+  "radical": "纟",
+  "decomposition": "⿰纟⿺？米"
+ },
+ "续": {
+  "radical": "纟",
+  "decomposition": "⿰纟卖"
+ },
+ "寄": {
+  "radical": "宀",
+  "decomposition": "⿱宀奇"
+ },
+ "油": {
+  "radical": "氵",
+  "decomposition": "⿰氵由"
+ },
+ "价": {
+  "radical": "亻",
+  "decomposition": "⿰亻介"
+ },
+ "坚": {
+  "radical": "土",
+  "decomposition": "⿱⿰？又土"
+ },
+ "持": {
+  "radical": "扌",
+  "decomposition": "⿰扌寺"
+ },
+ "减": {
+  "radical": "冫",
+  "decomposition": "⿰冫咸"
+ },
+ "肥": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼巴"
+ },
+ "将": {
+  "radical": "丬",
+  "decomposition": "⿰丬⿱夕寸"
+ },
+ "奖": {
+  "radical": "大",
+  "decomposition": "⿱⿰丬夕大"
+ },
+ "金": {
+  "radical": "金",
+  "decomposition": "⿱人⿻王丷"
+ },
+ "降": {
+  "radical": "阝",
+  "decomposition": "⿰阝夅"
+ },
+ "交": {
+  "radical": "亠",
+  "decomposition": "⿱六乂"
+ },
+ "流": {
+  "radical": "氵",
+  "decomposition": "⿰氵㐬"
+ },
+ "骄": {
+  "radical": "马",
+  "decomposition": "⿰马乔"
+ },
+ "傲": {
+  "radical": "亻",
+  "decomposition": "⿰亻敖"
+ },
+ "饺": {
+  "radical": "饣",
+  "decomposition": "⿰饣交"
+ },
+ "授": {
+  "radical": "扌",
+  "decomposition": "⿰扌受"
+ },
+ "受": {
+  "radical": "又",
+  "decomposition": "⿳爫冖又"
+ },
+ "释": {
+  "radical": "釆",
+  "decomposition": "⿰釆？"
+ },
+ "尽": {
+  "radical": "尸",
+  "decomposition": "⿵尺⺀"
+ },
+ "紧": {
+  "radical": "糸",
+  "decomposition": "⿱⿰？又糸"
+ },
+ "禁": {
+  "radical": "示",
+  "decomposition": "⿱林示"
+ },
+ "止": {
+  "radical": "止",
+  "decomposition": "⿻上丨"
+ },
+ "剧": {
+  "radical": "刂",
+  "decomposition": "⿰居刂"
+ },
+ "济": {
+  "radical": "氵",
+  "decomposition": "⿰氵齐"
+ },
+ "验": {
+  "radical": "马",
+  "decomposition": "⿰马佥"
+ },
+ "精": {
+  "radical": "米",
+  "decomposition": "⿰米青"
+ },
+ "彩": {
+  "radical": "彡",
+  "decomposition": "⿰采彡"
+ },
+ "神": {
+  "radical": "礻",
+  "decomposition": "⿰礻申"
+ },
+ "警": {
+  "radical": "言",
+  "decomposition": "⿱敬言"
+ },
+ "察": {
+  "radical": "宀",
+  "decomposition": "⿱宀祭"
+ },
+ "竞": {
+  "radical": "立",
+  "decomposition": "⿱立兄"
+ },
+ "争": {
+  "radical": "亅",
+  "decomposition": "⿱⺈⿻彐亅"
+ },
+ "竟": {
+  "radical": "立",
+  "decomposition": "⿱音儿"
+ },
+ "究": {
+  "radical": "穴",
+  "decomposition": "⿱穴九"
+ },
+ "拒": {
+  "radical": "扌",
+  "decomposition": "⿰扌巨"
+ },
+ "绝": {
+  "radical": "纟",
+  "decomposition": "⿰纟色"
+ },
+ "距": {
+  "radical": "足",
+  "decomposition": "⿰足巨"
+ },
+ "虑": {
+  "radical": "心",
+  "decomposition": "⿸虍心"
+ },
+ "科": {
+  "radical": "禾",
+  "decomposition": "⿰禾斗"
+ },
+ "棵": {
+  "radical": "木",
+  "decomposition": "⿰木果"
+ },
+ "怜": {
+  "radical": "忄",
+  "decomposition": "⿰忄令"
+ },
+ "惜": {
+  "radical": "忄",
+  "decomposition": "⿰忄昔"
+ },
+ "肯": {
+  "radical": "⺼",
+  "decomposition": "⿱止⺼"
+ },
+ "恐": {
+  "radical": "心",
+  "decomposition": "⿱巩心"
+ },
+ "苦": {
+  "radical": "艹",
+  "decomposition": "⿱艹古"
+ },
+ "宽": {
+  "radical": "宀",
+  "decomposition": "⿱宀苋"
+ },
+ "困": {
+  "radical": "囗",
+  "decomposition": "⿴囗木"
+ },
+ "扩": {
+  "radical": "扌",
+  "decomposition": "⿰扌广"
+ },
+ "垃": {
+  "radical": "土",
+  "decomposition": "⿰土立"
+ },
+ "圾": {
+  "radical": "土",
+  "decomposition": "⿰土及"
+ },
+ "桶": {
+  "radical": "木",
+  "decomposition": "⿰木甬"
+ },
+ "拉": {
+  "radical": "扌",
+  "decomposition": "⿰扌立"
+ },
+ "辣": {
+  "radical": "辛",
+  "decomposition": "⿰辛束"
+ },
+ "懒": {
+  "radical": "忄",
+  "decomposition": "⿰忄赖"
+ },
+ "浪": {
+  "radical": "氵",
+  "decomposition": "⿰氵良"
+ },
+ "费": {
+  "radical": "贝",
+  "decomposition": "⿱弗贝"
+ },
+ "漫": {
+  "radical": "氵",
+  "decomposition": "⿰氵曼"
+ },
+ "虎": {
+  "radical": "虎",
+  "decomposition": "⿸虍几"
+ },
+ "貌": {
+  "radical": "豸",
+  "decomposition": "⿰豸皃"
+ },
+ "厉": {
+  "radical": "厂",
+  "decomposition": "⿸厂万"
+ },
+ "例": {
+  "radical": "亻",
+  "decomposition": "⿰亻列"
+ },
+ "俩": {
+  "radical": "亻",
+  "decomposition": "⿰亻两"
+ },
+ "连": {
+  "radical": "辶",
+  "decomposition": "⿺辶车"
+ },
+ "联": {
+  "radical": "耳",
+  "decomposition": "⿰耳关"
+ },
+ "凉": {
+  "radical": "冫",
+  "decomposition": "⿰冫京"
+ },
+ "聊": {
+  "radical": "耳",
+  "decomposition": "⿰耳卯"
+ },
+ "另": {
+  "radical": "口",
+  "decomposition": "⿱口力"
+ },
+ "泪": {
+  "radical": "氵",
+  "decomposition": "⿰氵目"
+ },
+ "利": {
+  "radical": "刂",
+  "decomposition": "⿰禾刂"
+ },
+ "留": {
+  "radical": "田",
+  "decomposition": "⿱卯田"
+ },
+ "乱": {
+  "radical": "乚",
+  "decomposition": "⿰舌乚"
+ },
+ "麻": {
+  "radical": "麻",
+  "decomposition": "⿸广林"
+ },
+ "毛": {
+  "radical": "毛",
+  "decomposition": "⿻乇一"
+ },
+ "巾": {
+  "radical": "巾",
+  "decomposition": "⿻冂丨"
+ },
+ "美": {
+  "radical": "羊",
+  "decomposition": "⿱羊大"
+ },
+ "丽": {
+  "radical": "丶",
+  "decomposition": "⿱一⿰⿵冂丶⿵冂丶"
+ },
+ "梦": {
+  "radical": "木",
+  "decomposition": "⿱林夕"
+ },
+ "密": {
+  "radical": "宀",
+  "decomposition": "⿱宓山"
+ },
+ "免": {
+  "radical": "儿",
+  "decomposition": "⿱⺈⿻口儿"
+ },
+ "民": {
+  "radical": "民",
+  "decomposition": "⿻巳戈"
+ },
+ "族": {
+  "radical": "方",
+  "decomposition": "⿰方⿱？矢"
+ },
+ "母": {
+  "radical": "母",
+  "decomposition": "？"
+ },
+ "耐": {
+  "radical": "而",
+  "decomposition": "⿰而寸"
+ },
+ "内": {
+  "radical": "入",
+  "decomposition": "⿻冂人"
+ },
+ "龄": {
+  "radical": "齿",
+  "decomposition": "⿰齿令"
+ },
+ "农": {
+  "radical": "冖",
+  "decomposition": "⿻冖？"
+ },
+ "村": {
+  "radical": "木",
+  "decomposition": "⿰木寸"
+ },
+ "弄": {
+  "radical": "廾",
+  "decomposition": "⿱玉廾"
+ },
+ "暖": {
+  "radical": "日",
+  "decomposition": "⿰日爰"
+ },
+ "偶": {
+  "radical": "亻",
+  "decomposition": "⿰亻禺"
+ },
+ "尔": {
+  "radical": "小",
+  "decomposition": "⿱⺈小"
+ },
+ "列": {
+  "radical": "刂",
+  "decomposition": "⿰歹刂"
+ },
+ "判": {
+  "radical": "刂",
+  "decomposition": "⿰半刂"
+ },
+ "陪": {
+  "radical": "阝",
+  "decomposition": "⿰阝咅"
+ },
+ "批": {
+  "radical": "扌",
+  "decomposition": "⿰扌比"
+ },
+ "评": {
+  "radical": "讠",
+  "decomposition": "⿰讠平"
+ },
+ "皮": {
+  "radical": "皮",
+  "decomposition": "⿸？攴"
+ },
+ "肤": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼夫"
+ },
+ "脾": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼卑"
+ },
+ "篇": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮扁"
+ },
+ "骗": {
+  "radical": "马",
+  "decomposition": "⿰马扁"
+ },
+ "乒": {
+  "radical": "丿",
+  "decomposition": "⿱丘丿"
+ },
+ "乓": {
+  "radical": "丿",
+  "decomposition": "⿱丘丶"
+ },
+ "瓶": {
+  "radical": "瓦",
+  "decomposition": "⿰并瓦"
+ },
+ "破": {
+  "radical": "石",
+  "decomposition": "⿰石皮"
+ },
+ "签": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮佥"
+ },
+ "墙": {
+  "radical": "土",
+  "decomposition": "⿰土啬"
+ },
+ "敲": {
+  "radical": "攴",
+  "decomposition": "⿰高攴"
+ },
+ "桥": {
+  "radical": "木",
+  "decomposition": "⿰木乔"
+ },
+ "巧": {
+  "radical": "工",
+  "decomposition": "⿰工丂"
+ },
+ "克": {
+  "radical": "儿",
+  "decomposition": "⿱十兄"
+ },
+ "戚": {
+  "radical": "戈",
+  "decomposition": "⿵戊尗"
+ },
+ "松": {
+  "radical": "木",
+  "decomposition": "⿰木公"
+ },
+ "况": {
+  "radical": "冫",
+  "decomposition": "⿰冫兄"
+ },
+ "穷": {
+  "radical": "穴",
+  "decomposition": "⿱穴力"
+ },
+ "区": {
+  "radical": "匸",
+  "decomposition": "⿷匸乂"
+ },
+ "取": {
+  "radical": "又",
+  "decomposition": "⿰耳又"
+ },
+ "缺": {
+  "radical": "缶",
+  "decomposition": "⿰缶夬"
+ },
+ "却": {
+  "radical": "卩",
+  "decomposition": "⿰去卩"
+ },
+ "确": {
+  "radical": "石",
+  "decomposition": "⿰石角"
+ },
+ "群": {
+  "radical": "羊",
+  "decomposition": "⿰君羊"
+ },
+ "闹": {
+  "radical": "门",
+  "decomposition": "⿵门市"
+ },
+ "币": {
+  "radical": "巾",
+  "decomposition": "⿻丿巾"
+ },
+ "任": {
+  "radical": "亻",
+  "decomposition": "⿰亻壬"
+ },
+ "何": {
+  "radical": "亻",
+  "decomposition": "⿰亻可"
+ },
+ "扔": {
+  "radical": "扌",
+  "decomposition": "⿰扌乃"
+ },
+ "仍": {
+  "radical": "亻",
+  "decomposition": "⿰亻乃"
+ },
+ "入": {
+  "radical": "入",
+  "decomposition": "？"
+ },
+ "软": {
+  "radical": "车",
+  "decomposition": "⿰车欠"
+ },
+ "散": {
+  "radical": "攵",
+  "decomposition": "⿰⿱？⺼攵"
+ },
+ "森": {
+  "radical": "木",
+  "decomposition": "⿱木⿰木木"
+ },
+ "林": {
+  "radical": "木",
+  "decomposition": "⿰木木"
+ },
+ "沙": {
+  "radical": "氵",
+  "decomposition": "⿰氵少"
+ },
+ "伤": {
+  "radical": "亻",
+  "decomposition": "⿰亻⿱？力"
+ },
+ "量": {
+  "radical": "里",
+  "decomposition": "⿱旦里"
+ },
+ "稍": {
+  "radical": "禾",
+  "decomposition": "⿰禾肖"
+ },
+ "微": {
+  "radical": "彳",
+  "decomposition": "⿲彳⿱山兀攵"
+ },
+ "社": {
+  "radical": "礻",
+  "decomposition": "⿰礻土"
+ },
+ "申": {
+  "radical": "田",
+  "decomposition": "⿻日丨"
+ },
+ "深": {
+  "radical": "氵",
+  "decomposition": "⿰氵罙"
+ },
+ "甚": {
+  "radical": "甘",
+  "decomposition": "⿱甘匹"
+ },
+ "至": {
+  "radical": "至",
+  "decomposition": "⿱⿱一厶土"
+ },
+ "命": {
+  "radical": "口",
+  "decomposition": "⿹令口"
+ },
+ "省": {
+  "radical": "目",
+  "decomposition": "⿱少目"
+ },
+ "剩": {
+  "radical": "刂",
+  "decomposition": "⿰乘刂"
+ },
+ "失": {
+  "radical": "大",
+  "decomposition": "⿻丿夫"
+ },
+ "败": {
+  "radical": "贝",
+  "decomposition": "⿰贝攵"
+ },
+ "傅": {
+  "radical": "亻",
+  "decomposition": "⿰亻尃"
+ },
+ "狮": {
+  "radical": "犭",
+  "decomposition": "⿰犭师"
+ },
+ "湿": {
+  "radical": "氵",
+  "decomposition": "⿰氵显"
+ },
+ "润": {
+  "radical": "氵",
+  "decomposition": "⿰氵闰"
+ },
+ "食": {
+  "radical": "食",
+  "decomposition": "⿱人良"
+ },
+ "品": {
+  "radical": "口",
+  "decomposition": "⿱口⿰口口"
+ },
+ "纪": {
+  "radical": "纟",
+  "decomposition": "⿰纟己"
+ },
+ "收": {
+  "radical": "攵",
+  "decomposition": "⿰丩攵"
+ },
+ "拾": {
+  "radical": "扌",
+  "decomposition": "⿰扌合"
+ },
+ "首": {
+  "radical": "首",
+  "decomposition": "⿱丷自"
+ },
+ "售": {
+  "radical": "口",
+  "decomposition": "⿱隹口"
+ },
+ "货": {
+  "radical": "贝",
+  "decomposition": "⿱化贝"
+ },
+ "输": {
+  "radical": "车",
+  "decomposition": "⿰车俞"
+ },
+ "悉": {
+  "radical": "心",
+  "decomposition": "⿱釆心"
+ },
+ "帅": {
+  "radical": "巾",
+  "decomposition": "⿰刂巾"
+ },
+ "顺": {
+  "radical": "页",
+  "decomposition": "⿰川页"
+ },
+ "序": {
+  "radical": "广",
+  "decomposition": "⿸广予"
+ },
+ "硕": {
+  "radical": "石",
+  "decomposition": "⿰石页"
+ },
+ "死": {
+  "radical": "歹",
+  "decomposition": "⿸歹匕"
+ },
+ "速": {
+  "radical": "辶",
+  "decomposition": "⿺辶束"
+ },
+ "度": {
+  "radical": "广",
+  "decomposition": "⿸广⿱廿又"
+ },
+ "塑": {
+  "radical": "土",
+  "decomposition": "⿱朔土"
+ },
+ "袋": {
+  "radical": "衣",
+  "decomposition": "⿱代衣"
+ },
+ "酸": {
+  "radical": "酉",
+  "decomposition": "⿰酉夋"
+ },
+ "随": {
+  "radical": "阝",
+  "decomposition": "⿰阝迶"
+ },
+ "孙": {
+  "radical": "子",
+  "decomposition": "⿰子小"
+ },
+ "台": {
+  "radical": "口",
+  "decomposition": "⿱厶口"
+ },
+ "抬": {
+  "radical": "扌",
+  "decomposition": "⿰扌台"
+ },
+ "态": {
+  "radical": "心",
+  "decomposition": "⿱太心"
+ },
+ "谈": {
+  "radical": "讠",
+  "decomposition": "⿰讠炎"
+ },
+ "汤": {
+  "radical": "氵",
+  "decomposition": "⿰氵昜"
+ },
+ "躺": {
+  "radical": "身",
+  "decomposition": "⿰身尚"
+ },
+ "趟": {
+  "radical": "走",
+  "decomposition": "⿺走尚"
+ },
+ "讨": {
+  "radical": "讠",
+  "decomposition": "⿰讠寸"
+ },
+ "论": {
+  "radical": "讠",
+  "decomposition": "⿰讠仑"
+ },
+ "厌": {
+  "radical": "厂",
+  "decomposition": "⿸厂犬"
+ },
+ "供": {
+  "radical": "亻",
+  "decomposition": "⿰亻共"
+ },
+ "醒": {
+  "radical": "酉",
+  "decomposition": "⿰酉星"
+ },
+ "填": {
+  "radical": "土",
+  "decomposition": "⿰土真"
+ },
+ "停": {
+  "radical": "亻",
+  "decomposition": "⿰亻亭"
+ },
+ "挺": {
+  "radical": "扌",
+  "decomposition": "⿰扌廷"
+ },
+ "推": {
+  "radical": "扌",
+  "decomposition": "⿰扌隹"
+ },
+ "脱": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼兑"
+ },
+ "袜": {
+  "radical": "衤",
+  "decomposition": "⿰衤末"
+ },
+ "往": {
+  "radical": "彳",
+  "decomposition": "⿰彳⿱？王"
+ },
+ "危": {
+  "radical": "㔾",
+  "decomposition": "⿱厃㔾"
+ },
+ "险": {
+  "radical": "阝",
+  "decomposition": "⿰阝佥"
+ },
+ "味": {
+  "radical": "口",
+  "decomposition": "⿰口未"
+ },
+ "温": {
+  "radical": "氵",
+  "decomposition": "⿰氵昷"
+ },
+ "章": {
+  "radical": "立",
+  "decomposition": "⿱音十"
+ },
+ "握": {
+  "radical": "扌",
+  "decomposition": "⿰扌屋"
+ },
+ "污": {
+  "radical": "氵",
+  "decomposition": "⿰氵亏"
+ },
+ "染": {
+  "radical": "木",
+  "decomposition": "⿱氿木"
+ },
+ "无": {
+  "radical": "无",
+  "decomposition": "⿱一尢"
+ },
+ "误": {
+  "radical": "讠",
+  "decomposition": "⿰讠吴"
+ },
+ "吸": {
+  "radical": "口",
+  "decomposition": "⿰口及"
+ },
+ "引": {
+  "radical": "弓",
+  "decomposition": "⿰弓丨"
+ },
+ "柿": {
+  "radical": "木",
+  "decomposition": "⿰木市"
+ },
+ "咸": {
+  "radical": "口",
+  "decomposition": "⿵戊⿱一口"
+ },
+ "限": {
+  "radical": "阝",
+  "decomposition": "⿰阝艮"
+ },
+ "制": {
+  "radical": "刂",
+  "decomposition": "⿰⿻？巾刂"
+ },
+ "羡": {
+  "radical": "羊",
+  "decomposition": "⿱羊次"
+ },
+ "慕": {
+  "radical": "⺗",
+  "decomposition": "⿱莫⺗"
+ },
+ "详": {
+  "radical": "讠",
+  "decomposition": "⿰讠羊"
+ },
+ "细": {
+  "radical": "纟",
+  "decomposition": "⿰纟田"
+ },
+ "消": {
+  "radical": "氵",
+  "decomposition": "⿰氵肖"
+ },
+ "效": {
+  "radical": "攵",
+  "decomposition": "⿰交攵"
+ },
+ "辛": {
+  "radical": "辛",
+  "decomposition": "⿱立十"
+ },
+ "卡": {
+  "radical": "卜",
+  "decomposition": "⿱上卜"
+ },
+ "奋": {
+  "radical": "大",
+  "decomposition": "⿱大田"
+ },
+ "幸": {
+  "radical": "干",
+  "decomposition": "⿱土⿱丷干"
+ },
+ "福": {
+  "radical": "礻",
+  "decomposition": "⿰礻畐"
+ },
+ "性": {
+  "radical": "忄",
+  "decomposition": "⿰忄生"
+ },
+ "修": {
+  "radical": "亻",
+  "decomposition": "⿱攸彡"
+ },
+ "许": {
+  "radical": "讠",
+  "decomposition": "⿰讠午"
+ },
+ "血": {
+  "radical": "血",
+  "decomposition": "⿱丿皿"
+ },
+ "压": {
+  "radical": "厂",
+  "decomposition": "⿸厂⿰土丶"
+ },
+ "牙": {
+  "radical": "牙",
+  "decomposition": "？"
+ },
+ "膏": {
+  "radical": "⺼",
+  "decomposition": "⿱高⺼"
+ },
+ "亚": {
+  "radical": "一",
+  "decomposition": "⿱一业"
+ },
+ "洲": {
+  "radical": "氵",
+  "decomposition": "⿰氵州"
+ },
+ "呀": {
+  "radical": "口",
+  "decomposition": "⿰口牙"
+ },
+ "严": {
+  "radical": "一",
+  "decomposition": "⿻亚厂"
+ },
+ "研": {
+  "radical": "石",
+  "decomposition": "⿰石开"
+ },
+ "盐": {
+  "radical": "皿",
+  "decomposition": "⿱圤皿"
+ },
+ "养": {
+  "radical": "丷",
+  "decomposition": "⿱羊儿"
+ },
+ "邀": {
+  "radical": "辶",
+  "decomposition": "⿺辶敫"
+ },
+ "钥": {
+  "radical": "钅",
+  "decomposition": "⿰钅月"
+ },
+ "匙": {
+  "radical": "匕",
+  "decomposition": "⿺是匕"
+ },
+ "叶": {
+  "radical": "口",
+  "decomposition": "⿰口十"
+ },
+ "页": {
+  "radical": "页",
+  "decomposition": "⿱？贝"
+ },
+ "切": {
+  "radical": "刀",
+  "decomposition": "⿰七刀"
+ },
+ "亿": {
+  "radical": "亻",
+  "decomposition": "⿰亻乙"
+ },
+ "艺": {
+  "radical": "艹",
+  "decomposition": "⿱艹乙"
+ },
+ "此": {
+  "radical": "止",
+  "decomposition": "⿰止匕"
+ },
+ "饮": {
+  "radical": "饣",
+  "decomposition": "⿰饣欠"
+ },
+ "象": {
+  "radical": "豕",
+  "decomposition": "⿳⺈口豕"
+ },
+ "赢": {
+  "radical": "贝",
+  "decomposition": "⿱吂⿲⺼贝？"
+ },
+ "硬": {
+  "radical": "石",
+  "decomposition": "⿰石更"
+ },
+ "永": {
+  "radical": "水",
+  "decomposition": "⿱？水"
+ },
+ "勇": {
+  "radical": "力",
+  "decomposition": "⿱甬力"
+ },
+ "优": {
+  "radical": "亻",
+  "decomposition": "⿰亻尤"
+ },
+ "秀": {
+  "radical": "禾",
+  "decomposition": "⿱禾乃"
+ },
+ "幽": {
+  "radical": "幺",
+  "decomposition": "⿻山⿰幺幺"
+ },
+ "默": {
+  "radical": "黑",
+  "decomposition": "⿰黑犬"
+ },
+ "尤": {
+  "radical": "尢",
+  "decomposition": "⿻尢丶"
+ },
+ "由": {
+  "radical": "田",
+  "decomposition": "田"
+ },
+ "谊": {
+  "radical": "讠",
+  "decomposition": "⿰讠宜"
+ },
+ "愉": {
+  "radical": "忄",
+  "decomposition": "⿰忄俞"
+ },
+ "与": {
+  "radical": "一",
+  "decomposition": "⿹？一"
+ },
+ "羽": {
+  "radical": "羽",
+  "decomposition": "⿰习习"
+ },
+ "言": {
+  "radical": "言",
+  "decomposition": "⿱亠⿱二口"
+ },
+ "预": {
+  "radical": "页",
+  "decomposition": "⿰予页"
+ },
+ "原": {
+  "radical": "厂",
+  "decomposition": "⿸厂泉"
+ },
+ "谅": {
+  "radical": "讠",
+  "decomposition": "⿰讠京"
+ },
+ "圆": {
+  "radical": "囗",
+  "decomposition": "⿴囗员"
+ },
+ "阅": {
+  "radical": "门",
+  "decomposition": "⿵门兑"
+ },
+ "允": {
+  "radical": "儿",
+  "decomposition": "⿱厶儿"
+ },
+ "志": {
+  "radical": "心",
+  "decomposition": "⿱士心"
+ },
+ "咱": {
+  "radical": "口",
+  "decomposition": "⿰口自"
+ },
+ "暂": {
+  "radical": "日",
+  "decomposition": "⿱斩日"
+ },
+ "脏": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼庄"
+ },
+ "增": {
+  "radical": "土",
+  "decomposition": "⿰土曾"
+ },
+ "窄": {
+  "radical": "穴",
+  "decomposition": "⿱穴乍"
+ },
+ "江": {
+  "radical": "氵",
+  "decomposition": "⿰氵工"
+ },
+ "招": {
+  "radical": "扌",
+  "decomposition": "⿰扌召"
+ },
+ "聘": {
+  "radical": "耳",
+  "decomposition": "⿰耳甹"
+ },
+ "著": {
+  "radical": "艹",
+  "decomposition": "⿱艹者"
+ },
+ "整": {
+  "radical": "攵",
+  "decomposition": "⿱敕正"
+ },
+ "齐": {
+  "radical": "齐",
+  "decomposition": "⿱文？"
+ },
+ "式": {
+  "radical": "弋",
+  "decomposition": "⿹弋工"
+ },
+ "支": {
+  "radical": "支",
+  "decomposition": "⿱十又"
+ },
+ "值": {
+  "radical": "亻",
+  "decomposition": "⿰亻直"
+ },
+ "职": {
+  "radical": "耳",
+  "decomposition": "⿰耳只"
+ },
+ "植": {
+  "radical": "木",
+  "decomposition": "⿰木直"
+ },
+ "指": {
+  "radical": "扌",
+  "decomposition": "⿰扌旨"
+ },
+ "造": {
+  "radical": "辶",
+  "decomposition": "⿺辶告"
+ },
+ "质": {
+  "radical": "厂",
+  "decomposition": "⿸厂⿱十贝"
+ },
+ "猪": {
+  "radical": "犭",
+  "decomposition": "⿰犭者"
+ },
+ "逐": {
+  "radical": "辶",
+  "decomposition": "⿺辶豕"
+ },
+ "渐": {
+  "radical": "氵",
+  "decomposition": "⿰氵斩"
+ },
+ "贺": {
+  "radical": "贝",
+  "decomposition": "⿱加贝"
+ },
+ "专": {
+  "radical": "一",
+  "decomposition": "⿻？一"
+ },
+ "赚": {
+  "radical": "贝",
+  "decomposition": "⿰贝兼"
+ },
+ "撞": {
+  "radical": "扌",
+  "decomposition": "⿰扌童"
+ },
+ "仔": {
+  "radical": "亻",
+  "decomposition": "⿰亻子"
+ },
+ "组": {
+  "radical": "纟",
+  "decomposition": "⿰纟且"
+ },
+ "织": {
+  "radical": "纟",
+  "decomposition": "⿰纟只"
+ },
+ "嘴": {
+  "radical": "口",
+  "decomposition": "⿰口觜"
+ },
+ "尊": {
+  "radical": "寸",
+  "decomposition": "⿱酋寸"
+ },
+ "座": {
+  "radical": "广",
+  "decomposition": "⿸广坐"
+ },
+ "唉": {
+  "radical": "口",
+  "decomposition": "⿰口矣"
+ },
+ "慰": {
+  "radical": "心",
+  "decomposition": "⿱尉心"
+ },
+ "装": {
+  "radical": "衣",
+  "decomposition": "⿱壮衣"
+ },
+ "岸": {
+  "radical": "山",
+  "decomposition": "⿱山⿸厂干"
+ },
+ "摆": {
+  "radical": "扌",
+  "decomposition": "⿰扌罢"
+ },
+ "傍": {
+  "radical": "亻",
+  "decomposition": "⿰亻旁"
+ },
+ "棒": {
+  "radical": "木",
+  "decomposition": "⿰木奉"
+ },
+ "裹": {
+  "radical": "衣",
+  "decomposition": "⿻衣果"
+ },
+ "含": {
+  "radical": "口",
+  "decomposition": "⿱今口"
+ },
+ "薄": {
+  "radical": "艹",
+  "decomposition": "⿱艹溥"
+ },
+ "宝": {
+  "radical": "宀",
+  "decomposition": "⿱宀玉"
+ },
+ "贝": {
+  "radical": "贝",
+  "decomposition": "⿵冂人"
+ },
+ "存": {
+  "radical": "子",
+  "decomposition": "⿸才子"
+ },
+ "悲": {
+  "radical": "心",
+  "decomposition": "⿱非心"
+ },
+ "背": {
+  "radical": "⺼",
+  "decomposition": "⿱北⺼"
+ },
+ "领": {
+  "radical": "页",
+  "decomposition": "⿰令页"
+ },
+ "彼": {
+  "radical": "彳",
+  "decomposition": "⿰彳皮"
+ },
+ "避": {
+  "radical": "辶",
+  "decomposition": "⿺辶辟"
+ },
+ "编": {
+  "radical": "纟",
+  "decomposition": "⿰纟扁"
+ },
+ "辑": {
+  "radical": "车",
+  "decomposition": "⿰车咠"
+ },
+ "鞭": {
+  "radical": "革",
+  "decomposition": "⿰革便"
+ },
+ "炮": {
+  "radical": "火",
+  "decomposition": "⿰火包"
+ },
+ "辩": {
+  "radical": "辛",
+  "decomposition": "⿲辛讠辛"
+ },
+ "丙": {
+  "radical": "一",
+  "decomposition": "⿱一内"
+ },
+ "毒": {
+  "radical": "母",
+  "decomposition": "⿱龶母"
+ },
+ "玻": {
+  "radical": "王",
+  "decomposition": "⿰王皮"
+ },
+ "璃": {
+  "radical": "王",
+  "decomposition": "⿰王离"
+ },
+ "脖": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼孛"
+ },
+ "补": {
+  "radical": "衤",
+  "decomposition": "⿰衤卜"
+ },
+ "充": {
+  "radical": "儿",
+  "decomposition": "⿱亠允"
+ },
+ "足": {
+  "radical": "足",
+  "decomposition": "⿱口？"
+ },
+ "布": {
+  "radical": "巾",
+  "decomposition": "⿸？巾"
+ },
+ "骤": {
+  "radical": "马",
+  "decomposition": "⿰马聚"
+ },
+ "财": {
+  "radical": "贝",
+  "decomposition": "⿰贝才"
+ },
+ "产": {
+  "radical": "亠",
+  "decomposition": "⿳亠丷厂"
+ },
+ "采": {
+  "radical": "釆",
+  "decomposition": "⿱爫木"
+ },
+ "虹": {
+  "radical": "虫",
+  "decomposition": "⿰虫工"
+ },
+ "踩": {
+  "radical": "足",
+  "decomposition": "⿰足采"
+ },
+ "餐": {
+  "radical": "食",
+  "decomposition": "⿱⿰歺又食"
+ },
+ "厅": {
+  "radical": "厂",
+  "decomposition": "⿸厂丁"
+ },
+ "残": {
+  "radical": "歹",
+  "decomposition": "⿰歹戋"
+ },
+ "疾": {
+  "radical": "疒",
+  "decomposition": "⿸疒矢"
+ },
+ "惭": {
+  "radical": "忄",
+  "decomposition": "⿰忄斩"
+ },
+ "愧": {
+  "radical": "忄",
+  "decomposition": "⿰忄鬼"
+ },
+ "操": {
+  "radical": "扌",
+  "decomposition": "⿰扌喿"
+ },
+ "册": {
+  "radical": "冂",
+  "decomposition": "⿻⿰冂冂一"
+ },
+ "厕": {
+  "radical": "厂",
+  "decomposition": "⿸厂则"
+ },
+ "测": {
+  "radical": "氵",
+  "decomposition": "⿰氵则"
+ },
+ "曾": {
+  "radical": "曰",
+  "decomposition": "⿳丷？日"
+ },
+ "叉": {
+  "radical": "又",
+  "decomposition": "⿴又丶"
+ },
+ "插": {
+  "radical": "扌",
+  "decomposition": "⿰扌臿"
+ },
+ "拆": {
+  "radical": "扌",
+  "decomposition": "⿰扌斥"
+ },
+ "抄": {
+  "radical": "扌",
+  "decomposition": "⿰扌少"
+ },
+ "朝": {
+  "radical": "月",
+  "decomposition": "⿰龺月"
+ },
+ "架": {
+  "radical": "木",
+  "decomposition": "⿱加木"
+ },
+ "炒": {
+  "radical": "火",
+  "decomposition": "⿰火少"
+ },
+ "库": {
+  "radical": "广",
+  "decomposition": "⿸广车"
+ },
+ "厢": {
+  "radical": "厂",
+  "decomposition": "⿸厂相"
+ },
+ "彻": {
+  "radical": "彳",
+  "decomposition": "⿰彳切"
+ },
+ "沉": {
+  "radical": "氵",
+  "decomposition": "⿰氵冗"
+ },
+ "趁": {
+  "radical": "走",
+  "decomposition": "⿺走㐱"
+ },
+ "称": {
+  "radical": "禾",
+  "decomposition": "⿰禾尔"
+ },
+ "呼": {
+  "radical": "口",
+  "decomposition": "⿰口乎"
+ },
+ "赞": {
+  "radical": "贝",
+  "decomposition": "⿱兟贝"
+ },
+ "立": {
+  "radical": "立",
+  "decomposition": "⿳亠丷一"
+ },
+ "承": {
+  "radical": "手",
+  "decomposition": "⿻⿻了三？"
+ },
+ "恳": {
+  "radical": "心",
+  "decomposition": "⿱艮心"
+ },
+ "亏": {
+  "radical": "二",
+  "decomposition": "⿱二？"
+ },
+ "池": {
+  "radical": "氵",
+  "decomposition": "⿰氵也"
+ },
+ "尺": {
+  "radical": "尸",
+  "decomposition": "⿸尸乚"
+ },
+ "翅": {
+  "radical": "羽",
+  "decomposition": "⿺支羽"
+ },
+ "膀": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼旁"
+ },
+ "器": {
+  "radical": "口",
+  "decomposition": "⿳⿰口口犬⿰口口"
+ },
+ "冲": {
+  "radical": "冫",
+  "decomposition": "⿰冫中"
+ },
+ "宠": {
+  "radical": "宀",
+  "decomposition": "⿱宀龙"
+ },
+ "屉": {
+  "radical": "尸",
+  "decomposition": "⿸尸世"
+ },
+ "丑": {
+  "radical": "一",
+  "decomposition": "⿻刀二"
+ },
+ "臭": {
+  "radical": "自",
+  "decomposition": "⿱自犬"
+ },
+ "版": {
+  "radical": "片",
+  "decomposition": "⿰片反"
+ },
+ "席": {
+  "radical": "巾",
+  "decomposition": "⿸广⿱廿巾"
+ },
+ "初": {
+  "radical": "刀",
+  "decomposition": "⿰衤刀"
+ },
+ "夕": {
+  "radical": "夕",
+  "decomposition": "⿻勹丶"
+ },
+ "递": {
+  "radical": "辶",
+  "decomposition": "⿺辶弟"
+ },
+ "统": {
+  "radical": "纟",
+  "decomposition": "⿰纟充"
+ },
+ "帘": {
+  "radical": "巾",
+  "decomposition": "⿱穴巾"
+ },
+ "闯": {
+  "radical": "门",
+  "decomposition": "⿵门马"
+ },
+ "创": {
+  "radical": "刂",
+  "decomposition": "⿰仓刂"
+ },
+ "吹": {
+  "radical": "口",
+  "decomposition": "⿰口欠"
+ },
+ "辞": {
+  "radical": "舌",
+  "decomposition": "⿰舌辛"
+ },
+ "磁": {
+  "radical": "石",
+  "decomposition": "⿰石兹"
+ },
+ "刺": {
+  "radical": "刂",
+  "decomposition": "⿰朿刂"
+ },
+ "匆": {
+  "radical": "勹",
+  "decomposition": "⿻勿丶"
+ },
+ "促": {
+  "radical": "亻",
+  "decomposition": "⿰亻足"
+ },
+ "醋": {
+  "radical": "酉",
+  "decomposition": "⿰酉昔"
+ },
+ "催": {
+  "radical": "亻",
+  "decomposition": "⿰亻崔"
+ },
+ "措": {
+  "radical": "扌",
+  "decomposition": "⿰扌昔"
+ },
+ "施": {
+  "radical": "方",
+  "decomposition": "⿰方㐌"
+ },
+ "喷": {
+  "radical": "口",
+  "decomposition": "⿰口贲"
+ },
+ "嚏": {
+  "radical": "口",
+  "decomposition": "⿰口疐"
+ },
+ "型": {
+  "radical": "土",
+  "decomposition": "⿱刑土"
+ },
+ "呆": {
+  "radical": "口",
+  "decomposition": "⿱口木"
+ },
+ "待": {
+  "radical": "彳",
+  "decomposition": "⿰彳寺"
+ },
+ "贷": {
+  "radical": "贝",
+  "decomposition": "⿱代贝"
+ },
+ "款": {
+  "radical": "欠",
+  "decomposition": "⿰⿱士示欠"
+ },
+ "纯": {
+  "radical": "纟",
+  "decomposition": "⿰纟屯"
+ },
+ "独": {
+  "radical": "犭",
+  "decomposition": "⿰犭虫"
+ },
+ "耽": {
+  "radical": "耳",
+  "decomposition": "⿰耳冘"
+ },
+ "胆": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼旦"
+ },
+ "鬼": {
+  "radical": "鬼",
+  "decomposition": "⿸？⿺乚厶"
+ },
+ "淡": {
+  "radical": "氵",
+  "decomposition": "⿰氵炎"
+ },
+ "挡": {
+  "radical": "扌",
+  "decomposition": "⿰扌当"
+ },
+ "致": {
+  "radical": "至",
+  "decomposition": "⿰至攵"
+ },
+ "岛": {
+  "radical": "山",
+  "decomposition": "⿹鸟山"
+ },
+ "倒": {
+  "radical": "亻",
+  "decomposition": "⿰亻到"
+ },
+ "霉": {
+  "radical": "雨",
+  "decomposition": "⿱雨每"
+ },
+ "德": {
+  "radical": "彳",
+  "decomposition": "⿰彳⿱⿱十罒⿱一心"
+ },
+ "毯": {
+  "radical": "毛",
+  "decomposition": "⿺毛炎"
+ },
+ "震": {
+  "radical": "雨",
+  "decomposition": "⿱雨辰"
+ },
+ "登": {
+  "radical": "癶",
+  "decomposition": "⿱癶豆"
+ },
+ "牌": {
+  "radical": "片",
+  "decomposition": "⿰片卑"
+ },
+ "滴": {
+  "radical": "氵",
+  "decomposition": "⿰氵啇"
+ },
+ "敌": {
+  "radical": "舌",
+  "decomposition": "⿰舌攵"
+ },
+ "钓": {
+  "radical": "钅",
+  "decomposition": "⿰钅勺"
+ },
+ "丁": {
+  "radical": "一",
+  "decomposition": "一"
+ },
+ "顶": {
+  "radical": "页",
+  "decomposition": "⿰丁页"
+ },
+ "冻": {
+  "radical": "冫",
+  "decomposition": "⿰冫东"
+ },
+ "洞": {
+  "radical": "氵",
+  "decomposition": "⿰氵同"
+ },
+ "豆": {
+  "radical": "豆",
+  "decomposition": "⿳一口⿱丷一"
+ },
+ "腐": {
+  "radical": "肉",
+  "decomposition": "⿸广⿱付肉"
+ },
+ "逗": {
+  "radical": "辶",
+  "decomposition": "⿺辶豆"
+ },
+ "堆": {
+  "radical": "土",
+  "decomposition": "⿰土隹"
+ },
+ "吨": {
+  "radical": "口",
+  "decomposition": "⿰口屯"
+ },
+ "蹲": {
+  "radical": "足",
+  "decomposition": "⿰足尊"
+ },
+ "余": {
+  "radical": "人",
+  "decomposition": "⿱人？"
+ },
+ "躲": {
+  "radical": "身",
+  "decomposition": "⿰身朵"
+ },
+ "藏": {
+  "radical": "艹",
+  "decomposition": "⿱艹臧"
+ },
+ "恶": {
+  "radical": "心",
+  "decomposition": "⿱亚心"
+ },
+ "劣": {
+  "radical": "力",
+  "decomposition": "⿱少力"
+ },
+ "愁": {
+  "radical": "心",
+  "decomposition": "⿱秋心"
+ },
+ "抖": {
+  "radical": "扌",
+  "decomposition": "⿰扌斗"
+ },
+ "挥": {
+  "radical": "扌",
+  "decomposition": "⿰扌军"
+ },
+ "罚": {
+  "radical": "罒",
+  "decomposition": "⿱罒⿰讠刂"
+ },
+ "凡": {
+  "radical": "几",
+  "decomposition": "⿵几丶"
+ },
+ "繁": {
+  "radical": "糸",
+  "decomposition": "⿱敏糸"
+ },
+ "荣": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱冖木"
+ },
+ "妨": {
+  "radical": "女",
+  "decomposition": "⿰女方"
+ },
+ "碍": {
+  "radical": "石",
+  "decomposition": "⿰石㝵"
+ },
+ "仿": {
+  "radical": "亻",
+  "decomposition": "⿰亻方"
+ },
+ "佛": {
+  "radical": "亻",
+  "decomposition": "⿰亻弗"
+ },
+ "皂": {
+  "radical": "白",
+  "decomposition": "⿱白七"
+ },
+ "废": {
+  "radical": "广",
+  "decomposition": "⿸广发"
+ },
+ "肺": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼巿"
+ },
+ "配": {
+  "radical": "酉",
+  "decomposition": "⿰酉己"
+ },
+ "析": {
+  "radical": "木",
+  "decomposition": "⿰木斤"
+ },
+ "纷": {
+  "radical": "纟",
+  "decomposition": "⿰纟分"
+ },
+ "斗": {
+  "radical": "斗",
+  "decomposition": "⿻十？"
+ },
+ "愤": {
+  "radical": "忄",
+  "decomposition": "⿰忄贲"
+ },
+ "怒": {
+  "radical": "心",
+  "decomposition": "⿱奴心"
+ },
+ "俗": {
+  "radical": "亻",
+  "decomposition": "⿰亻谷"
+ },
+ "疯": {
+  "radical": "疒",
+  "decomposition": "⿸疒风"
+ },
+ "狂": {
+  "radical": "犭",
+  "decomposition": "⿰犭王"
+ },
+ "讽": {
+  "radical": "讠",
+  "decomposition": "⿰讠风"
+ },
+ "扶": {
+  "radical": "扌",
+  "decomposition": "⿰扌夫"
+ },
+ "幅": {
+  "radical": "巾",
+  "decomposition": "⿰巾畐"
+ },
+ "辅": {
+  "radical": "车",
+  "decomposition": "⿰车甫"
+ },
+ "付": {
+  "radical": "亻",
+  "decomposition": "⿰亻寸"
+ },
+ "妇": {
+  "radical": "女",
+  "decomposition": "⿰女彐"
+ },
+ "革": {
+  "radical": "革",
+  "decomposition": "⿱廿？"
+ },
+ "善": {
+  "radical": "口",
+  "decomposition": "⿱羊⿱⿱丷一口"
+ },
+ "盖": {
+  "radical": "皿",
+  "decomposition": "⿱羊皿"
+ },
+ "念": {
+  "radical": "心",
+  "decomposition": "⿱今心"
+ },
+ "赶": {
+  "radical": "走",
+  "decomposition": "⿺走干"
+ },
+ "脆": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼危"
+ },
+ "钢": {
+  "radical": "钅",
+  "decomposition": "⿰钅冈"
+ },
+ "档": {
+  "radical": "木",
+  "decomposition": "⿰木当"
+ },
+ "搞": {
+  "radical": "扌",
+  "decomposition": "⿰扌高"
+ },
+ "胳": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼各"
+ },
+ "膊": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼尃"
+ },
+ "鸽": {
+  "radical": "鸟",
+  "decomposition": "⿰合鸟"
+ },
+ "隔": {
+  "radical": "阝",
+  "decomposition": "⿰阝鬲"
+ },
+ "壁": {
+  "radical": "土",
+  "decomposition": "⿱辟土"
+ },
+ "厂": {
+  "radical": "厂",
+  "decomposition": "？"
+ },
+ "寓": {
+  "radical": "宀",
+  "decomposition": "⿱宀禺"
+ },
+ "贡": {
+  "radical": "贝",
+  "decomposition": "⿱工贝"
+ },
+ "献": {
+  "radical": "犬",
+  "decomposition": "⿰南犬"
+ },
+ "沟": {
+  "radical": "氵",
+  "decomposition": "⿰氵勾"
+ },
+ "构": {
+  "radical": "木",
+  "decomposition": "⿰木勾"
+ },
+ "姑": {
+  "radical": "女",
+  "decomposition": "⿰女古"
+ },
+ "娘": {
+  "radical": "女",
+  "decomposition": "⿰女良"
+ },
+ "古": {
+  "radical": "口",
+  "decomposition": "⿱十口"
+ },
+ "股": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼殳"
+ },
+ "骨": {
+  "radical": "骨",
+  "decomposition": "⿵冎⺼"
+ },
+ "固": {
+  "radical": "囗",
+  "decomposition": "⿴囗古"
+ },
+ "雇": {
+  "radical": "隹",
+  "decomposition": "⿸户隹"
+ },
+ "佣": {
+  "radical": "亻",
+  "decomposition": "⿰亻用"
+ },
+ "乖": {
+  "radical": "丿",
+  "decomposition": "⿻千北"
+ },
+ "拐": {
+  "radical": "扌",
+  "decomposition": "⿰扌另"
+ },
+ "弯": {
+  "radical": "弓",
+  "decomposition": "⿱亦弓"
+ },
+ "闭": {
+  "radical": "门",
+  "decomposition": "⿵门才"
+ },
+ "官": {
+  "radical": "宀",
+  "decomposition": "⿱宀㠯"
+ },
+ "冠": {
+  "radical": "冖",
+  "decomposition": "⿱冖⿺元寸"
+ },
+ "军": {
+  "radical": "车",
+  "decomposition": "⿱冖车"
+ },
+ "罐": {
+  "radical": "缶",
+  "decomposition": "⿰缶雚"
+ },
+ "滑": {
+  "radical": "氵",
+  "decomposition": "⿰氵骨"
+ },
+ "临": {
+  "radical": "丨",
+  "decomposition": "⿰⿰？丨？"
+ },
+ "泛": {
+  "radical": "氵",
+  "decomposition": "⿰氵乏"
+ },
+ "矩": {
+  "radical": "矢",
+  "decomposition": "⿰矢巨"
+ },
+ "模": {
+  "radical": "木",
+  "decomposition": "⿰木莫"
+ },
+ "柜": {
+  "radical": "木",
+  "decomposition": "⿰木巨"
+ },
+ "滚": {
+  "radical": "氵",
+  "decomposition": "⿰氵衮"
+ },
+ "锅": {
+  "radical": "钅",
+  "decomposition": "⿰钅呙"
+ },
+ "籍": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮耤"
+ },
+ "庆": {
+  "radical": "广",
+  "decomposition": "⿸广大"
+ },
+ "敏": {
+  "radical": "攵",
+  "decomposition": "⿰每攵"
+ },
+ "哈": {
+  "radical": "口",
+  "decomposition": "⿰口合"
+ },
+ "喊": {
+  "radical": "口",
+  "decomposition": "⿰口咸"
+ },
+ "豪": {
+  "radical": "豕",
+  "decomposition": "⿱高豕"
+ },
+ "华": {
+  "radical": "十",
+  "decomposition": "⿱化十"
+ },
+ "核": {
+  "radical": "木",
+  "decomposition": "⿰木亥"
+ },
+ "恨": {
+  "radical": "忄",
+  "decomposition": "⿰忄艮"
+ },
+ "横": {
+  "radical": "木",
+  "decomposition": "⿰木黄"
+ },
+ "胡": {
+  "radical": "⺼",
+  "decomposition": "⿰古⺼"
+ },
+ "壶": {
+  "radical": "士",
+  "decomposition": "⿱士⿱冖业"
+ },
+ "蝴": {
+  "radical": "虫",
+  "decomposition": "⿰虫胡"
+ },
+ "蝶": {
+  "radical": "虫",
+  "decomposition": "⿰虫枼"
+ },
+ "糊": {
+  "radical": "米",
+  "decomposition": "⿰米胡"
+ },
+ "涂": {
+  "radical": "氵",
+  "decomposition": "⿰氵余"
+ },
+ "裔": {
+  "radical": "衣",
+  "decomposition": "⿱衣冏"
+ },
+ "缓": {
+  "radical": "纟",
+  "decomposition": "⿰纟爰"
+ },
+ "幻": {
+  "radical": "幺",
+  "decomposition": "⿰幺？"
+ },
+ "慌": {
+  "radical": "忄",
+  "decomposition": "⿰忄荒"
+ },
+ "皇": {
+  "radical": "白",
+  "decomposition": "⿱白王"
+ },
+ "帝": {
+  "radical": "巾",
+  "decomposition": "⿱立巾"
+ },
+ "灰": {
+  "radical": "火",
+  "decomposition": "⿸？火"
+ },
+ "尘": {
+  "radical": "小",
+  "decomposition": "⿱小土"
+ },
+ "恢": {
+  "radical": "忄",
+  "decomposition": "⿰忄灰"
+ },
+ "汇": {
+  "radical": "氵",
+  "decomposition": "⿰氵匚"
+ },
+ "率": {
+  "radical": "玄",
+  "decomposition": "⿱亠⿱⿻幺？十"
+ },
+ "姻": {
+  "radical": "女",
+  "decomposition": "⿰女因"
+ },
+ "跃": {
+  "radical": "足",
+  "decomposition": "⿰足夭"
+ },
+ "柴": {
+  "radical": "木",
+  "decomposition": "⿱此木"
+ },
+ "伙": {
+  "radical": "亻",
+  "decomposition": "⿰亻火"
+ },
+ "伴": {
+  "radical": "亻",
+  "decomposition": "⿰亻半"
+ },
+ "肌": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼几"
+ },
+ "烈": {
+  "radical": "灬",
+  "decomposition": "⿱列灬"
+ },
+ "录": {
+  "radical": "彐",
+  "decomposition": "⿱彐氺"
+ },
+ "寂": {
+  "radical": "宀",
+  "decomposition": "⿱宀叔"
+ },
+ "寞": {
+  "radical": "宀",
+  "decomposition": "⿱宀莫"
+ },
+ "夹": {
+  "radical": "一",
+  "decomposition": "⿻夫丷"
+ },
+ "庭": {
+  "radical": "广",
+  "decomposition": "⿸广廷"
+ },
+ "乡": {
+  "radical": "幺",
+  "decomposition": "幺"
+ },
+ "嘉": {
+  "radical": "口",
+  "decomposition": "⿱壴加"
+ },
+ "甲": {
+  "radical": "田",
+  "decomposition": "⿻冂？"
+ },
+ "驾": {
+  "radical": "马",
+  "decomposition": "⿱加马"
+ },
+ "驶": {
+  "radical": "马",
+  "decomposition": "⿰马史"
+ },
+ "嫁": {
+  "radical": "女",
+  "decomposition": "⿰女家"
+ },
+ "尖": {
+  "radical": "小",
+  "decomposition": "⿱小大"
+ },
+ "锐": {
+  "radical": "钅",
+  "decomposition": "⿰钅兑"
+ },
+ "强": {
+  "radical": "弓",
+  "decomposition": "⿰弓虽"
+ },
+ "肩": {
+  "radical": "⺼",
+  "decomposition": "⿸户⺼"
+ },
+ "艰": {
+  "radical": "又",
+  "decomposition": "⿰又艮"
+ },
+ "巨": {
+  "radical": "匚",
+  "decomposition": "⿷匚？"
+ },
+ "煎": {
+  "radical": "灬",
+  "decomposition": "⿱前灬"
+ },
+ "捡": {
+  "radical": "扌",
+  "decomposition": "⿰扌佥"
+ },
+ "剪": {
+  "radical": "刀",
+  "decomposition": "⿱前刀"
+ },
+ "建": {
+  "radical": "廴",
+  "decomposition": "⿺廴聿"
+ },
+ "设": {
+  "radical": "讠",
+  "decomposition": "⿰讠殳"
+ },
+ "筑": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮巩"
+ },
+ "落": {
+  "radical": "艹",
+  "decomposition": "⿱艹洛"
+ },
+ "酱": {
+  "radical": "酉",
+  "decomposition": "⿱⿰丬夕酉"
+ },
+ "郊": {
+  "radical": "阝",
+  "decomposition": "⿰交阝"
+ },
+ "浇": {
+  "radical": "氵",
+  "decomposition": "⿰氵尧"
+ },
+ "胶": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼交"
+ },
+ "狡": {
+  "radical": "犭",
+  "decomposition": "⿰犭交"
+ },
+ "猾": {
+  "radical": "犭",
+  "decomposition": "⿰犭骨"
+ },
+ "训": {
+  "radical": "讠",
+  "decomposition": "⿰讠川"
+ },
+ "阶": {
+  "radical": "阝",
+  "decomposition": "⿰阝介"
+ },
+ "触": {
+  "radical": "角",
+  "decomposition": "⿰角虫"
+ },
+ "账": {
+  "radical": "贝",
+  "decomposition": "⿰贝长"
+ },
+ "戒": {
+  "radical": "戈",
+  "decomposition": "⿹戈廾"
+ },
+ "届": {
+  "radical": "尸",
+  "decomposition": "⿸尸由"
+ },
+ "属": {
+  "radical": "尸",
+  "decomposition": "⿸尸禹"
+ },
+ "谨": {
+  "radical": "讠",
+  "decomposition": "⿰讠堇"
+ },
+ "慎": {
+  "radical": "忄",
+  "decomposition": "⿰忄真"
+ },
+ "营": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱冖吕"
+ },
+ "敬": {
+  "radical": "攵",
+  "decomposition": "⿰苟攵"
+ },
+ "救": {
+  "radical": "攵",
+  "decomposition": "⿰求攵"
+ },
+ "舅": {
+  "radical": "臼",
+  "decomposition": "⿱臼男"
+ },
+ "桔": {
+  "radical": "木",
+  "decomposition": "⿰木吉"
+ },
+ "俱": {
+  "radical": "亻",
+  "decomposition": "⿰亻具"
+ },
+ "聚": {
+  "radical": "耳",
+  "decomposition": "⿱取乑"
+ },
+ "捐": {
+  "radical": "扌",
+  "decomposition": "⿰扌肙"
+ },
+ "卷": {
+  "radical": "㔾",
+  "decomposition": "⿱龹㔾"
+ },
+ "均": {
+  "radical": "土",
+  "decomposition": "⿰土匀"
+ },
+ "匀": {
+  "radical": "勹",
+  "decomposition": "⿻勹冫"
+ },
+ "幕": {
+  "radical": "巾",
+  "decomposition": "⿱莫巾"
+ },
+ "砍": {
+  "radical": "石",
+  "decomposition": "⿰石欠"
+ },
+ "抗": {
+  "radical": "扌",
+  "decomposition": "⿰扌亢"
+ },
+ "烤": {
+  "radical": "火",
+  "decomposition": "⿰火考"
+ },
+ "鸭": {
+  "radical": "鸟",
+  "decomposition": "⿰甲鸟"
+ },
+ "颗": {
+  "radical": "页",
+  "decomposition": "⿰果页"
+ },
+ "靠": {
+  "radical": "非",
+  "decomposition": "⿱告非"
+ },
+ "闲": {
+  "radical": "门",
+  "decomposition": "⿵门木"
+ },
+ "怖": {
+  "radical": "忄",
+  "decomposition": "⿰忄布"
+ },
+ "控": {
+  "radical": "扌",
+  "decomposition": "⿰扌空"
+ },
+ "夸": {
+  "radical": "大",
+  "decomposition": "⿱大亏"
+ },
+ "矿": {
+  "radical": "石",
+  "decomposition": "⿰石广"
+ },
+ "泉": {
+  "radical": "水",
+  "decomposition": "⿱白水"
+ },
+ "蜡": {
+  "radical": "虫",
+  "decomposition": "⿰虫昔"
+ },
+ "烛": {
+  "radical": "火",
+  "decomposition": "⿰火虫"
+ },
+ "椒": {
+  "radical": "木",
+  "decomposition": "⿰木叔"
+ },
+ "拦": {
+  "radical": "扌",
+  "decomposition": "⿰扌兰"
+ },
+ "烂": {
+  "radical": "火",
+  "decomposition": "⿰火兰"
+ },
+ "狼": {
+  "radical": "犭",
+  "decomposition": "⿰犭良"
+ },
+ "劳": {
+  "radical": "力",
+  "decomposition": "⿱艹⿱冖力"
+ },
+ "鼠": {
+  "radical": "鼠",
+  "decomposition": "⿱臼？"
+ },
+ "姥": {
+  "radical": "女",
+  "decomposition": "⿰女老"
+ },
+ "雷": {
+  "radical": "雨",
+  "decomposition": "⿱雨田"
+ },
+ "类": {
+  "radical": "大",
+  "decomposition": "⿱米大"
+ },
+ "厘": {
+  "radical": "厂",
+  "decomposition": "⿸厂里"
+ },
+ "梨": {
+  "radical": "木",
+  "decomposition": "⿱利木"
+ },
+ "拜": {
+  "radical": "手",
+  "decomposition": "⿰手手"
+ },
+ "益": {
+  "radical": "皿",
+  "decomposition": "⿱水皿"
+ },
+ "粒": {
+  "radical": "米",
+  "decomposition": "⿰米立"
+ },
+ "恋": {
+  "radical": "心",
+  "decomposition": "⿱亦心"
+ },
+ "良": {
+  "radical": "艮",
+  "decomposition": "⿱丶艮"
+ },
+ "粮": {
+  "radical": "米",
+  "decomposition": "⿰米良"
+ },
+ "灵": {
+  "radical": "彐",
+  "decomposition": "⿱彐火"
+ },
+ "铃": {
+  "radical": "钅",
+  "decomposition": "⿰钅令"
+ },
+ "域": {
+  "radical": "土",
+  "decomposition": "⿰土或"
+ },
+ "浏": {
+  "radical": "氵",
+  "decomposition": "⿰氵刘"
+ },
+ "览": {
+  "radical": "见",
+  "decomposition": "⿱？见"
+ },
+ "龙": {
+  "radical": "龙",
+  "decomposition": "⿻尤丿"
+ },
+ "漏": {
+  "radical": "氵",
+  "decomposition": "⿰氵屚"
+ },
+ "陆": {
+  "radical": "阝",
+  "decomposition": "⿰阝击"
+ },
+ "露": {
+  "radical": "雨",
+  "decomposition": "⿱雨路"
+ },
+ "轮": {
+  "radical": "车",
+  "decomposition": "⿰车仑"
+ },
+ "逻": {
+  "radical": "辶",
+  "decomposition": "⿺辶罗"
+ },
+ "骂": {
+  "radical": "口",
+  "decomposition": "⿱⿰口口马"
+ },
+ "麦": {
+  "radical": "麦",
+  "decomposition": "⿱龶夂"
+ },
+ "馒": {
+  "radical": "饣",
+  "decomposition": "⿰饣曼"
+ },
+ "矛": {
+  "radical": "矛",
+  "decomposition": "？"
+ },
+ "盾": {
+  "radical": "目",
+  "decomposition": "⿸厂⿱十目"
+ },
+ "贸": {
+  "radical": "贝",
+  "decomposition": "⿱卯贝"
+ },
+ "眉": {
+  "radical": "目",
+  "decomposition": "⿸尸目"
+ },
+ "煤": {
+  "radical": "火",
+  "decomposition": "⿰火某"
+ },
+ "炭": {
+  "radical": "火",
+  "decomposition": "⿱山灰"
+ },
+ "魅": {
+  "radical": "鬼",
+  "decomposition": "⿺鬼未"
+ },
+ "迷": {
+  "radical": "辶",
+  "decomposition": "⿺辶米"
+ },
+ "谜": {
+  "radical": "讠",
+  "decomposition": "⿰讠迷"
+ },
+ "秘": {
+  "radical": "禾",
+  "decomposition": "⿰禾必"
+ },
+ "蜜": {
+  "radical": "虫",
+  "decomposition": "⿱宓虫"
+ },
+ "蜂": {
+  "radical": "虫",
+  "decomposition": "⿰虫夆"
+ },
+ "棉": {
+  "radical": "木",
+  "decomposition": "⿰木帛"
+ },
+ "苗": {
+  "radical": "艹",
+  "decomposition": "⿱艹田"
+ },
+ "描": {
+  "radical": "扌",
+  "decomposition": "⿰扌苗"
+ },
+ "秒": {
+  "radical": "禾",
+  "decomposition": "⿰禾少"
+ },
+ "胜": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼生"
+ },
+ "显": {
+  "radical": "日",
+  "decomposition": "⿱日业"
+ },
+ "令": {
+  "radical": "人",
+  "decomposition": "⿱人？"
+ },
+ "摸": {
+  "radical": "扌",
+  "decomposition": "⿰扌莫"
+ },
+ "摩": {
+  "radical": "手",
+  "decomposition": "⿸麻手"
+ },
+ "托": {
+  "radical": "扌",
+  "decomposition": "⿰扌乇"
+ },
+ "陌": {
+  "radical": "阝",
+  "decomposition": "⿰阝百"
+ },
+ "某": {
+  "radical": "木",
+  "decomposition": "⿱甘木"
+ },
+ "木": {
+  "radical": "木",
+  "decomposition": "⿻十八"
+ },
+ "嫩": {
+  "radical": "女",
+  "decomposition": "⿰女敕"
+ },
+ "源": {
+  "radical": "氵",
+  "decomposition": "⿰氵原"
+ },
+ "宁": {
+  "radical": "宀",
+  "decomposition": "⿱宀丁"
+ },
+ "浓": {
+  "radical": "氵",
+  "decomposition": "⿰氵农"
+ },
+ "拍": {
+  "radical": "扌",
+  "decomposition": "⿰扌白"
+ },
+ "队": {
+  "radical": "阝",
+  "decomposition": "⿰阝人"
+ },
+ "派": {
+  "radical": "氵",
+  "decomposition": "⿰氵⿸？氏"
+ },
+ "盼": {
+  "radical": "目",
+  "decomposition": "⿰目分"
+ },
+ "培": {
+  "radical": "土",
+  "decomposition": "⿰土咅"
+ },
+ "赔": {
+  "radical": "贝",
+  "decomposition": "⿰贝咅"
+ },
+ "偿": {
+  "radical": "亻",
+  "decomposition": "⿰亻尝"
+ },
+ "佩": {
+  "radical": "亻",
+  "decomposition": "⿰亻⿵凡巾"
+ },
+ "盆": {
+  "radical": "皿",
+  "decomposition": "⿱分皿"
+ },
+ "碰": {
+  "radical": "石",
+  "decomposition": "⿰石並"
+ },
+ "披": {
+  "radical": "扌",
+  "decomposition": "⿰扌皮"
+ },
+ "疲": {
+  "radical": "疒",
+  "decomposition": "⿸疒皮"
+ },
+ "飘": {
+  "radical": "风",
+  "decomposition": "⿰票风"
+ },
+ "频": {
+  "radical": "页",
+  "decomposition": "⿰步页"
+ },
+ "衡": {
+  "radical": "行",
+  "decomposition": "⿻行⿱角大"
+ },
+ "凭": {
+  "radical": "几",
+  "decomposition": "⿱任几"
+ },
+ "迫": {
+  "radical": "辶",
+  "decomposition": "⿺辶白"
+ },
+ "朴": {
+  "radical": "木",
+  "decomposition": "⿰木卜"
+ },
+ "素": {
+  "radical": "糸",
+  "decomposition": "⿱龶糸"
+ },
+ "迹": {
+  "radical": "辶",
+  "decomposition": "⿺辶亦"
+ },
+ "企": {
+  "radical": "人",
+  "decomposition": "⿱人止"
+ },
+ "启": {
+  "radical": "口",
+  "decomposition": "⿸户口"
+ },
+ "氛": {
+  "radical": "气",
+  "decomposition": "⿹气分"
+ },
+ "牵": {
+  "radical": "大",
+  "decomposition": "⿱大⿱冖牛"
+ },
+ "谦": {
+  "radical": "讠",
+  "decomposition": "⿰讠兼"
+ },
+ "虚": {
+  "radical": "虍",
+  "decomposition": "⿸虍业"
+ },
+ "途": {
+  "radical": "辶",
+  "decomposition": "⿺辶余"
+ },
+ "浅": {
+  "radical": "氵",
+  "decomposition": "⿰氵戋"
+ },
+ "欠": {
+  "radical": "欠",
+  "decomposition": "⿱⺈人"
+ },
+ "枪": {
+  "radical": "木",
+  "decomposition": "⿰木仓"
+ },
+ "抢": {
+  "radical": "扌",
+  "decomposition": "⿰扌仓"
+ },
+ "悄": {
+  "radical": "忄",
+  "decomposition": "⿰忄肖"
+ },
+ "瞧": {
+  "radical": "目",
+  "decomposition": "⿰目焦"
+ },
+ "妙": {
+  "radical": "女",
+  "decomposition": "⿰女少"
+ },
+ "侵": {
+  "radical": "亻",
+  "decomposition": "⿰亻⿳彐冖又"
+ },
+ "略": {
+  "radical": "田",
+  "decomposition": "⿰田各"
+ },
+ "勤": {
+  "radical": "力",
+  "decomposition": "⿰堇力"
+ },
+ "青": {
+  "radical": "青",
+  "decomposition": "⿱龶月"
+ },
+ "绪": {
+  "radical": "纟",
+  "decomposition": "⿰纟者"
+ },
+ "趋": {
+  "radical": "走",
+  "decomposition": "⿺走刍"
+ },
+ "势": {
+  "radical": "力",
+  "decomposition": "⿱执力"
+ },
+ "娶": {
+  "radical": "女",
+  "decomposition": "⿱取女"
+ },
+ "圈": {
+  "radical": "囗",
+  "decomposition": "⿴囗卷"
+ },
+ "权": {
+  "radical": "木",
+  "decomposition": "⿰木又"
+ },
+ "劝": {
+  "radical": "力",
+  "decomposition": "⿰又力"
+ },
+ "乏": {
+  "radical": "丿",
+  "decomposition": "⿱丿之"
+ },
+ "燃": {
+  "radical": "火",
+  "decomposition": "⿰火然"
+ },
+ "嚷": {
+  "radical": "口",
+  "decomposition": "⿰口襄"
+ },
+ "绕": {
+  "radical": "纟",
+  "decomposition": "⿰纟尧"
+ },
+ "忍": {
+  "radical": "心",
+  "decomposition": "⿱刃心"
+ },
+ "誉": {
+  "radical": "言",
+  "decomposition": "⿱兴言"
+ },
+ "融": {
+  "radical": "鬲",
+  "decomposition": "⿰鬲虫"
+ },
+ "弱": {
+  "radical": "弓",
+  "decomposition": "⿰⿹弓冫⿹弓冫"
+ },
+ "洒": {
+  "radical": "氵",
+  "decomposition": "⿰氵西"
+ },
+ "嗓": {
+  "radical": "口",
+  "decomposition": "⿰口桑"
+ },
+ "杀": {
+  "radical": "木",
+  "decomposition": "⿱乂木"
+ },
+ "漠": {
+  "radical": "氵",
+  "decomposition": "⿰氵莫"
+ },
+ "滩": {
+  "radical": "氵",
+  "decomposition": "⿰氵难"
+ },
+ "傻": {
+  "radical": "亻",
+  "decomposition": "⿰亻⿳囟八夂"
+ },
+ "晒": {
+  "radical": "日",
+  "decomposition": "⿰日西"
+ },
+ "删": {
+  "radical": "刂",
+  "decomposition": "⿰册刂"
+ },
+ "闪": {
+  "radical": "门",
+  "decomposition": "⿵门人"
+ },
+ "扇": {
+  "radical": "户",
+  "decomposition": "⿸户羽"
+ },
+ "勺": {
+  "radical": "勹",
+  "decomposition": "⿹勹丶"
+ },
+ "舌": {
+  "radical": "舌",
+  "decomposition": "⿱千口"
+ },
+ "蛇": {
+  "radical": "虫",
+  "decomposition": "⿰虫它"
+ },
+ "舍": {
+  "radical": "舌",
+  "decomposition": "⿱人舌"
+ },
+ "射": {
+  "radical": "寸",
+  "decomposition": "⿰身寸"
+ },
+ "击": {
+  "radical": "凵",
+  "decomposition": "⿱？凵"
+ },
+ "摄": {
+  "radical": "扌",
+  "decomposition": "⿰扌聂"
+ },
+ "伸": {
+  "radical": "亻",
+  "decomposition": "⿰亻申"
+ },
+ "升": {
+  "radical": "十",
+  "decomposition": "⿻十？"
+ },
+ "绳": {
+  "radical": "纟",
+  "decomposition": "⿰纟黾"
+ },
+ "眠": {
+  "radical": "目",
+  "decomposition": "⿰目民"
+ },
+ "诗": {
+  "radical": "讠",
+  "decomposition": "⿰讠寺"
+ },
+ "石": {
+  "radical": "石",
+  "decomposition": "⿸厂口"
+ },
+ "髦": {
+  "radical": "髟",
+  "decomposition": "⿱髟毛"
+ },
+ "尚": {
+  "radical": "⺌",
+  "decomposition": "⿵⿱⺌冂口"
+ },
+ "践": {
+  "radical": "足",
+  "decomposition": "⿰足戋"
+ },
+ "劲": {
+  "radical": "力",
+  "decomposition": "⿰？力"
+ },
+ "兵": {
+  "radical": "八",
+  "decomposition": "⿱丘八"
+ },
+ "似": {
+  "radical": "亻",
+  "decomposition": "⿰亻以"
+ },
+ "套": {
+  "radical": "大",
+  "decomposition": "⿱大镸"
+ },
+ "寿": {
+  "radical": "寸",
+  "decomposition": "⿸丰寸"
+ },
+ "梳": {
+  "radical": "木",
+  "decomposition": "⿰木㐬"
+ },
+ "蔬": {
+  "radical": "艹",
+  "decomposition": "⿱艹疏"
+ },
+ "摔": {
+  "radical": "扌",
+  "decomposition": "⿰扌率"
+ },
+ "甩": {
+  "radical": "用",
+  "decomposition": "⿻月乚"
+ },
+ "税": {
+  "radical": "禾",
+  "decomposition": "⿰禾兑"
+ },
+ "丝": {
+  "radical": "一",
+  "decomposition": "⿱⿰？？一"
+ },
+ "绸": {
+  "radical": "纟",
+  "decomposition": "⿰纟周"
+ },
+ "毫": {
+  "radical": "毛",
+  "decomposition": "⿱⿳亠口冖毛"
+ },
+ "私": {
+  "radical": "禾",
+  "decomposition": "⿰禾厶"
+ },
+ "撕": {
+  "radical": "扌",
+  "decomposition": "⿰扌斯"
+ },
+ "寺": {
+  "radical": "寸",
+  "decomposition": "⿱土寸"
+ },
+ "庙": {
+  "radical": "广",
+  "decomposition": "⿸广由"
+ },
+ "宿": {
+  "radical": "宀",
+  "decomposition": "⿱宀佰"
+ },
+ "碎": {
+  "radical": "石",
+  "decomposition": "⿰石卒"
+ },
+ "损": {
+  "radical": "扌",
+  "decomposition": "⿰扌员"
+ },
+ "缩": {
+  "radical": "纟",
+  "decomposition": "⿰纟宿"
+ },
+ "谓": {
+  "radical": "讠",
+  "decomposition": "⿰讠胃"
+ },
+ "锁": {
+  "radical": "钅",
+  "decomposition": "⿰钅⿱⺌贝"
+ },
+ "塔": {
+  "radical": "土",
+  "decomposition": "⿰土荅"
+ },
+ "拳": {
+  "radical": "手",
+  "decomposition": "⿱龹手"
+ },
+ "坦": {
+  "radical": "土",
+  "decomposition": "⿰土旦"
+ },
+ "烫": {
+  "radical": "火",
+  "decomposition": "⿱汤火"
+ },
+ "逃": {
+  "radical": "辶",
+  "decomposition": "⿺辶兆"
+ },
+ "桃": {
+  "radical": "木",
+  "decomposition": "⿰木兆"
+ },
+ "殊": {
+  "radical": "歹",
+  "decomposition": "⿰歹朱"
+ },
+ "征": {
+  "radical": "彳",
+  "decomposition": "⿰彳正"
+ },
+ "倡": {
+  "radical": "亻",
+  "decomposition": "⿰亻昌"
+ },
+ "纲": {
+  "radical": "纟",
+  "decomposition": "⿰纟冈"
+ },
+ "贴": {
+  "radical": "贝",
+  "decomposition": "⿰贝占"
+ },
+ "田": {
+  "radical": "田",
+  "decomposition": "⿵冂土"
+ },
+ "野": {
+  "radical": "里",
+  "decomposition": "⿰里予"
+ },
+ "挑": {
+  "radical": "扌",
+  "decomposition": "⿰扌兆"
+ },
+ "战": {
+  "radical": "戈",
+  "decomposition": "⿰占戈"
+ },
+ "讯": {
+  "radical": "讠",
+  "decomposition": "⿰讠卂"
+ },
+ "铜": {
+  "radical": "钅",
+  "decomposition": "⿰钅同"
+ },
+ "治": {
+  "radical": "氵",
+  "decomposition": "⿰氵台"
+ },
+ "痛": {
+  "radical": "疒",
+  "decomposition": "⿸疒甬"
+ },
+ "投": {
+  "radical": "扌",
+  "decomposition": "⿰扌殳"
+ },
+ "透": {
+  "radical": "辶",
+  "decomposition": "⿺辶秀"
+ },
+ "土": {
+  "radical": "土",
+  "decomposition": "⿱十一"
+ },
+ "吐": {
+  "radical": "口",
+  "decomposition": "⿰口土"
+ },
+ "兔": {
+  "radical": "儿",
+  "decomposition": "⿸免丶"
+ },
+ "团": {
+  "radical": "囗",
+  "decomposition": "⿴囗才"
+ },
+ "荐": {
+  "radical": "艹",
+  "decomposition": "⿱艹存"
+ },
+ "退": {
+  "radical": "辶",
+  "decomposition": "⿺辶艮"
+ },
+ "歪": {
+  "radical": "止",
+  "decomposition": "⿱不正"
+ },
+ "王": {
+  "radical": "王",
+  "decomposition": "⿱一土"
+ },
+ "返": {
+  "radical": "辶",
+  "decomposition": "⿺辶反"
+ },
+ "威": {
+  "radical": "女",
+  "decomposition": "⿻戌女"
+ },
+ "胁": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼办"
+ },
+ "违": {
+  "radical": "辶",
+  "decomposition": "⿺辶韦"
+ },
+ "唯": {
+  "radical": "口",
+  "decomposition": "⿰口隹"
+ },
+ "维": {
+  "radical": "纟",
+  "decomposition": "⿰纟隹"
+ },
+ "伟": {
+  "radical": "亻",
+  "decomposition": "⿰亻韦"
+ },
+ "尾": {
+  "radical": "尸",
+  "decomposition": "⿸尸毛"
+ },
+ "巴": {
+  "radical": "巳",
+  "decomposition": "⿻巳？"
+ },
+ "委": {
+  "radical": "女",
+  "decomposition": "⿱禾女"
+ },
+ "屈": {
+  "radical": "尸",
+  "decomposition": "⿸尸出"
+ },
+ "卫": {
+  "radical": "乛",
+  "decomposition": "⿱乛一"
+ },
+ "未": {
+  "radical": "木",
+  "decomposition": "⿻一木"
+ },
+ "置": {
+  "radical": "罒",
+  "decomposition": "⿱罒直"
+ },
+ "胃": {
+  "radical": "⺼",
+  "decomposition": "⿱田⺼"
+ },
+ "柔": {
+  "radical": "木",
+  "decomposition": "⿱矛木"
+ },
+ "吻": {
+  "radical": "口",
+  "decomposition": "⿰口勿"
+ },
+ "稳": {
+  "radical": "禾",
+  "decomposition": "⿰禾急"
+ },
+ "卧": {
+  "radical": "臣",
+  "decomposition": "⿰臣卜"
+ },
+ "屋": {
+  "radical": "尸",
+  "decomposition": "⿸尸至"
+ },
+ "奈": {
+  "radical": "大",
+  "decomposition": "⿱大示"
+ },
+ "武": {
+  "radical": "止",
+  "decomposition": "⿸一⿹弋止"
+ },
+ "雾": {
+  "radical": "雨",
+  "decomposition": "⿱雨务"
+ },
+ "瞎": {
+  "radical": "目",
+  "decomposition": "⿰目害"
+ },
+ "载": {
+  "radical": "戈",
+  "decomposition": "⿹哉车"
+ },
+ "吓": {
+  "radical": "口",
+  "decomposition": "⿰口下"
+ },
+ "艳": {
+  "radical": "色",
+  "decomposition": "⿰丰色"
+ },
+ "县": {
+  "radical": "厶",
+  "decomposition": "⿱且厶"
+ },
+ "享": {
+  "radical": "亠",
+  "decomposition": "⿳亠口子"
+ },
+ "项": {
+  "radical": "页",
+  "decomposition": "⿰工页"
+ },
+ "链": {
+  "radical": "钅",
+  "decomposition": "⿰钅连"
+ },
+ "棋": {
+  "radical": "木",
+  "decomposition": "⿰木其"
+ },
+ "橡": {
+  "radical": "木",
+  "decomposition": "⿰木象"
+ },
+ "灭": {
+  "radical": "火",
+  "decomposition": "⿱一火"
+ },
+ "销": {
+  "radical": "钅",
+  "decomposition": "⿰钅肖"
+ },
+ "偷": {
+  "radical": "亻",
+  "decomposition": "⿰亻俞"
+ },
+ "孝": {
+  "radical": "子",
+  "decomposition": "⿸耂子"
+ },
+ "歇": {
+  "radical": "欠",
+  "decomposition": "⿰曷欠"
+ },
+ "协": {
+  "radical": "十",
+  "decomposition": "⿰十办"
+ },
+ "斜": {
+  "radical": "斗",
+  "decomposition": "⿰余斗"
+ },
+ "欣": {
+  "radical": "欠",
+  "decomposition": "⿰斤欠"
+ },
+ "赏": {
+  "radical": "贝",
+  "decomposition": "⿱尚贝"
+ },
+ "封": {
+  "radical": "寸",
+  "decomposition": "⿰圭寸"
+ },
+ "形": {
+  "radical": "彡",
+  "decomposition": "⿰开彡"
+ },
+ "状": {
+  "radical": "犬",
+  "decomposition": "⿰丬犬"
+ },
+ "兄": {
+  "radical": "儿",
+  "decomposition": "⿱口儿"
+ },
+ "胸": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼匈"
+ },
+ "雄": {
+  "radical": "隹",
+  "decomposition": "⿰厷隹"
+ },
+ "叙": {
+  "radical": "又",
+  "decomposition": "⿰余又"
+ },
+ "述": {
+  "radical": "辶",
+  "decomposition": "⿺辶术"
+ },
+ "宣": {
+  "radical": "宀",
+  "decomposition": "⿱宀亘"
+ },
+ "寻": {
+  "radical": "彐",
+  "decomposition": "⿱彐寸"
+ },
+ "询": {
+  "radical": "讠",
+  "decomposition": "⿰讠旬"
+ },
+ "迅": {
+  "radical": "辶",
+  "decomposition": "⿺辶卂"
+ },
+ "延": {
+  "radical": "廴",
+  "decomposition": "⿱丿㢟"
+ },
+ "肃": {
+  "radical": "肀",
+  "decomposition": "⿱肀？"
+ },
+ "宴": {
+  "radical": "宀",
+  "decomposition": "⿱宀妟"
+ },
+ "痒": {
+  "radical": "疒",
+  "decomposition": "⿸疒羊"
+ },
+ "腰": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼要"
+ },
+ "摇": {
+  "radical": "扌",
+  "decomposition": "⿰扌䍃"
+ },
+ "咬": {
+  "radical": "口",
+  "decomposition": "⿰口交"
+ },
+ "夜": {
+  "radical": "夕",
+  "decomposition": "⿱亠⿰亻夕"
+ },
+ "液": {
+  "radical": "氵",
+  "decomposition": "⿰氵夜"
+ },
+ "辈": {
+  "radical": "非",
+  "decomposition": "⿱非车"
+ },
+ "旦": {
+  "radical": "日",
+  "decomposition": "⿱日一"
+ },
+ "依": {
+  "radical": "亻",
+  "decomposition": "⿰亻衣"
+ },
+ "移": {
+  "radical": "禾",
+  "decomposition": "⿰禾多"
+ },
+ "遗": {
+  "radical": "辶",
+  "decomposition": "⿺辶贵"
+ },
+ "憾": {
+  "radical": "忄",
+  "decomposition": "⿰忄感"
+ },
+ "乙": {
+  "radical": "乙",
+  "decomposition": "？"
+ },
+ "义": {
+  "radical": "丿",
+  "decomposition": "⿻丶乂"
+ },
+ "英": {
+  "radical": "艹",
+  "decomposition": "⿱艹央"
+ },
+ "俊": {
+  "radical": "亻",
+  "decomposition": "⿰亻夋"
+ },
+ "拥": {
+  "radical": "扌",
+  "decomposition": "⿰扌用"
+ },
+ "挤": {
+  "radical": "扌",
+  "decomposition": "⿰扌齐"
+ },
+ "惠": {
+  "radical": "心",
+  "decomposition": "⿱？心"
+ },
+ "悠": {
+  "radical": "心",
+  "decomposition": "⿱攸心"
+ },
+ "犹": {
+  "radical": "犭",
+  "decomposition": "⿰犭尤"
+ },
+ "豫": {
+  "radical": "豕",
+  "decomposition": "⿰予象"
+ },
+ "邮": {
+  "radical": "阝",
+  "decomposition": "⿰由阝"
+ },
+ "局": {
+  "radical": "尸",
+  "decomposition": "⿵尺口"
+ },
+ "炸": {
+  "radical": "火",
+  "decomposition": "⿰火乍"
+ },
+ "幼": {
+  "radical": "幺",
+  "decomposition": "⿰幺力"
+ },
+ "娱": {
+  "radical": "女",
+  "decomposition": "⿰女吴"
+ },
+ "宇": {
+  "radical": "宀",
+  "decomposition": "⿱宀于"
+ },
+ "宙": {
+  "radical": "宀",
+  "decomposition": "⿱宀由"
+ },
+ "玉": {
+  "radical": "玉",
+  "decomposition": "⿻王丶"
+ },
+ "订": {
+  "radical": "讠",
+  "decomposition": "⿰讠丁"
+ },
+ "防": {
+  "radical": "阝",
+  "decomposition": "⿰阝方"
+ },
+ "缘": {
+  "radical": "纟",
+  "decomposition": "⿰纟彖"
+ },
+ "晕": {
+  "radical": "日",
+  "decomposition": "⿱日军"
+ },
+ "灾": {
+  "radical": "火",
+  "decomposition": "⿱宀火"
+ },
+ "糟": {
+  "radical": "米",
+  "decomposition": "⿰米曹"
+ },
+ "摘": {
+  "radical": "扌",
+  "decomposition": "⿰扌啇"
+ },
+ "粘": {
+  "radical": "米",
+  "decomposition": "⿰米占"
+ },
+ "占": {
+  "radical": "⺊",
+  "decomposition": "⿱⺊口"
+ },
+ "线": {
+  "radical": "纟",
+  "decomposition": "⿰纟戋"
+ },
+ "涨": {
+  "radical": "氵",
+  "decomposition": "⿰氵张"
+ },
+ "召": {
+  "radical": "口",
+  "decomposition": "⿱刀口"
+ },
+ "哲": {
+  "radical": "口",
+  "decomposition": "⿱折口"
+ },
+ "珍": {
+  "radical": "王",
+  "decomposition": "⿰王⿱人彡"
+ },
+ "诊": {
+  "radical": "讠",
+  "decomposition": "⿰讠㐱"
+ },
+ "枕": {
+  "radical": "木",
+  "decomposition": "⿰木冘"
+ },
+ "阵": {
+  "radical": "阝",
+  "decomposition": "⿰阝车"
+ },
+ "振": {
+  "radical": "扌",
+  "decomposition": "⿰扌辰"
+ },
+ "挣": {
+  "radical": "扌",
+  "decomposition": "⿰扌争"
+ },
+ "睁": {
+  "radical": "目",
+  "decomposition": "⿰目争"
+ },
+ "政": {
+  "radical": "攵",
+  "decomposition": "⿰正攵"
+ },
+ "策": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮朿"
+ },
+ "府": {
+  "radical": "广",
+  "decomposition": "⿸广付"
+ },
+ "执": {
+  "radical": "扌",
+  "decomposition": "⿰扌丸"
+ },
+ "疗": {
+  "radical": "疒",
+  "decomposition": "⿸疒了"
+ },
+ "秩": {
+  "radical": "禾",
+  "decomposition": "⿰禾失"
+ },
+ "智": {
+  "radical": "日",
+  "decomposition": "⿱知日"
+ },
+ "慧": {
+  "radical": "心",
+  "decomposition": "⿱彗心"
+ },
+ "旬": {
+  "radical": "日",
+  "decomposition": "⿹勹日"
+ },
+ "竹": {
+  "radical": "竹",
+  "decomposition": "⿰？？"
+ },
+ "煮": {
+  "radical": "灬",
+  "decomposition": "⿱者灬"
+ },
+ "嘱": {
+  "radical": "口",
+  "decomposition": "⿰口属"
+ },
+ "咐": {
+  "radical": "口",
+  "decomposition": "⿰口付"
+ },
+ "抓": {
+  "radical": "扌",
+  "decomposition": "⿰扌爪"
+ },
+ "转": {
+  "radical": "车",
+  "decomposition": "⿰车专"
+ },
+ "饰": {
+  "radical": "饣",
+  "decomposition": "⿰饣⿱？巾"
+ },
+ "追": {
+  "radical": "辶",
+  "decomposition": "⿺辶⿱丿㠯"
+ },
+ "咨": {
+  "radical": "口",
+  "decomposition": "⿱次口"
+ },
+ "姿": {
+  "radical": "女",
+  "decomposition": "⿱次女"
+ },
+ "紫": {
+  "radical": "糸",
+  "decomposition": "⿱此糸"
+ },
+ "宗": {
+  "radical": "宀",
+  "decomposition": "⿱宀示"
+ },
+ "综": {
+  "radical": "纟",
+  "decomposition": "⿰纟宗"
+ },
+ "裁": {
+  "radical": "衣",
+  "decomposition": "⿹⿱十戈衣"
+ },
+ "阻": {
+  "radical": "阝",
+  "decomposition": "⿰阝且"
+ },
+ "祖": {
+  "radical": "礻",
+  "decomposition": "⿰礻且"
+ },
+ "罪": {
+  "radical": "罒",
+  "decomposition": "⿱罒非"
+ },
+ "犯": {
+  "radical": "犭",
+  "decomposition": "⿰犭㔾"
+ },
+ "醉": {
+  "radical": "酉",
+  "decomposition": "⿰酉卒"
+ },
+ "遵": {
+  "radical": "辶",
+  "decomposition": "⿺辶尊"
+ },
+ "守": {
+  "radical": "宀",
+  "decomposition": "⿱宀寸"
+ },
+ "呵": {
+  "radical": "口",
+  "decomposition": "⿰口可"
+ },
+ "哎": {
+  "radical": "口",
+  "decomposition": "⿰口艾"
+ },
+ "哟": {
+  "radical": "口",
+  "decomposition": "⿰口约"
+ },
+ "挨": {
+  "radical": "扌",
+  "decomposition": "⿰扌矣"
+ },
+ "癌": {
+  "radical": "疒",
+  "decomposition": "⿸疒嵒"
+ },
+ "症": {
+  "radical": "疒",
+  "decomposition": "⿸疒正"
+ },
+ "暧": {
+  "radical": "日",
+  "decomposition": "⿰日爱"
+ },
+ "昧": {
+  "radical": "日",
+  "decomposition": "⿰日未"
+ },
+ "昂": {
+  "radical": "日",
+  "decomposition": "⿱日卬"
+ },
+ "凹": {
+  "radical": "凵",
+  "decomposition": "⿱？一"
+ },
+ "凸": {
+  "radical": "凵",
+  "decomposition": "⿱⿰？？一"
+ },
+ "熬": {
+  "radical": "灬",
+  "decomposition": "⿱敖灬"
+ },
+ "奥": {
+  "radical": "大",
+  "decomposition": "⿱⿵宀米大"
+ },
+ "扒": {
+  "radical": "扌",
+  "decomposition": "⿰扌八"
+ },
+ "疤": {
+  "radical": "疒",
+  "decomposition": "⿸疒巴"
+ },
+ "拔": {
+  "radical": "扌",
+  "decomposition": "⿰扌犮"
+ },
+ "霸": {
+  "radical": "雨",
+  "decomposition": "⿱雨⿰革月"
+ },
+ "罢": {
+  "radical": "罒",
+  "decomposition": "⿱罒去"
+ },
+ "掰": {
+  "radical": "手",
+  "decomposition": "⿲手分手"
+ },
+ "颁": {
+  "radical": "页",
+  "decomposition": "⿰分页"
+ },
+ "斑": {
+  "radical": "文",
+  "decomposition": "⿲王文王"
+ },
+ "纹": {
+  "radical": "纟",
+  "decomposition": "⿰纟文"
+ },
+ "侣": {
+  "radical": "亻",
+  "decomposition": "⿰亻吕"
+ },
+ "绑": {
+  "radical": "纟",
+  "decomposition": "⿰纟邦"
+ },
+ "榜": {
+  "radical": "木",
+  "decomposition": "⿰木旁"
+ },
+ "磅": {
+  "radical": "石",
+  "decomposition": "⿰石旁"
+ },
+ "庇": {
+  "radical": "广",
+  "decomposition": "⿸广比"
+ },
+ "袱": {
+  "radical": "衤",
+  "decomposition": "⿰衤伏"
+ },
+ "沧": {
+  "radical": "氵",
+  "decomposition": "⿰氵仓"
+ },
+ "桑": {
+  "radical": "木",
+  "decomposition": "⿱叒木"
+ },
+ "姆": {
+  "radical": "女",
+  "decomposition": "⿰女母"
+ },
+ "障": {
+  "radical": "阝",
+  "decomposition": "⿰阝章"
+ },
+ "仇": {
+  "radical": "亻",
+  "decomposition": "⿰亻九"
+ },
+ "酬": {
+  "radical": "酉",
+  "decomposition": "⿰酉州"
+ },
+ "怨": {
+  "radical": "心",
+  "decomposition": "⿱夗心"
+ },
+ "暴": {
+  "radical": "日",
+  "decomposition": "⿱日⿱共水"
+ },
+ "爆": {
+  "radical": "火",
+  "decomposition": "⿰火暴"
+ },
+ "卑": {
+  "radical": "十",
+  "decomposition": "⿱白十"
+ },
+ "鄙": {
+  "radical": "阝",
+  "decomposition": "⿰啚阝"
+ },
+ "哀": {
+  "radical": "口",
+  "decomposition": "⿻衣口"
+ },
+ "惨": {
+  "radical": "忄",
+  "decomposition": "⿰忄参"
+ },
+ "壳": {
+  "radical": "士",
+  "decomposition": "⿱士冗"
+ },
+ "叛": {
+  "radical": "又",
+  "decomposition": "⿰半反"
+ },
+ "诵": {
+  "radical": "讠",
+  "decomposition": "⿰讠甬"
+ },
+ "奔": {
+  "radical": "大",
+  "decomposition": "⿱大卉"
+ },
+ "波": {
+  "radical": "氵",
+  "decomposition": "⿰氵皮"
+ },
+ "驰": {
+  "radical": "马",
+  "decomposition": "⿰马也"
+ },
+ "拙": {
+  "radical": "扌",
+  "decomposition": "⿰扌出"
+ },
+ "崩": {
+  "radical": "山",
+  "decomposition": "⿱山朋"
+ },
+ "溃": {
+  "radical": "氵",
+  "decomposition": "⿰氵贵"
+ },
+ "甭": {
+  "radical": "用",
+  "decomposition": "⿱不用"
+ },
+ "迸": {
+  "radical": "辶",
+  "decomposition": "⿺辶并"
+ },
+ "蹦": {
+  "radical": "足",
+  "decomposition": "⿰足崩"
+ },
+ "逼": {
+  "radical": "辶",
+  "decomposition": "⿺辶畐"
+ },
+ "涕": {
+  "radical": "氵",
+  "decomposition": "⿰氵弟"
+ },
+ "喻": {
+  "radical": "口",
+  "decomposition": "⿰口俞"
+ },
+ "塞": {
+  "radical": "土",
+  "decomposition": "⿱宀⿱？土"
+ },
+ "弊": {
+  "radical": "廾",
+  "decomposition": "⿱敝廾"
+ },
+ "端": {
+  "radical": "立",
+  "decomposition": "⿰立耑"
+ },
+ "碧": {
+  "radical": "石",
+  "decomposition": "⿱珀石"
+ },
+ "臂": {
+  "radical": "⺼",
+  "decomposition": "⿱辟⺼"
+ },
+ "疆": {
+  "radical": "田",
+  "decomposition": "⿰⿹弓土畺"
+ },
+ "贬": {
+  "radical": "贝",
+  "decomposition": "⿰贝乏"
+ },
+ "扁": {
+  "radical": "户",
+  "decomposition": "⿸户？"
+ },
+ "迁": {
+  "radical": "辶",
+  "decomposition": "⿺辶千"
+ },
+ "辨": {
+  "radical": "辛",
+  "decomposition": "⿲辛刂辛"
+ },
+ "辫": {
+  "radical": "辛",
+  "decomposition": "⿲辛纟辛"
+ },
+ "飙": {
+  "radical": "风",
+  "decomposition": "⿰猋风"
+ },
+ "彰": {
+  "radical": "彡",
+  "decomposition": "⿰章彡"
+ },
+ "憋": {
+  "radical": "心",
+  "decomposition": "⿱敝心"
+ },
+ "扭": {
+  "radical": "扌",
+  "decomposition": "⿰扌丑"
+ },
+ "墅": {
+  "radical": "土",
+  "decomposition": "⿱野土"
+ },
+ "濒": {
+  "radical": "氵",
+  "decomposition": "⿰氵频"
+ },
+ "雹": {
+  "radical": "雨",
+  "decomposition": "⿱雨包"
+ },
+ "拨": {
+  "radical": "扌",
+  "decomposition": "⿰扌发"
+ },
+ "涛": {
+  "radical": "氵",
+  "decomposition": "⿰氵寿"
+ },
+ "汹": {
+  "radical": "氵",
+  "decomposition": "⿰氵凶"
+ },
+ "涌": {
+  "radical": "氵",
+  "decomposition": "⿰氵甬"
+ },
+ "剥": {
+  "radical": "刂",
+  "decomposition": "⿰录刂"
+ },
+ "削": {
+  "radical": "刂",
+  "decomposition": "⿰肖刂"
+ },
+ "伯": {
+  "radical": "亻",
+  "decomposition": "⿰亻白"
+ },
+ "搏": {
+  "radical": "扌",
+  "decomposition": "⿰扌尃"
+ },
+ "哺": {
+  "radical": "口",
+  "decomposition": "⿰口甫"
+ },
+ "乳": {
+  "radical": "乚",
+  "decomposition": "⿰孚乚"
+ },
+ "捕": {
+  "radical": "扌",
+  "decomposition": "⿰扌甫"
+ },
+ "捉": {
+  "radical": "扌",
+  "decomposition": "⿰扌足"
+ },
+ "堪": {
+  "radical": "土",
+  "decomposition": "⿰土甚"
+ },
+ "屑": {
+  "radical": "尸",
+  "decomposition": "⿸尸肖"
+ },
+ "伐": {
+  "radical": "亻",
+  "decomposition": "⿰亻戈"
+ },
+ "署": {
+  "radical": "罒",
+  "decomposition": "⿱罒者"
+ },
+ "缝": {
+  "radical": "纟",
+  "decomposition": "⿰纟逢"
+ },
+ "纳": {
+  "radical": "纟",
+  "decomposition": "⿰纟内"
+ },
+ "谋": {
+  "radical": "讠",
+  "decomposition": "⿰讠某"
+ },
+ "酷": {
+  "radical": "酉",
+  "decomposition": "⿰酉告"
+ },
+ "灿": {
+  "radical": "火",
+  "decomposition": "⿰火山"
+ },
+ "仓": {
+  "radical": "人",
+  "decomposition": "⿱人㔾"
+ },
+ "苍": {
+  "radical": "艹",
+  "decomposition": "⿱艹仓"
+ },
+ "舱": {
+  "radical": "舟",
+  "decomposition": "⿰舟仓"
+ },
+ "纵": {
+  "radical": "纟",
+  "decomposition": "⿰纟从"
+ },
+ "嘈": {
+  "radical": "口",
+  "decomposition": "⿰口曹"
+ },
+ "侧": {
+  "radical": "亻",
+  "decomposition": "⿰亻则"
+ },
+ "岔": {
+  "radical": "山",
+  "decomposition": "⿱分山"
+ },
+ "诧": {
+  "radical": "讠",
+  "decomposition": "⿰讠宅"
+ },
+ "异": {
+  "radical": "廾",
+  "decomposition": "⿱巳廾"
+ },
+ "搀": {
+  "radical": "扌",
+  "decomposition": "⿰扌⿱免⺀"
+ },
+ "馋": {
+  "radical": "饣",
+  "decomposition": "⿰饣⿱兔？"
+ },
+ "缠": {
+  "radical": "纟",
+  "decomposition": "⿰纟㢆"
+ },
+ "阐": {
+  "radical": "门",
+  "decomposition": "⿵门单"
+ },
+ "颤": {
+  "radical": "页",
+  "decomposition": "⿰亶页"
+ },
+ "昌": {
+  "radical": "日",
+  "decomposition": "⿱日曰"
+ },
+ "盛": {
+  "radical": "皿",
+  "decomposition": "⿱成皿"
+ },
+ "猖": {
+  "radical": "犭",
+  "decomposition": "⿰犭昌"
+ },
+ "畅": {
+  "radical": "日",
+  "decomposition": "⿰申昜"
+ },
+ "敞": {
+  "radical": "攵",
+  "decomposition": "⿰尚攵"
+ },
+ "钞": {
+  "radical": "钅",
+  "decomposition": "⿰钅少"
+ },
+ "蓬": {
+  "radical": "艹",
+  "decomposition": "⿱艹逢"
+ },
+ "勃": {
+  "radical": "力",
+  "decomposition": "⿰孛力"
+ },
+ "嘲": {
+  "radical": "口",
+  "decomposition": "⿰口朝"
+ },
+ "潮": {
+  "radical": "氵",
+  "decomposition": "⿰氵朝"
+ },
+ "撤": {
+  "radical": "扌",
+  "decomposition": "⿲扌育攵"
+ },
+ "淀": {
+  "radical": "氵",
+  "decomposition": "⿰氵定"
+ },
+ "闷": {
+  "radical": "门",
+  "decomposition": "⿵门心"
+ },
+ "陈": {
+  "radical": "阝",
+  "decomposition": "⿰阝东"
+ },
+ "呈": {
+  "radical": "口",
+  "decomposition": "⿱口王"
+ },
+ "诺": {
+  "radical": "讠",
+  "decomposition": "⿰讠若"
+ },
+ "挚": {
+  "radical": "手",
+  "decomposition": "⿱执手"
+ },
+ "堡": {
+  "radical": "土",
+  "decomposition": "⿱保土"
+ },
+ "惩": {
+  "radical": "心",
+  "decomposition": "⿱征心"
+ },
+ "澄": {
+  "radical": "氵",
+  "decomposition": "⿰氵登"
+ },
+ "橙": {
+  "radical": "木",
+  "decomposition": "⿰木登"
+ },
+ "秤": {
+  "radical": "禾",
+  "decomposition": "⿰禾平"
+ },
+ "塘": {
+  "radical": "土",
+  "decomposition": "⿰土唐"
+ },
+ "赤": {
+  "radical": "赤",
+  "decomposition": "⿱土火"
+ },
+ "沛": {
+  "radical": "氵",
+  "decomposition": "⿰氵巿"
+ },
+ "崇": {
+  "radical": "山",
+  "decomposition": "⿱山宗"
+ },
+ "稠": {
+  "radical": "禾",
+  "decomposition": "⿰禾周"
+ },
+ "筹": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮寿"
+ },
+ "踌": {
+  "radical": "足",
+  "decomposition": "⿰足寿"
+ },
+ "躇": {
+  "radical": "足",
+  "decomposition": "⿰足著"
+ },
+ "储": {
+  "radical": "亻",
+  "decomposition": "⿰亻诸"
+ },
+ "蓄": {
+  "radical": "艹",
+  "decomposition": "⿱艹畜"
+ },
+ "畜": {
+  "radical": "田",
+  "decomposition": "⿱玄田"
+ },
+ "牧": {
+  "radical": "牛",
+  "decomposition": "⿰牛攵"
+ },
+ "川": {
+  "radical": "川",
+  "decomposition": "⿲丿丨丨"
+ },
+ "舶": {
+  "radical": "舟",
+  "decomposition": "⿰舟白"
+ },
+ "喘": {
+  "radical": "口",
+  "decomposition": "⿰口耑"
+ },
+ "串": {
+  "radical": "丨",
+  "decomposition": "⿻⿱口口丨"
+ },
+ "幢": {
+  "radical": "巾",
+  "decomposition": "⿰巾童"
+ },
+ "捧": {
+  "radical": "扌",
+  "decomposition": "⿰扌奉"
+ },
+ "垂": {
+  "radical": "土",
+  "decomposition": "⿻⿱？士卄"
+ },
+ "锤": {
+  "radical": "钅",
+  "decomposition": "⿰钅垂"
+ },
+ "粹": {
+  "radical": "米",
+  "decomposition": "⿰米卒"
+ },
+ "洁": {
+  "radical": "氵",
+  "decomposition": "⿰氵吉"
+ },
+ "慈": {
+  "radical": "心",
+  "decomposition": "⿱兹心"
+ },
+ "祥": {
+  "radical": "礻",
+  "decomposition": "⿰礻羊"
+ },
+ "雌": {
+  "radical": "隹",
+  "decomposition": "⿰此隹"
+ },
+ "伺": {
+  "radical": "亻",
+  "decomposition": "⿰亻司"
+ },
+ "丛": {
+  "radical": "一",
+  "decomposition": "⿱从一"
+ },
+ "凑": {
+  "radical": "冫",
+  "decomposition": "⿰冫奏"
+ },
+ "鲁": {
+  "radical": "鱼",
+  "decomposition": "⿱鱼日"
+ },
+ "窜": {
+  "radical": "穴",
+  "decomposition": "⿱穴串"
+ },
+ "摧": {
+  "radical": "扌",
+  "decomposition": "⿰扌崔"
+ },
+ "搓": {
+  "radical": "扌",
+  "decomposition": "⿰扌差"
+ },
+ "磋": {
+  "radical": "石",
+  "decomposition": "⿰石差"
+ },
+ "挫": {
+  "radical": "扌",
+  "decomposition": "⿰扌坐"
+ },
+ "搭": {
+  "radical": "扌",
+  "decomposition": "⿰扌荅"
+ },
+ "猎": {
+  "radical": "犭",
+  "decomposition": "⿰犭昔"
+ },
+ "仗": {
+  "radical": "亻",
+  "decomposition": "⿰亻丈"
+ },
+ "臣": {
+  "radical": "臣",
+  "decomposition": "⿷匚⿻⿱丨丨？"
+ },
+ "厦": {
+  "radical": "厂",
+  "decomposition": "⿸厂夏"
+ },
+ "肆": {
+  "radical": "聿",
+  "decomposition": "⿰镸聿"
+ },
+ "歹": {
+  "radical": "歹",
+  "decomposition": "⿱一夕"
+ },
+ "徒": {
+  "radical": "彳",
+  "decomposition": "⿰彳走"
+ },
+ "逮": {
+  "radical": "辶",
+  "decomposition": "⿺辶隶"
+ },
+ "怠": {
+  "radical": "心",
+  "decomposition": "⿱台心"
+ },
+ "怯": {
+  "radical": "忄",
+  "decomposition": "⿰忄去"
+ },
+ "诞": {
+  "radical": "讠",
+  "decomposition": "⿰讠延"
+ },
+ "辰": {
+  "radical": "辰",
+  "decomposition": "⿸厂⿱二？"
+ },
+ "党": {
+  "radical": "儿",
+  "decomposition": "⿻尚兄"
+ },
+ "屿": {
+  "radical": "山",
+  "decomposition": "⿰山与"
+ },
+ "捣": {
+  "radical": "扌",
+  "decomposition": "⿰扌岛"
+ },
+ "盗": {
+  "radical": "皿",
+  "decomposition": "⿱次皿"
+ },
+ "窃": {
+  "radical": "穴",
+  "decomposition": "⿱穴切"
+ },
+ "稻": {
+  "radical": "禾",
+  "decomposition": "⿰禾舀"
+ },
+ "谷": {
+  "radical": "谷",
+  "decomposition": "⿱八⿱人口"
+ },
+ "笼": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮龙"
+ },
+ "蹬": {
+  "radical": "足",
+  "decomposition": "⿰足登"
+ },
+ "瞪": {
+  "radical": "目",
+  "decomposition": "⿰目登"
+ },
+ "堤": {
+  "radical": "土",
+  "decomposition": "⿰土是"
+ },
+ "坝": {
+  "radical": "土",
+  "decomposition": "⿰土贝"
+ },
+ "抵": {
+  "radical": "扌",
+  "decomposition": "⿰扌氐"
+ },
+ "颠": {
+  "radical": "页",
+  "decomposition": "⿰真页"
+ },
+ "簸": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮⿰其皮"
+ },
+ "缀": {
+  "radical": "纟",
+  "decomposition": "⿰纟叕"
+ },
+ "垫": {
+  "radical": "土",
+  "decomposition": "⿱执土"
+ },
+ "惦": {
+  "radical": "忄",
+  "decomposition": "⿰忄店"
+ },
+ "奠": {
+  "radical": "大",
+  "decomposition": "⿱酋大"
+ },
+ "叼": {
+  "radical": "口",
+  "decomposition": "⿰口刁"
+ },
+ "雕": {
+  "radical": "隹",
+  "decomposition": "⿰周隹"
+ },
+ "吊": {
+  "radical": "口",
+  "decomposition": "⿱口巾"
+ },
+ "剂": {
+  "radical": "刂",
+  "decomposition": "⿰齐刂"
+ },
+ "跌": {
+  "radical": "足",
+  "decomposition": "⿰足失"
+ },
+ "叮": {
+  "radical": "口",
+  "decomposition": "⿰口丁"
+ },
+ "盯": {
+  "radical": "目",
+  "decomposition": "⿰目丁"
+ },
+ "董": {
+  "radical": "艹",
+  "decomposition": "⿱艹重"
+ },
+ "荡": {
+  "radical": "艹",
+  "decomposition": "⿱艹汤"
+ },
+ "脉": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼永"
+ },
+ "栋": {
+  "radical": "木",
+  "decomposition": "⿰木东"
+ },
+ "穴": {
+  "radical": "穴",
+  "decomposition": "⿱宀八"
+ },
+ "兜": {
+  "radical": "儿",
+  "decomposition": "⿱⿴？白儿"
+ },
+ "陡": {
+  "radical": "阝",
+  "decomposition": "⿰阝走"
+ },
+ "峭": {
+  "radical": "山",
+  "decomposition": "⿰山肖"
+ },
+ "督": {
+  "radical": "目",
+  "decomposition": "⿱叔目"
+ },
+ "赌": {
+  "radical": "贝",
+  "decomposition": "⿰贝者"
+ },
+ "杜": {
+  "radical": "木",
+  "decomposition": "⿰木土"
+ },
+ "伍": {
+  "radical": "亻",
+  "decomposition": "⿰亻五"
+ },
+ "兑": {
+  "radical": "儿",
+  "decomposition": "⿱丷兄"
+ },
+ "哆": {
+  "radical": "口",
+  "decomposition": "⿰口多"
+ },
+ "嗦": {
+  "radical": "口",
+  "decomposition": "⿰口索"
+ },
+ "堕": {
+  "radical": "土",
+  "decomposition": "⿱陏土"
+ },
+ "额": {
+  "radical": "页",
+  "decomposition": "⿰客页"
+ },
+ "掠": {
+  "radical": "扌",
+  "decomposition": "⿰扌京"
+ },
+ "夺": {
+  "radical": "大",
+  "decomposition": "⿱大寸"
+ },
+ "遏": {
+  "radical": "辶",
+  "decomposition": "⿺辶曷"
+ },
+ "恩": {
+  "radical": "心",
+  "decomposition": "⿱因心"
+ },
+ "氧": {
+  "radical": "气",
+  "decomposition": "⿹气羊"
+ },
+ "碳": {
+  "radical": "石",
+  "decomposition": "⿰石炭"
+ },
+ "誓": {
+  "radical": "言",
+  "decomposition": "⿱折言"
+ },
+ "炎": {
+  "radical": "火",
+  "decomposition": "⿱火火"
+ },
+ "番": {
+  "radical": "田",
+  "decomposition": "⿱⿱？米田"
+ },
+ "殖": {
+  "radical": "歹",
+  "decomposition": "⿰歹直"
+ },
+ "驳": {
+  "radical": "马",
+  "decomposition": "⿰马爻"
+ },
+ "馈": {
+  "radical": "饣",
+  "decomposition": "⿰饣贵"
+ },
+ "滥": {
+  "radical": "氵",
+  "decomposition": "⿰氵监"
+ },
+ "畴": {
+  "radical": "田",
+  "decomposition": "⿰田寿"
+ },
+ "贩": {
+  "radical": "贝",
+  "decomposition": "⿰贝反"
+ },
+ "疫": {
+  "radical": "疒",
+  "decomposition": "⿸疒殳"
+ },
+ "御": {
+  "radical": "彳",
+  "decomposition": "⿰彳卸"
+ },
+ "纺": {
+  "radical": "纟",
+  "decomposition": "⿰纟方"
+ },
+ "禽": {
+  "radical": "禸",
+  "decomposition": "⿱人离"
+ },
+ "兽": {
+  "radical": "丷",
+  "decomposition": "⿱⿱丷田⿱一口"
+ },
+ "翔": {
+  "radical": "羽",
+  "decomposition": "⿰羊羽"
+ },
+ "沃": {
+  "radical": "氵",
+  "decomposition": "⿰氵夭"
+ },
+ "匪": {
+  "radical": "匚",
+  "decomposition": "⿷匚非"
+ },
+ "诽": {
+  "radical": "讠",
+  "decomposition": "⿰讠非"
+ },
+ "谤": {
+  "radical": "讠",
+  "decomposition": "⿰讠旁"
+ },
+ "墟": {
+  "radical": "土",
+  "decomposition": "⿰土虚"
+ },
+ "沸": {
+  "radical": "氵",
+  "decomposition": "⿰氵弗"
+ },
+ "腾": {
+  "radical": "⺼",
+  "decomposition": "⿸朕马"
+ },
+ "寸": {
+  "radical": "寸",
+  "decomposition": "？"
+ },
+ "裂": {
+  "radical": "衣",
+  "decomposition": "⿱列衣"
+ },
+ "泌": {
+  "radical": "氵",
+  "decomposition": "⿰氵必"
+ },
+ "歧": {
+  "radical": "止",
+  "decomposition": "⿰止支"
+ },
+ "吩": {
+  "radical": "口",
+  "decomposition": "⿰口分"
+ },
+ "坟": {
+  "radical": "土",
+  "decomposition": "⿰土文"
+ },
+ "墓": {
+  "radical": "土",
+  "decomposition": "⿱莫土"
+ },
+ "粉": {
+  "radical": "米",
+  "decomposition": "⿰米分"
+ },
+ "锋": {
+  "radical": "钅",
+  "decomposition": "⿰钅夆"
+ },
+ "逢": {
+  "radical": "辶",
+  "decomposition": "⿺辶夆"
+ },
+ "奉": {
+  "radical": "大",
+  "decomposition": "⿱⿻？大？"
+ },
+ "敷": {
+  "radical": "攵",
+  "decomposition": "⿰旉攵"
+ },
+ "衍": {
+  "radical": "行",
+  "decomposition": "⿻行氵"
+ },
+ "俘": {
+  "radical": "亻",
+  "decomposition": "⿰亻孚"
+ },
+ "虏": {
+  "radical": "虍",
+  "decomposition": "⿸虍力"
+ },
+ "辐": {
+  "radical": "车",
+  "decomposition": "⿰车畐"
+ },
+ "抚": {
+  "radical": "扌",
+  "decomposition": "⿰扌无"
+ },
+ "俯": {
+  "radical": "亻",
+  "decomposition": "⿰亻府"
+ },
+ "仰": {
+  "radical": "亻",
+  "decomposition": "⿰亻卬"
+ },
+ "蚀": {
+  "radical": "饣",
+  "decomposition": "⿰饣虫"
+ },
+ "朽": {
+  "radical": "木",
+  "decomposition": "⿰木丂"
+ },
+ "副": {
+  "radical": "刂",
+  "decomposition": "⿰畐刂"
+ },
+ "裕": {
+  "radical": "衤",
+  "decomposition": "⿰衤谷"
+ },
+ "赋": {
+  "radical": "贝",
+  "decomposition": "⿰贝武"
+ },
+ "予": {
+  "radical": "亅",
+  "decomposition": "⿱？丁"
+ },
+ "腹": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼复"
+ },
+ "泻": {
+  "radical": "氵",
+  "decomposition": "⿰氵写"
+ },
+ "覆": {
+  "radical": "覀",
+  "decomposition": "⿱覀復"
+ },
+ "甘": {
+  "radical": "甘",
+  "decomposition": "⿵卄二"
+ },
+ "尴": {
+  "radical": "尢",
+  "decomposition": "⿺尢监"
+ },
+ "尬": {
+  "radical": "尢",
+  "decomposition": "⿺尢介"
+ },
+ "慨": {
+  "radical": "忄",
+  "decomposition": "⿰忄既"
+ },
+ "旱": {
+  "radical": "日",
+  "decomposition": "⿱日干"
+ },
+ "涉": {
+  "radical": "氵",
+  "decomposition": "⿰氵步"
+ },
+ "杠": {
+  "radical": "木",
+  "decomposition": "⿰木工"
+ },
+ "杆": {
+  "radical": "木",
+  "decomposition": "⿰木干"
+ },
+ "岗": {
+  "radical": "山",
+  "decomposition": "⿱山冈"
+ },
+ "港": {
+  "radical": "氵",
+  "decomposition": "⿰氵巷"
+ },
+ "湾": {
+  "radical": "氵",
+  "decomposition": "⿰氵弯"
+ },
+ "峰": {
+  "radical": "山",
+  "decomposition": "⿰山夆"
+ },
+ "稿": {
+  "radical": "禾",
+  "decomposition": "⿰禾高"
+ },
+ "诫": {
+  "radical": "讠",
+  "decomposition": "⿰讠戒"
+ },
+ "疙": {
+  "radical": "疒",
+  "decomposition": "⿸疒乞"
+ },
+ "瘩": {
+  "radical": "疒",
+  "decomposition": "⿸疒荅"
+ },
+ "割": {
+  "radical": "刂",
+  "decomposition": "⿰害刂"
+ },
+ "搁": {
+  "radical": "扌",
+  "decomposition": "⿰扌阁"
+ },
+ "颂": {
+  "radical": "页",
+  "decomposition": "⿰公页"
+ },
+ "阂": {
+  "radical": "门",
+  "decomposition": "⿵门亥"
+ },
+ "抒": {
+  "radical": "扌",
+  "decomposition": "⿰扌予"
+ },
+ "蒂": {
+  "radical": "艹",
+  "decomposition": "⿱艹帝"
+ },
+ "踪": {
+  "radical": "足",
+  "decomposition": "⿰足宗"
+ },
+ "耕": {
+  "radical": "耒",
+  "decomposition": "⿰耒井"
+ },
+ "婆": {
+  "radical": "女",
+  "decomposition": "⿱波女"
+ },
+ "攻": {
+  "radical": "攵",
+  "decomposition": "⿰工攵"
+ },
+ "宫": {
+  "radical": "宀",
+  "decomposition": "⿱宀吕"
+ },
+ "殿": {
+  "radical": "殳",
+  "decomposition": "⿰⿸尸共殳"
+ },
+ "恭": {
+  "radical": "⺗",
+  "decomposition": "⿱共⺗"
+ },
+ "巩": {
+  "radical": "工",
+  "decomposition": "⿰工凡"
+ },
+ "鸣": {
+  "radical": "口",
+  "decomposition": "⿰口鸟"
+ },
+ "勾": {
+  "radical": "勹",
+  "decomposition": "⿹勹厶"
+ },
+ "钩": {
+  "radical": "钅",
+  "decomposition": "⿰钅勾"
+ },
+ "辜": {
+  "radical": "辛",
+  "decomposition": "⿱古辛"
+ },
+ "杖": {
+  "radical": "木",
+  "decomposition": "⿰木丈"
+ },
+ "辖": {
+  "radical": "车",
+  "decomposition": "⿰车害"
+ },
+ "贯": {
+  "radical": "贝",
+  "decomposition": "⿱毌贝"
+ },
+ "灌": {
+  "radical": "氵",
+  "decomposition": "⿰氵雚"
+ },
+ "溉": {
+  "radical": "氵",
+  "decomposition": "⿰氵既"
+ },
+ "辉": {
+  "radical": "⺌",
+  "decomposition": "⿰光军"
+ },
+ "芒": {
+  "radical": "艹",
+  "decomposition": "⿱艹亡"
+ },
+ "阔": {
+  "radical": "门",
+  "decomposition": "⿵门活"
+ },
+ "归": {
+  "radical": "彐",
+  "decomposition": "⿰？彐"
+ },
+ "轨": {
+  "radical": "车",
+  "decomposition": "⿰车九"
+ },
+ "跪": {
+  "radical": "足",
+  "decomposition": "⿰足危"
+ },
+ "棍": {
+  "radical": "木",
+  "decomposition": "⿰木昆"
+ },
+ "渡": {
+  "radical": "氵",
+  "decomposition": "⿰氵度"
+ },
+ "滤": {
+  "radical": "氵",
+  "decomposition": "⿰氵虑"
+ },
+ "瘾": {
+  "radical": "疒",
+  "decomposition": "⿸疒隐"
+ },
+ "嗨": {
+  "radical": "口",
+  "decomposition": "⿰口海"
+ },
+ "滨": {
+  "radical": "氵",
+  "decomposition": "⿰氵宾"
+ },
+ "暄": {
+  "radical": "日",
+  "decomposition": "⿰日宣"
+ },
+ "罕": {
+  "radical": "⺳",
+  "decomposition": "⿱⺳干"
+ },
+ "捍": {
+  "radical": "扌",
+  "decomposition": "⿰扌旱"
+ },
+ "迈": {
+  "radical": "辶",
+  "decomposition": "⿺辶万"
+ },
+ "耗": {
+  "radical": "耒",
+  "decomposition": "⿰耒毛"
+ },
+ "蔼": {
+  "radical": "艹",
+  "decomposition": "⿱艹谒"
+ },
+ "睦": {
+  "radical": "目",
+  "decomposition": "⿰目坴"
+ },
+ "谐": {
+  "radical": "讠",
+  "decomposition": "⿰讠皆"
+ },
+ "嘿": {
+  "radical": "口",
+  "decomposition": "⿰口黑"
+ },
+ "痕": {
+  "radical": "疒",
+  "decomposition": "⿸疒艮"
+ },
+ "狠": {
+  "radical": "犭",
+  "decomposition": "⿰犭艮"
+ },
+ "哼": {
+  "radical": "口",
+  "decomposition": "⿰口亨"
+ },
+ "轰": {
+  "radical": "车",
+  "decomposition": "⿱车双"
+ },
+ "哄": {
+  "radical": "口",
+  "decomposition": "⿰口共"
+ },
+ "烘": {
+  "radical": "火",
+  "decomposition": "⿰火共"
+ },
+ "宏": {
+  "radical": "宀",
+  "decomposition": "⿱宀厷"
+ },
+ "洪": {
+  "radical": "氵",
+  "decomposition": "⿰氵共"
+ },
+ "喉": {
+  "radical": "口",
+  "decomposition": "⿰口侯"
+ },
+ "咙": {
+  "radical": "口",
+  "decomposition": "⿰口龙"
+ },
+ "吼": {
+  "radical": "口",
+  "decomposition": "⿰口孔"
+ },
+ "忧": {
+  "radical": "忄",
+  "decomposition": "⿰忄尤"
+ },
+ "啸": {
+  "radical": "口",
+  "decomposition": "⿰口肃"
+ },
+ "吁": {
+  "radical": "口",
+  "decomposition": "⿰口于"
+ },
+ "湖": {
+  "radical": "氵",
+  "decomposition": "⿰氵胡"
+ },
+ "泊": {
+  "radical": "氵",
+  "decomposition": "⿰氵白"
+ },
+ "瓣": {
+  "radical": "瓜",
+  "decomposition": "⿲辛瓜辛"
+ },
+ "侨": {
+  "radical": "亻",
+  "decomposition": "⿰亻乔"
+ },
+ "妆": {
+  "radical": "女",
+  "decomposition": "⿰丬女"
+ },
+ "添": {
+  "radical": "氵",
+  "decomposition": "⿰氵忝"
+ },
+ "筒": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮同"
+ },
+ "孕": {
+  "radical": "子",
+  "decomposition": "⿱乃子"
+ },
+ "患": {
+  "radical": "心",
+  "decomposition": "⿱串心"
+ },
+ "荒": {
+  "radical": "艹",
+  "decomposition": "⿱芒川"
+ },
+ "谬": {
+  "radical": "讠",
+  "decomposition": "⿰讠翏"
+ },
+ "唐": {
+  "radical": "口",
+  "decomposition": "⿸广⿱肀口"
+ },
+ "昏": {
+  "radical": "日",
+  "decomposition": "⿱氏日"
+ },
+ "恍": {
+  "radical": "忄",
+  "decomposition": "⿰忄光"
+ },
+ "悟": {
+  "radical": "忄",
+  "decomposition": "⿰忄吾"
+ },
+ "霍": {
+  "radical": "雨",
+  "decomposition": "⿱雨隹"
+ },
+ "煌": {
+  "radical": "火",
+  "decomposition": "⿰火皇"
+ },
+ "毁": {
+  "radical": "殳",
+  "decomposition": "⿰⿱臼工殳"
+ },
+ "晤": {
+  "radical": "日",
+  "decomposition": "⿰日吾"
+ },
+ "贿": {
+  "radical": "贝",
+  "decomposition": "⿰贝有"
+ },
+ "赂": {
+  "radical": "贝",
+  "decomposition": "⿰贝各"
+ },
+ "浑": {
+  "radical": "氵",
+  "decomposition": "⿰氵军"
+ },
+ "混": {
+  "radical": "氵",
+  "decomposition": "⿰氵昆"
+ },
+ "淆": {
+  "radical": "氵",
+  "decomposition": "⿰氵肴"
+ },
+ "浊": {
+  "radical": "氵",
+  "decomposition": "⿰氵虫"
+ },
+ "箭": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮前"
+ },
+ "焰": {
+  "radical": "火",
+  "decomposition": "⿰火臽"
+ },
+ "讥": {
+  "radical": "讠",
+  "decomposition": "⿰讠几"
+ },
+ "饥": {
+  "radical": "饣",
+  "decomposition": "⿰饣几"
+ },
+ "械": {
+  "radical": "木",
+  "decomposition": "⿰木戒"
+ },
+ "吉": {
+  "radical": "口",
+  "decomposition": "⿱士口"
+ },
+ "躁": {
+  "radical": "足",
+  "decomposition": "⿰足喿"
+ },
+ "嫉": {
+  "radical": "女",
+  "decomposition": "⿰女疾"
+ },
+ "妒": {
+  "radical": "女",
+  "decomposition": "⿰女户"
+ },
+ "忌": {
+  "radical": "心",
+  "decomposition": "⿱己心"
+ },
+ "讳": {
+  "radical": "讠",
+  "decomposition": "⿰讠韦"
+ },
+ "佳": {
+  "radical": "亻",
+  "decomposition": "⿰亻圭"
+ },
+ "肴": {
+  "radical": "⺼",
+  "decomposition": "⿱乂有"
+ },
+ "晓": {
+  "radical": "日",
+  "decomposition": "⿰日尧"
+ },
+ "韧": {
+  "radical": "韦",
+  "decomposition": "⿰韦刃"
+ },
+ "谍": {
+  "radical": "讠",
+  "decomposition": "⿰讠枼"
+ },
+ "兼": {
+  "radical": "丷",
+  "decomposition": "⿱丷⿱彐⿰禾禾"
+ },
+ "监": {
+  "radical": "皿",
+  "decomposition": "⿱？皿"
+ },
+ "狱": {
+  "radical": "犭",
+  "decomposition": "⿰犭⿰讠犬"
+ },
+ "拣": {
+  "radical": "扌",
+  "decomposition": "⿰扌柬"
+ },
+ "陋": {
+  "radical": "阝",
+  "decomposition": "⿰阝⿺乚丙"
+ },
+ "舰": {
+  "radical": "舟",
+  "decomposition": "⿰舟见"
+ },
+ "艇": {
+  "radical": "舟",
+  "decomposition": "⿰舟廷"
+ },
+ "溅": {
+  "radical": "氵",
+  "decomposition": "⿰氵贱"
+ },
+ "踏": {
+  "radical": "足",
+  "decomposition": "⿰足沓"
+ },
+ "鉴": {
+  "radical": "金",
+  "decomposition": "⿱？金"
+ },
+ "僵": {
+  "radical": "亻",
+  "decomposition": "⿰亻畺"
+ },
+ "桨": {
+  "radical": "木",
+  "decomposition": "⿱⿰丬夕木"
+ },
+ "娇": {
+  "radical": "女",
+  "decomposition": "⿰女乔"
+ },
+ "焦": {
+  "radical": "灬",
+  "decomposition": "⿱隹灬"
+ },
+ "搅": {
+  "radical": "扌",
+  "decomposition": "⿰扌觉"
+ },
+ "拌": {
+  "radical": "扌",
+  "decomposition": "⿰扌半"
+ },
+ "缴": {
+  "radical": "纟",
+  "decomposition": "⿰纟敫"
+ },
+ "皆": {
+  "radical": "白",
+  "decomposition": "⿱比白"
+ },
+ "揭": {
+  "radical": "扌",
+  "decomposition": "⿰扌曷"
+ },
+ "奏": {
+  "radical": "大",
+  "decomposition": "⿱？天"
+ },
+ "杰": {
+  "radical": "木",
+  "decomposition": "⿱木灬"
+ },
+ "晶": {
+  "radical": "日",
+  "decomposition": "⿱日⿰日日"
+ },
+ "截": {
+  "radical": "戈",
+  "decomposition": "⿻⿱十隹戈"
+ },
+ "竭": {
+  "radical": "立",
+  "decomposition": "⿰立曷"
+ },
+ "剖": {
+  "radical": "刂",
+  "decomposition": "⿰咅刂"
+ },
+ "津": {
+  "radical": "氵",
+  "decomposition": "⿰氵聿"
+ },
+ "锦": {
+  "radical": "钅",
+  "decomposition": "⿰钅帛"
+ },
+ "绣": {
+  "radical": "纟",
+  "decomposition": "⿰纟秀"
+ },
+ "晋": {
+  "radical": "日",
+  "decomposition": "⿱亚日"
+ },
+ "浸": {
+  "radical": "氵",
+  "decomposition": "⿰氵⿳彐冖又"
+ },
+ "泡": {
+  "radical": "氵",
+  "decomposition": "⿰氵包"
+ },
+ "纬": {
+  "radical": "纟",
+  "decomposition": "⿰纟韦"
+ },
+ "茎": {
+  "radical": "艹",
+  "decomposition": "⿱艹？"
+ },
+ "讶": {
+  "radical": "讠",
+  "decomposition": "⿰讠牙"
+ },
+ "兢": {
+  "radical": "儿",
+  "decomposition": "⿰克克"
+ },
+ "井": {
+  "radical": "二",
+  "decomposition": "⿻二？"
+ },
+ "颈": {
+  "radical": "页",
+  "decomposition": "⿰？页"
+ },
+ "椎": {
+  "radical": "木",
+  "decomposition": "⿰木隹"
+ },
+ "惕": {
+  "radical": "忄",
+  "decomposition": "⿰忄易"
+ },
+ "纠": {
+  "radical": "纟",
+  "decomposition": "⿰纟丩"
+ },
+ "拘": {
+  "radical": "扌",
+  "decomposition": "⿰扌句"
+ },
+ "鞠": {
+  "radical": "革",
+  "decomposition": "⿰革匊"
+ },
+ "躬": {
+  "radical": "身",
+  "decomposition": "⿰身弓"
+ },
+ "咀": {
+  "radical": "口",
+  "decomposition": "⿰口且"
+ },
+ "嚼": {
+  "radical": "口",
+  "decomposition": "⿰口爵"
+ },
+ "沮": {
+  "radical": "氵",
+  "decomposition": "⿰氵且"
+ },
+ "丧": {
+  "radical": "十",
+  "decomposition": "⿱？亡"
+ },
+ "瞩": {
+  "radical": "目",
+  "decomposition": "⿰目属"
+ },
+ "朗": {
+  "radical": "月",
+  "decomposition": "⿰良月"
+ },
+ "辟": {
+  "radical": "辛",
+  "decomposition": "⿰⿸尸口辛"
+ },
+ "拓": {
+  "radical": "扌",
+  "decomposition": "⿰扌石"
+ },
+ "刊": {
+  "radical": "刂",
+  "decomposition": "⿰干刂"
+ },
+ "勘": {
+  "radical": "力",
+  "decomposition": "⿰甚力"
+ },
+ "探": {
+  "radical": "扌",
+  "decomposition": "⿰扌⿱？木"
+ },
+ "慷": {
+  "radical": "忄",
+  "decomposition": "⿰忄康"
+ },
+ "扛": {
+  "radical": "扌",
+  "decomposition": "⿰扌工"
+ },
+ "拢": {
+  "radical": "扌",
+  "decomposition": "⿰扌龙"
+ },
+ "磕": {
+  "radical": "石",
+  "decomposition": "⿰石盍"
+ },
+ "啃": {
+  "radical": "口",
+  "decomposition": "⿰口肯"
+ },
+ "坑": {
+  "radical": "土",
+  "decomposition": "⿰土亢"
+ },
+ "隙": {
+  "radical": "阝",
+  "decomposition": "⿰阝⿱小⿱日小"
+ },
+ "孔": {
+  "radical": "子",
+  "decomposition": "⿰子乚"
+ },
+ "惧": {
+  "radical": "忄",
+  "decomposition": "⿰忄具"
+ },
+ "腔": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼空"
+ },
+ "枯": {
+  "radical": "木",
+  "decomposition": "⿰木古"
+ },
+ "挎": {
+  "radical": "扌",
+  "decomposition": "⿰扌夸"
+ },
+ "跨": {
+  "radical": "足",
+  "decomposition": "⿰足夸"
+ },
+ "框": {
+  "radical": "木",
+  "decomposition": "⿰木匡"
+ },
+ "筐": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮匡"
+ },
+ "旷": {
+  "radical": "日",
+  "decomposition": "⿰日广"
+ },
+ "昆": {
+  "radical": "日",
+  "decomposition": "⿱日比"
+ },
+ "虫": {
+  "radical": "虫",
+  "decomposition": "⿱中？"
+ },
+ "捆": {
+  "radical": "扌",
+  "decomposition": "⿰扌困"
+ },
+ "喇": {
+  "radical": "口",
+  "decomposition": "⿰口剌"
+ },
+ "叭": {
+  "radical": "口",
+  "decomposition": "⿰口八"
+ },
+ "啦": {
+  "radical": "口",
+  "decomposition": "⿰口拉"
+ },
+ "栏": {
+  "radical": "木",
+  "decomposition": "⿰木兰"
+ },
+ "惰": {
+  "radical": "忄",
+  "decomposition": "⿰忄⿱左⺼"
+ },
+ "狈": {
+  "radical": "犭",
+  "decomposition": "⿰犭贝"
+ },
+ "捞": {
+  "radical": "扌",
+  "decomposition": "⿰扌劳"
+ },
+ "牢": {
+  "radical": "牛",
+  "decomposition": "⿱宀牛"
+ },
+ "骚": {
+  "radical": "马",
+  "decomposition": "⿰马蚤"
+ },
+ "唠": {
+  "radical": "口",
+  "decomposition": "⿰口劳"
+ },
+ "叨": {
+  "radical": "口",
+  "decomposition": "⿰口刀"
+ },
+ "谱": {
+  "radical": "讠",
+  "decomposition": "⿰讠普"
+ },
+ "愣": {
+  "radical": "忄",
+  "decomposition": "⿰忄⿱罒方"
+ },
+ "黎": {
+  "radical": "黍",
+  "decomposition": "⿰黍？"
+ },
+ "碑": {
+  "radical": "石",
+  "decomposition": "⿰石卑"
+ },
+ "睬": {
+  "radical": "目",
+  "decomposition": "⿰目采"
+ },
+ "壮": {
+  "radical": "士",
+  "decomposition": "⿰丬士"
+ },
+ "络": {
+  "radical": "纟",
+  "decomposition": "⿰纟各"
+ },
+ "盟": {
+  "radical": "皿",
+  "decomposition": "⿱明皿"
+ },
+ "廉": {
+  "radical": "广",
+  "decomposition": "⿸广兼"
+ },
+ "晾": {
+  "radical": "日",
+  "decomposition": "⿰日京"
+ },
+ "辽": {
+  "radical": "辶",
+  "decomposition": "⿺辶了"
+ },
+ "淋": {
+  "radical": "氵",
+  "decomposition": "⿰氵林"
+ },
+ "吝": {
+  "radical": "口",
+  "decomposition": "⿱文口"
+ },
+ "啬": {
+  "radical": "十",
+  "decomposition": "⿱⿻土丷回"
+ },
+ "魂": {
+  "radical": "鬼",
+  "decomposition": "⿰云鬼"
+ },
+ "凌": {
+  "radical": "冫",
+  "decomposition": "⿰冫夌"
+ },
+ "晨": {
+  "radical": "日",
+  "decomposition": "⿱日辰"
+ },
+ "袖": {
+  "radical": "衤",
+  "decomposition": "⿰衤由"
+ },
+ "伶": {
+  "radical": "亻",
+  "decomposition": "⿰亻令"
+ },
+ "俐": {
+  "radical": "亻",
+  "decomposition": "⿰亻利"
+ },
+ "溜": {
+  "radical": "氵",
+  "decomposition": "⿰氵留"
+ },
+ "氓": {
+  "radical": "民",
+  "decomposition": "⿰亡民"
+ },
+ "罩": {
+  "radical": "罒",
+  "decomposition": "⿱罒卓"
+ },
+ "聋": {
+  "radical": "耳",
+  "decomposition": "⿱龙耳"
+ },
+ "哑": {
+  "radical": "口",
+  "decomposition": "⿰口亚"
+ },
+ "隆": {
+  "radical": "阝",
+  "decomposition": "⿰阝⿳夂一生"
+ },
+ "垄": {
+  "radical": "龙",
+  "decomposition": "⿱龙土"
+ },
+ "搂": {
+  "radical": "扌",
+  "decomposition": "⿰扌娄"
+ },
+ "炉": {
+  "radical": "火",
+  "decomposition": "⿰火户"
+ },
+ "灶": {
+  "radical": "火",
+  "decomposition": "⿰火土"
+ },
+ "屡": {
+  "radical": "尸",
+  "decomposition": "⿸尸娄"
+ },
+ "履": {
+  "radical": "尸",
+  "decomposition": "⿸尸復"
+ },
+ "廓": {
+  "radical": "广",
+  "decomposition": "⿸广郭"
+ },
+ "胎": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼台"
+ },
+ "坛": {
+  "radical": "土",
+  "decomposition": "⿰土云"
+ },
+ "啰": {
+  "radical": "罒",
+  "decomposition": "⿰口罗"
+ },
+ "唆": {
+  "radical": "口",
+  "decomposition": "⿰口夋"
+ },
+ "螺": {
+  "radical": "虫",
+  "decomposition": "⿰虫累"
+ },
+ "钉": {
+  "radical": "钅",
+  "decomposition": "⿰钅丁"
+ },
+ "绎": {
+  "radical": "纟",
+  "decomposition": "⿰纟？"
+ },
+ "痹": {
+  "radical": "疒",
+  "decomposition": "⿸疒畀"
+ },
+ "嘛": {
+  "radical": "口",
+  "decomposition": "⿰口麻"
+ },
+ "埋": {
+  "radical": "土",
+  "decomposition": "⿰土里"
+ },
+ "伏": {
+  "radical": "亻",
+  "decomposition": "⿰亻犬"
+ },
+ "葬": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱死廾"
+ },
+ "蔓": {
+  "radical": "艹",
+  "decomposition": "⿱艹曼"
+ },
+ "碌": {
+  "radical": "石",
+  "decomposition": "⿰石录"
+ },
+ "盲": {
+  "radical": "目",
+  "decomposition": "⿱亡目"
+ },
+ "茫": {
+  "radical": "艹",
+  "decomposition": "⿱艹汒"
+ },
+ "茂": {
+  "radical": "艹",
+  "decomposition": "⿱艹戊"
+ },
+ "辙": {
+  "radical": "车",
+  "decomposition": "⿲车育攵"
+ },
+ "枚": {
+  "radical": "木",
+  "decomposition": "⿰木攵"
+ },
+ "媒": {
+  "radical": "女",
+  "decomposition": "⿰女某"
+ },
+ "萌": {
+  "radical": "艹",
+  "decomposition": "⿱艹明"
+ },
+ "芽": {
+  "radical": "艹",
+  "decomposition": "⿱艹牙"
+ },
+ "蒙": {
+  "radical": "艹",
+  "decomposition": "⿱艹冡"
+ },
+ "猛": {
+  "radical": "犭",
+  "decomposition": "⿰犭孟"
+ },
+ "眯": {
+  "radical": "目",
+  "decomposition": "⿰目米"
+ },
+ "弥": {
+  "radical": "弓",
+  "decomposition": "⿰弓尔"
+ },
+ "惑": {
+  "radical": "心",
+  "decomposition": "⿱或心"
+ },
+ "勉": {
+  "radical": "力",
+  "decomposition": "⿺免力"
+ },
+ "绘": {
+  "radical": "纟",
+  "decomposition": "⿰纟会"
+ },
+ "渺": {
+  "radical": "氵",
+  "decomposition": "⿰氵眇"
+ },
+ "亡": {
+  "radical": "亠",
+  "decomposition": "⿱亠？"
+ },
+ "蔑": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱罒戍"
+ },
+ "捷": {
+  "radical": "扌",
+  "decomposition": "⿰扌疌"
+ },
+ "索": {
+  "radical": "糸",
+  "decomposition": "⿱⿱十冖糸"
+ },
+ "膜": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼莫"
+ },
+ "磨": {
+  "radical": "石",
+  "decomposition": "⿸麻石"
+ },
+ "魔": {
+  "radical": "鬼",
+  "decomposition": "⿸麻鬼"
+ },
+ "抹": {
+  "radical": "扌",
+  "decomposition": "⿰扌末"
+ },
+ "莫": {
+  "radical": "艹",
+  "decomposition": "⿱艹旲"
+ },
+ "墨": {
+  "radical": "土",
+  "decomposition": "⿱黑土"
+ },
+ "睹": {
+  "radical": "目",
+  "decomposition": "⿰目者"
+ },
+ "沐": {
+  "radical": "氵",
+  "decomposition": "⿰氵木"
+ },
+ "浴": {
+  "radical": "氵",
+  "decomposition": "⿰氵谷"
+ },
+ "嗯": {
+  "radical": "口",
+  "decomposition": "⿰口恩"
+ },
+ "涵": {
+  "radical": "氵",
+  "decomposition": "⿰氵函"
+ },
+ "拟": {
+  "radical": "扌",
+  "decomposition": "⿰扌以"
+ },
+ "捏": {
+  "radical": "扌",
+  "decomposition": "⿰扌圼"
+ },
+ "拧": {
+  "radical": "扌",
+  "decomposition": "⿰扌宁"
+ },
+ "凝": {
+  "radical": "冫",
+  "decomposition": "⿰冫疑"
+ },
+ "奴": {
+  "radical": "女",
+  "decomposition": "⿰女又"
+ },
+ "隶": {
+  "radical": "隶",
+  "decomposition": "⿱彐氺"
+ },
+ "虐": {
+  "radical": "虍",
+  "decomposition": "⿸虍彐"
+ },
+ "挪": {
+  "radical": "扌",
+  "decomposition": "⿰扌那"
+ },
+ "哦": {
+  "radical": "口",
+  "decomposition": "⿰口我"
+ },
+ "欧": {
+  "radical": "欠",
+  "decomposition": "⿰区欠"
+ },
+ "殴": {
+  "radical": "殳",
+  "decomposition": "⿰区殳"
+ },
+ "呕": {
+  "radical": "口",
+  "decomposition": "⿰口区"
+ },
+ "趴": {
+  "radical": "足",
+  "decomposition": "⿰足八"
+ },
+ "徘": {
+  "radical": "彳",
+  "decomposition": "⿰彳非"
+ },
+ "徊": {
+  "radical": "彳",
+  "decomposition": "⿰彳回"
+ },
+ "斥": {
+  "radical": "斤",
+  "decomposition": "⿸斤丶"
+ },
+ "遣": {
+  "radical": "辶",
+  "decomposition": "⿺辶⿱⿱中一㠯"
+ },
+ "攀": {
+  "radical": "手",
+  "decomposition": "⿱樊手"
+ },
+ "旋": {
+  "radical": "方",
+  "decomposition": "⿰方⿱？疋"
+ },
+ "畔": {
+  "radical": "田",
+  "decomposition": "⿰田半"
+ },
+ "庞": {
+  "radical": "广",
+  "decomposition": "⿸广龙"
+ },
+ "抛": {
+  "radical": "扌",
+  "decomposition": "⿰扌⿺九力"
+ },
+ "沫": {
+  "radical": "氵",
+  "decomposition": "⿰氵末"
+ },
+ "烹": {
+  "radical": "灬",
+  "decomposition": "⿱亨灬"
+ },
+ "饪": {
+  "radical": "饣",
+  "decomposition": "⿰饣壬"
+ },
+ "劈": {
+  "radical": "刀",
+  "decomposition": "⿱辟刀"
+ },
+ "惫": {
+  "radical": "夂",
+  "decomposition": "⿱夂思"
+ },
+ "倦": {
+  "radical": "亻",
+  "decomposition": "⿰亻卷"
+ },
+ "屁": {
+  "radical": "尸",
+  "decomposition": "⿸尸比"
+ },
+ "譬": {
+  "radical": "言",
+  "decomposition": "⿱辟言"
+ },
+ "偏": {
+  "radical": "亻",
+  "decomposition": "⿰亻扁"
+ },
+ "僻": {
+  "radical": "亻",
+  "decomposition": "⿰亻辟"
+ },
+ "浮": {
+  "radical": "氵",
+  "decomposition": "⿰氵孚"
+ },
+ "拼": {
+  "radical": "扌",
+  "decomposition": "⿰扌并"
+ },
+ "贫": {
+  "radical": "贝",
+  "decomposition": "⿱分贝"
+ },
+ "屏": {
+  "radical": "户",
+  "decomposition": "⿸户并"
+ },
+ "坡": {
+  "radical": "土",
+  "decomposition": "⿰土皮"
+ },
+ "颇": {
+  "radical": "页",
+  "decomposition": "⿰皮页"
+ },
+ "魄": {
+  "radical": "鬼",
+  "decomposition": "⿰白鬼"
+ },
+ "扑": {
+  "radical": "扌",
+  "decomposition": "⿰扌卜"
+ },
+ "铺": {
+  "radical": "钅",
+  "decomposition": "⿰钅甫"
+ },
+ "瀑": {
+  "radical": "氵",
+  "decomposition": "⿰氵暴"
+ },
+ "曝": {
+  "radical": "日",
+  "decomposition": "⿰日暴"
+ },
+ "凄": {
+  "radical": "冫",
+  "decomposition": "⿰冫妻"
+ },
+ "欺": {
+  "radical": "欠",
+  "decomposition": "⿰其欠"
+ },
+ "旗": {
+  "radical": "方",
+  "decomposition": "⿰方⿱？其"
+ },
+ "袍": {
+  "radical": "衤",
+  "decomposition": "⿰衤包"
+ },
+ "帜": {
+  "radical": "巾",
+  "decomposition": "⿰巾只"
+ },
+ "乞": {
+  "radical": "乙",
+  "decomposition": "⿱？乙"
+ },
+ "丐": {
+  "radical": "一",
+  "decomposition": "⿱下？"
+ },
+ "岂": {
+  "radical": "山",
+  "decomposition": "⿱山己"
+ },
+ "迄": {
+  "radical": "辶",
+  "decomposition": "⿺辶乞"
+ },
+ "掐": {
+  "radical": "扌",
+  "decomposition": "⿰扌臽"
+ },
+ "恰": {
+  "radical": "忄",
+  "decomposition": "⿰忄合"
+ },
+ "洽": {
+  "radical": "氵",
+  "decomposition": "⿰氵合"
+ },
+ "徙": {
+  "radical": "彳",
+  "decomposition": "⿰彳歨"
+ },
+ "扯": {
+  "radical": "扌",
+  "decomposition": "⿰扌止"
+ },
+ "逊": {
+  "radical": "辶",
+  "decomposition": "⿺辶孙"
+ },
+ "潜": {
+  "radical": "氵",
+  "decomposition": "⿰氵替"
+ },
+ "谴": {
+  "radical": "讠",
+  "decomposition": "⿰讠遣"
+ },
+ "劫": {
+  "radical": "力",
+  "decomposition": "⿰去力"
+ },
+ "梁": {
+  "radical": "木",
+  "decomposition": "⿱⿰氵刅木"
+ },
+ "翘": {
+  "radical": "羽",
+  "decomposition": "⿺尧羽"
+ },
+ "锲": {
+  "radical": "钅",
+  "decomposition": "⿰钅契"
+ },
+ "钦": {
+  "radical": "钅",
+  "decomposition": "⿰钅欠"
+ },
+ "俭": {
+  "radical": "亻",
+  "decomposition": "⿰亻佥"
+ },
+ "氢": {
+  "radical": "气",
+  "decomposition": "⿹气⿱又工"
+ },
+ "倾": {
+  "radical": "亻",
+  "decomposition": "⿰亻顷"
+ },
+ "澈": {
+  "radical": "氵",
+  "decomposition": "⿰氵⿰育攵"
+ },
+ "晰": {
+  "radical": "日",
+  "decomposition": "⿰日析"
+ },
+ "柬": {
+  "radical": "木",
+  "decomposition": "⿻束八"
+ },
+ "帖": {
+  "radical": "巾",
+  "decomposition": "⿰巾占"
+ },
+ "丘": {
+  "radical": "一",
+  "decomposition": "⿱斤一"
+ },
+ "陵": {
+  "radical": "阝",
+  "decomposition": "⿰阝夌"
+ },
+ "曲": {
+  "radical": "曰",
+  "decomposition": "⿻曰⿰丨丨"
+ },
+ "驱": {
+  "radical": "马",
+  "decomposition": "⿰马区"
+ },
+ "渠": {
+  "radical": "氵",
+  "decomposition": "⿱洰木"
+ },
+ "缔": {
+  "radical": "纟",
+  "decomposition": "⿰纟帝"
+ },
+ "赴": {
+  "radical": "走",
+  "decomposition": "⿺走卜"
+ },
+ "犬": {
+  "radical": "犬",
+  "decomposition": "⿻大丶"
+ },
+ "陷": {
+  "radical": "阝",
+  "decomposition": "⿰阝臽"
+ },
+ "瘸": {
+  "radical": "疒",
+  "decomposition": "⿸疒⿱加肉"
+ },
+ "饶": {
+  "radical": "饣",
+  "decomposition": "⿰饣尧"
+ },
+ "恕": {
+  "radical": "心",
+  "decomposition": "⿱如心"
+ },
+ "惹": {
+  "radical": "心",
+  "decomposition": "⿱若心"
+ },
+ "祸": {
+  "radical": "礻",
+  "decomposition": "⿰礻呙"
+ },
+ "盈": {
+  "radical": "皿",
+  "decomposition": "⿱夃皿"
+ },
+ "眶": {
+  "radical": "目",
+  "decomposition": "⿰目匡"
+ },
+ "仁": {
+  "radical": "亻",
+  "decomposition": "⿰亻二"
+ },
+ "溶": {
+  "radical": "氵",
+  "decomposition": "⿰氵容"
+ },
+ "揉": {
+  "radical": "扌",
+  "decomposition": "⿰扌柔"
+ },
+ "若": {
+  "radical": "艹",
+  "decomposition": "⿱艹右"
+ },
+ "撒": {
+  "radical": "扌",
+  "decomposition": "⿰扌散"
+ },
+ "谎": {
+  "radical": "讠",
+  "decomposition": "⿰讠荒"
+ },
+ "腮": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼思"
+ },
+ "嫂": {
+  "radical": "女",
+  "decomposition": "⿰女叟"
+ },
+ "刹": {
+  "radical": "刂",
+  "decomposition": "⿰杀刂"
+ },
+ "啥": {
+  "radical": "口",
+  "decomposition": "⿰口舍"
+ },
+ "筛": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮师"
+ },
+ "烁": {
+  "radical": "火",
+  "decomposition": "⿰火乐"
+ },
+ "擅": {
+  "radical": "扌",
+  "decomposition": "⿰扌亶"
+ },
+ "筋": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮肋"
+ },
+ "捎": {
+  "radical": "扌",
+  "decomposition": "⿰扌肖"
+ },
+ "梢": {
+  "radical": "木",
+  "decomposition": "⿰木肖"
+ },
+ "哨": {
+  "radical": "口",
+  "decomposition": "⿰口肖"
+ },
+ "奢": {
+  "radical": "大",
+  "decomposition": "⿱大者"
+ },
+ "侈": {
+  "radical": "亻",
+  "decomposition": "⿰亻多"
+ },
+ "氏": {
+  "radical": "氏",
+  "decomposition": "？"
+ },
+ "呻": {
+  "radical": "口",
+  "decomposition": "⿰口申"
+ },
+ "吟": {
+  "radical": "口",
+  "decomposition": "⿰口今"
+ },
+ "绅": {
+  "radical": "纟",
+  "decomposition": "⿰纟申"
+ },
+ "圣": {
+  "radical": "土",
+  "decomposition": "⿱又土"
+ },
+ "仙": {
+  "radical": "亻",
+  "decomposition": "⿰亻山"
+ },
+ "审": {
+  "radical": "宀",
+  "decomposition": "⿱宀申"
+ },
+ "渗": {
+  "radical": "氵",
+  "decomposition": "⿰氵参"
+ },
+ "疏": {
+  "radical": "疋",
+  "decomposition": "⿰疋㐬"
+ },
+ "锈": {
+  "radical": "钅",
+  "decomposition": "⿰钅秀"
+ },
+ "牲": {
+  "radical": "牛",
+  "decomposition": "⿰牛生"
+ },
+ "尸": {
+  "radical": "尸",
+  "decomposition": "⿰丿？"
+ },
+ "逝": {
+  "radical": "辶",
+  "decomposition": "⿺辶折"
+ },
+ "缚": {
+  "radical": "纟",
+  "decomposition": "⿰纟尃"
+ },
+ "竖": {
+  "radical": "立",
+  "decomposition": "⿱⿰刂又立"
+ },
+ "耍": {
+  "radical": "而",
+  "decomposition": "⿱而女"
+ },
+ "衰": {
+  "radical": "衣",
+  "decomposition": "⿻衣⿻口一"
+ },
+ "涮": {
+  "radical": "氵",
+  "decomposition": "⿰氵刷"
+ },
+ "胞": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼包"
+ },
+ "爽": {
+  "radical": "爻",
+  "decomposition": "⿻大⿰爻爻"
+ },
+ "泥": {
+  "radical": "氵",
+  "decomposition": "⿰氵尼"
+ },
+ "斯": {
+  "radical": "斤",
+  "decomposition": "⿰其斤"
+ },
+ "肢": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼支"
+ },
+ "饲": {
+  "radical": "饣",
+  "decomposition": "⿰饣司"
+ },
+ "惮": {
+  "radical": "忄",
+  "decomposition": "⿰忄单"
+ },
+ "耸": {
+  "radical": "耳",
+  "decomposition": "⿱从耳"
+ },
+ "搜": {
+  "radical": "扌",
+  "decomposition": "⿰扌叟"
+ },
+ "艘": {
+  "radical": "舟",
+  "decomposition": "⿰舟叟"
+ },
+ "苏": {
+  "radical": "艹",
+  "decomposition": "⿱艹办"
+ },
+ "讼": {
+  "radical": "讠",
+  "decomposition": "⿰讠公"
+ },
+ "隧": {
+  "radical": "阝",
+  "decomposition": "⿰阝遂"
+ },
+ "塌": {
+  "radical": "土",
+  "decomposition": "⿰土⿱日羽"
+ },
+ "泰": {
+  "radical": "氺",
+  "decomposition": "⿱？氺"
+ },
+ "贪": {
+  "radical": "贝",
+  "decomposition": "⿱今贝"
+ },
+ "婪": {
+  "radical": "女",
+  "decomposition": "⿱林女"
+ },
+ "摊": {
+  "radical": "扌",
+  "decomposition": "⿰扌难"
+ },
+ "瘫": {
+  "radical": "疒",
+  "decomposition": "⿸疒难"
+ },
+ "痪": {
+  "radical": "疒",
+  "decomposition": "⿸疒奂"
+ },
+ "叹": {
+  "radical": "口",
+  "decomposition": "⿰口又"
+ },
+ "葫": {
+  "radical": "艹",
+  "decomposition": "⿱艹胡"
+ },
+ "芦": {
+  "radical": "艹",
+  "decomposition": "⿱艹户"
+ },
+ "倘": {
+  "radical": "亻",
+  "decomposition": "⿰亻尚"
+ },
+ "掏": {
+  "radical": "扌",
+  "decomposition": "⿰扌匋"
+ },
+ "滔": {
+  "radical": "氵",
+  "decomposition": "⿰氵舀"
+ },
+ "陶": {
+  "radical": "阝",
+  "decomposition": "⿰阝匋"
+ },
+ "瓷": {
+  "radical": "瓦",
+  "decomposition": "⿱次瓦"
+ },
+ "淘": {
+  "radical": "氵",
+  "decomposition": "⿰氵匋"
+ },
+ "汰": {
+  "radical": "氵",
+  "decomposition": "⿰氵太"
+ },
+ "伦": {
+  "radical": "亻",
+  "decomposition": "⿰亻仑"
+ },
+ "堂": {
+  "radical": "土",
+  "decomposition": "⿱尚土"
+ },
+ "径": {
+  "radical": "彳",
+  "decomposition": "⿰彳⿱又工"
+ },
+ "舔": {
+  "radical": "舌",
+  "decomposition": "⿰舌忝"
+ },
+ "剔": {
+  "radical": "刂",
+  "decomposition": "⿰易刂"
+ },
+ "衅": {
+  "radical": "血",
+  "decomposition": "⿰血半"
+ },
+ "亭": {
+  "radical": "亠",
+  "decomposition": "⿱⿳亠口冖丁"
+ },
+ "滞": {
+  "radical": "氵",
+  "decomposition": "⿰氵带"
+ },
+ "掷": {
+  "radical": "扌",
+  "decomposition": "⿰扌郑"
+ },
+ "秃": {
+  "radical": "禾",
+  "decomposition": "⿱禾几"
+ },
+ "壤": {
+  "radical": "土",
+  "decomposition": "⿰土襄"
+ },
+ "吞": {
+  "radical": "口",
+  "decomposition": "⿱天口"
+ },
+ "咽": {
+  "radical": "口",
+  "decomposition": "⿰口因"
+ },
+ "拖": {
+  "radical": "扌",
+  "decomposition": "⿰扌⿱亻也"
+ },
+ "妥": {
+  "radical": "女",
+  "decomposition": "⿱爫女"
+ },
+ "椭": {
+  "radical": "木",
+  "decomposition": "⿰木陏"
+ },
+ "唾": {
+  "radical": "口",
+  "decomposition": "⿰口垂"
+ },
+ "挖": {
+  "radical": "扌",
+  "decomposition": "⿰扌穵"
+ },
+ "掘": {
+  "radical": "扌",
+  "decomposition": "⿰扌屈"
+ },
+ "娃": {
+  "radical": "女",
+  "decomposition": "⿰女圭"
+ },
+ "瓦": {
+  "radical": "瓦",
+  "decomposition": "？"
+ },
+ "哇": {
+  "radical": "口",
+  "decomposition": "⿰口圭"
+ },
+ "丸": {
+  "radical": "丶",
+  "decomposition": "⿻九丶"
+ },
+ "顽": {
+  "radical": "页",
+  "decomposition": "⿰元页"
+ },
+ "挽": {
+  "radical": "扌",
+  "decomposition": "⿰扌免"
+ },
+ "惋": {
+  "radical": "忄",
+  "decomposition": "⿰忄宛"
+ },
+ "妄": {
+  "radical": "女",
+  "decomposition": "⿱亡女"
+ },
+ "伪": {
+  "radical": "亻",
+  "decomposition": "⿰亻为"
+ },
+ "畏": {
+  "radical": "田",
+  "decomposition": "⿳田一？"
+ },
+ "雅": {
+  "radical": "隹",
+  "decomposition": "⿰牙隹"
+ },
+ "窝": {
+  "radical": "穴",
+  "decomposition": "⿱穴呙"
+ },
+ "乌": {
+  "radical": "丿",
+  "decomposition": "⿱丿？"
+ },
+ "诬": {
+  "radical": "讠",
+  "decomposition": "⿰讠巫"
+ },
+ "耻": {
+  "radical": "耳",
+  "decomposition": "⿰耳止"
+ },
+ "衷": {
+  "radical": "衣",
+  "decomposition": "⿻衣中"
+ },
+ "赖": {
+  "radical": "贝",
+  "decomposition": "⿰剌贝"
+ },
+ "侠": {
+  "radical": "亻",
+  "decomposition": "⿰亻夹"
+ },
+ "侮": {
+  "radical": "亻",
+  "decomposition": "⿰亻每"
+ },
+ "辱": {
+  "radical": "辰",
+  "decomposition": "⿸辰寸"
+ },
+ "蹈": {
+  "radical": "足",
+  "decomposition": "⿰足舀"
+ },
+ "勿": {
+  "radical": "勹",
+  "decomposition": "⿹勹⿰丿丿"
+ },
+ "昔": {
+  "radical": "日",
+  "decomposition": "⿱廿日"
+ },
+ "牺": {
+  "radical": "牛",
+  "decomposition": "⿰牛西"
+ },
+ "溪": {
+  "radical": "氵",
+  "decomposition": "⿰氵奚"
+ },
+ "熄": {
+  "radical": "火",
+  "decomposition": "⿰火息"
+ },
+ "膝": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼桼"
+ },
+ "袭": {
+  "radical": "龙",
+  "decomposition": "⿱龙衣"
+ },
+ "媳": {
+  "radical": "女",
+  "decomposition": "⿰女息"
+ },
+ "悦": {
+  "radical": "忄",
+  "decomposition": "⿰忄兑"
+ },
+ "菌": {
+  "radical": "艹",
+  "decomposition": "⿱艹囷"
+ },
+ "峡": {
+  "radical": "山",
+  "decomposition": "⿰山夹"
+ },
+ "狭": {
+  "radical": "犭",
+  "decomposition": "⿰犭夹"
+ },
+ "隘": {
+  "radical": "阝",
+  "decomposition": "⿰阝益"
+ },
+ "霞": {
+  "radical": "雨",
+  "decomposition": "⿱雨叚"
+ },
+ "纤": {
+  "radical": "纟",
+  "decomposition": "⿰纟千"
+ },
+ "掀": {
+  "radical": "扌",
+  "decomposition": "⿰扌欣"
+ },
+ "弦": {
+  "radical": "弓",
+  "decomposition": "⿰弓玄"
+ },
+ "贤": {
+  "radical": "贝",
+  "decomposition": "⿱⿰？又贝"
+ },
+ "衔": {
+  "radical": "彳",
+  "decomposition": "⿻行钅"
+ },
+ "嫌": {
+  "radical": "女",
+  "decomposition": "⿰女兼"
+ },
+ "宪": {
+  "radical": "宀",
+  "decomposition": "⿱宀先"
+ },
+ "馅": {
+  "radical": "饣",
+  "decomposition": "⿰饣臽"
+ },
+ "镇": {
+  "radical": "钅",
+  "decomposition": "⿰钅真"
+ },
+ "镶": {
+  "radical": "钅",
+  "decomposition": "⿰钅襄"
+ },
+ "嵌": {
+  "radical": "山",
+  "decomposition": "⿱山⿰甘欠"
+ },
+ "巷": {
+  "radical": "巳",
+  "decomposition": "⿱共巳"
+ },
+ "翼": {
+  "radical": "羽",
+  "decomposition": "⿱羽異"
+ },
+ "肖": {
+  "radical": "⺼",
+  "decomposition": "⿱⺌⺼"
+ },
+ "携": {
+  "radical": "扌",
+  "decomposition": "⿰扌隽"
+ },
+ "泄": {
+  "radical": "氵",
+  "decomposition": "⿰氵世"
+ },
+ "郎": {
+  "radical": "阝",
+  "decomposition": "⿰良阝"
+ },
+ "颖": {
+  "radical": "页",
+  "decomposition": "⿰⿱匕禾页"
+ },
+ "薪": {
+  "radical": "艹",
+  "decomposition": "⿱艹新"
+ },
+ "腥": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼星"
+ },
+ "刑": {
+  "radical": "刂",
+  "decomposition": "⿰开刂"
+ },
+ "旺": {
+  "radical": "日",
+  "decomposition": "⿰日王"
+ },
+ "凶": {
+  "radical": "凵",
+  "decomposition": "⿶凵乂"
+ },
+ "膛": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼堂"
+ },
+ "嗅": {
+  "radical": "口",
+  "decomposition": "⿰口臭"
+ },
+ "酗": {
+  "radical": "酉",
+  "decomposition": "⿰酉凶"
+ },
+ "悬": {
+  "radical": "心",
+  "decomposition": "⿱县心"
+ },
+ "崖": {
+  "radical": "山",
+  "decomposition": "⿱山厓"
+ },
+ "霜": {
+  "radical": "雨",
+  "decomposition": "⿱雨相"
+ },
+ "熏": {
+  "radical": "灬",
+  "decomposition": "⿱？灬"
+ },
+ "觅": {
+  "radical": "爫",
+  "decomposition": "⿱爫见"
+ },
+ "巡": {
+  "radical": "巛",
+  "decomposition": "⿺辶巛"
+ },
+ "循": {
+  "radical": "彳",
+  "decomposition": "⿰彳盾"
+ },
+ "抑": {
+  "radical": "扌",
+  "decomposition": "⿰扌卬"
+ },
+ "榨": {
+  "radical": "木",
+  "decomposition": "⿰木窄"
+ },
+ "押": {
+  "radical": "扌",
+  "decomposition": "⿰扌甲"
+ },
+ "淹": {
+  "radical": "氵",
+  "decomposition": "⿰氵奄"
+ },
+ "峻": {
+  "radical": "山",
+  "decomposition": "⿰山夋"
+ },
+ "岩": {
+  "radical": "山",
+  "decomposition": "⿱山石"
+ },
+ "沿": {
+  "radical": "氵",
+  "decomposition": "⿰氵⿱几口"
+ },
+ "掩": {
+  "radical": "扌",
+  "decomposition": "⿰扌奄"
+ },
+ "谣": {
+  "radical": "讠",
+  "decomposition": "⿰讠䍃"
+ },
+ "晃": {
+  "radical": "日",
+  "decomposition": "⿱日光"
+ },
+ "遥": {
+  "radical": "辶",
+  "decomposition": "⿺辶䍃"
+ },
+ "齿": {
+  "radical": "齿",
+  "decomposition": "⿱止⿶凵人"
+ },
+ "耀": {
+  "radical": "羽",
+  "decomposition": "⿰光翟"
+ },
+ "蛮": {
+  "radical": "虫",
+  "decomposition": "⿱亦虫"
+ },
+ "帆": {
+  "radical": "巾",
+  "decomposition": "⿰巾凡"
+ },
+ "苟": {
+  "radical": "艹",
+  "decomposition": "⿱艹句"
+ },
+ "裳": {
+  "radical": "衣",
+  "decomposition": "⿱尚衣"
+ },
+ "仪": {
+  "radical": "亻",
+  "decomposition": "⿰亻义"
+ },
+ "亦": {
+  "radical": "亠",
+  "decomposition": "⿱亠？"
+ },
+ "毅": {
+  "radical": "殳",
+  "decomposition": "⿰豙殳"
+ },
+ "擎": {
+  "radical": "手",
+  "decomposition": "⿱敬手"
+ },
+ "隐": {
+  "radical": "阝",
+  "decomposition": "⿰阝急"
+ },
+ "蔽": {
+  "radical": "艹",
+  "decomposition": "⿱艹敝"
+ },
+ "瞒": {
+  "radical": "目",
+  "decomposition": "⿰目⿱艹两"
+ },
+ "婴": {
+  "radical": "女",
+  "decomposition": "⿱⿰贝贝女"
+ },
+ "荧": {
+  "radical": "艹",
+  "decomposition": "⿱艹⿱冖火"
+ },
+ "庸": {
+  "radical": "广",
+  "decomposition": "⿸广⿱彐用"
+ },
+ "恒": {
+  "radical": "忄",
+  "decomposition": "⿰忄亘"
+ },
+ "踊": {
+  "radical": "足",
+  "decomposition": "⿰足甬"
+ },
+ "郁": {
+  "radical": "阝",
+  "decomposition": "⿰有阝"
+ },
+ "腻": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼贰"
+ },
+ "漆": {
+  "radical": "氵",
+  "decomposition": "⿰氵桼"
+ },
+ "紊": {
+  "radical": "糸",
+  "decomposition": "⿱文糸"
+ },
+ "稚": {
+  "radical": "禾",
+  "decomposition": "⿰禾隹"
+ },
+ "诱": {
+  "radical": "讠",
+  "decomposition": "⿰讠秀"
+ },
+ "渔": {
+  "radical": "氵",
+  "decomposition": "⿰氵鱼"
+ },
+ "愚": {
+  "radical": "心",
+  "decomposition": "⿱禺心"
+ },
+ "蠢": {
+  "radical": "虫",
+  "decomposition": "⿱春⿰虫虫"
+ },
+ "舆": {
+  "radical": "车",
+  "decomposition": "⿶舁车"
+ },
+ "绒": {
+  "radical": "纟",
+  "decomposition": "⿰纟戎"
+ },
+ "兆": {
+  "radical": "儿",
+  "decomposition": "⿻儿？"
+ },
+ "欲": {
+  "radical": "欠",
+  "decomposition": "⿰谷欠"
+ },
+ "愈": {
+  "radical": "心",
+  "decomposition": "⿱俞心"
+ },
+ "冤": {
+  "radical": "冖",
+  "decomposition": "⿱冖兔"
+ },
+ "枉": {
+  "radical": "木",
+  "decomposition": "⿰木王"
+ },
+ "宵": {
+  "radical": "宀",
+  "decomposition": "⿱宀肖"
+ },
+ "岳": {
+  "radical": "山",
+  "decomposition": "⿱丘山"
+ },
+ "酝": {
+  "radical": "酉",
+  "decomposition": "⿰酉云"
+ },
+ "酿": {
+  "radical": "酉",
+  "decomposition": "⿰酉良"
+ },
+ "熨": {
+  "radical": "火",
+  "decomposition": "⿱尉火"
+ },
+ "蕴": {
+  "radical": "艹",
+  "decomposition": "⿱艹缊"
+ },
+ "砸": {
+  "radical": "石",
+  "decomposition": "⿰石匝"
+ },
+ "咋": {
+  "radical": "口",
+  "decomposition": "⿰口乍"
+ },
+ "栽": {
+  "radical": "木",
+  "decomposition": "⿹戈木"
+ },
+ "宰": {
+  "radical": "宀",
+  "decomposition": "⿱宀辛"
+ },
+ "攒": {
+  "radical": "扌",
+  "decomposition": "⿰扌赞"
+ },
+ "遭": {
+  "radical": "辶",
+  "decomposition": "⿺辶曹"
+ },
+ "殃": {
+  "radical": "歹",
+  "decomposition": "⿰歹央"
+ },
+ "蹋": {
+  "radical": "足",
+  "decomposition": "⿰足⿱日羽"
+ },
+ "噪": {
+  "radical": "口",
+  "decomposition": "⿰口喿"
+ },
+ "贼": {
+  "radical": "贝",
+  "decomposition": "⿰贝戎"
+ },
+ "赠": {
+  "radical": "贝",
+  "decomposition": "⿰贝曾"
+ },
+ "扎": {
+  "radical": "扌",
+  "decomposition": "⿰扌乚"
+ },
+ "渣": {
+  "radical": "氵",
+  "decomposition": "⿰氵查"
+ },
+ "眨": {
+  "radical": "目",
+  "decomposition": "⿰目乏"
+ },
+ "诈": {
+  "radical": "讠",
+  "decomposition": "⿰讠乍"
+ },
+ "债": {
+  "radical": "亻",
+  "decomposition": "⿰亻责"
+ },
+ "券": {
+  "radical": "刀",
+  "decomposition": "⿱龹刀"
+ },
+ "沾": {
+  "radical": "氵",
+  "decomposition": "⿰氵占"
+ },
+ "瞻": {
+  "radical": "目",
+  "decomposition": "⿰目詹"
+ },
+ "斩": {
+  "radical": "车",
+  "decomposition": "⿰车斤"
+ },
+ "崭": {
+  "radical": "山",
+  "decomposition": "⿱山斩"
+ },
+ "役": {
+  "radical": "彳",
+  "decomposition": "⿰彳殳"
+ },
+ "帐": {
+  "radical": "巾",
+  "decomposition": "⿰巾长"
+ },
+ "篷": {
+  "radical": "⺮",
+  "decomposition": "⿱⺮逢"
+ },
+ "沼": {
+  "radical": "氵",
+  "decomposition": "⿰氵召"
+ },
+ "泽": {
+  "radical": "氵",
+  "decomposition": "⿰氵？"
+ },
+ "遮": {
+  "radical": "辶",
+  "decomposition": "⿺辶庶"
+ },
+ "侦": {
+  "radical": "亻",
+  "decomposition": "⿰亻贞"
+ },
+ "稀": {
+  "radical": "禾",
+  "decomposition": "⿰禾希"
+ },
+ "珠": {
+  "radical": "王",
+  "decomposition": "⿰王朱"
+ },
+ "斟": {
+  "radical": "斗",
+  "decomposition": "⿰甚斗"
+ },
+ "酌": {
+  "radical": "酉",
+  "decomposition": "⿰酉勺"
+ },
+ "蒸": {
+  "radical": "艹",
+  "decomposition": "⿱艹烝"
+ },
+ "郑": {
+  "radical": "阝",
+  "decomposition": "⿰关阝"
+ },
+ "撑": {
+  "radical": "扌",
+  "decomposition": "⿰扌掌"
+ },
+ "援": {
+  "radical": "扌",
+  "decomposition": "⿰扌爰"
+ },
+ "柱": {
+  "radical": "木",
+  "decomposition": "⿰木主"
+ },
+ "枝": {
+  "radical": "木",
+  "decomposition": "⿰木支"
+ },
+ "脂": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼旨"
+ },
+ "肪": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼方"
+ },
+ "央": {
+  "radical": "大",
+  "decomposition": "⿻冂大"
+ },
+ "忠": {
+  "radical": "心",
+  "decomposition": "⿱中心"
+ },
+ "肿": {
+  "radical": "⺼",
+  "decomposition": "⿰⺼中"
+ },
+ "瘤": {
+  "radical": "疒",
+  "decomposition": "⿸疒留"
+ },
+ "叠": {
+  "radical": "又",
+  "decomposition": "⿱叒冝"
+ },
+ "州": {
+  "radical": "川",
+  "decomposition": "⿻川？"
+ },
+ "舟": {
+  "radical": "舟",
+  "decomposition": "⿻？？"
+ },
+ "粥": {
+  "radical": "米",
+  "decomposition": "⿲弓米弓"
+ },
+ "昼": {
+  "radical": "尸",
+  "decomposition": "⿵尺旦"
+ },
+ "皱": {
+  "radical": "皮",
+  "decomposition": "⿰刍皮"
+ },
+ "株": {
+  "radical": "木",
+  "decomposition": "⿰木朱"
+ },
+ "诸": {
+  "radical": "讠",
+  "decomposition": "⿰讠者"
+ },
+ "拄": {
+  "radical": "扌",
+  "decomposition": "⿰扌主"
+ },
+ "宅": {
+  "radical": "宀",
+  "decomposition": "⿱宀乇"
+ },
+ "驻": {
+  "radical": "马",
+  "decomposition": "⿰马主"
+ },
+ "铸": {
+  "radical": "钅",
+  "decomposition": "⿰钅寿"
+ },
+ "拽": {
+  "radical": "扌",
+  "decomposition": "⿰扌曳"
+ },
+ "砖": {
+  "radical": "石",
+  "decomposition": "⿰石专"
+ },
+ "庄": {
+  "radical": "广",
+  "decomposition": "⿸广土"
+ },
+ "卸": {
+  "radical": "卩",
+  "decomposition": "⿰⿱午止卩"
+ },
+ "悼": {
+  "radical": "忄",
+  "decomposition": "⿰忄卓"
+ },
+ "卓": {
+  "radical": "十",
+  "decomposition": "⿱⺊早"
+ },
+ "滋": {
+  "radical": "氵",
+  "decomposition": "⿰氵兹"
+ },
+ "旨": {
+  "radical": "日",
+  "decomposition": "⿱匕日"
+ },
+ "棕": {
+  "radical": "木",
+  "decomposition": "⿰木宗"
+ },
+ "廊": {
+  "radical": "广",
+  "decomposition": "⿸广郎"
+ },
+ "揍": {
+  "radical": "扌",
+  "decomposition": "⿰扌奏"
+ },
+ "赁": {
+  "radical": "贝",
+  "decomposition": "⿱任贝"
+ },
+ "挠": {
+  "radical": "扌",
+  "decomposition": "⿰扌尧"
+ },
+ "钻": {
+  "radical": "钅",
+  "decomposition": "⿰钅占"
+ },
+ "唇": {
+  "radical": "口",
+  "decomposition": "⿸辰口"
+ },
+ "琢": {
+  "radical": "王",
+  "decomposition": "⿰王豖"
+ },
+ "铭": {
+  "radical": "钅",
+  "decomposition": "⿰钅名"
+ }
+}
