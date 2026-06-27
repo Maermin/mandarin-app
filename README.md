@@ -1,5 +1,7 @@
 # Mandarin-Lern-App (verifizierte Daten)
 
+**▶ Live: <https://maermin.github.io/mandarin-app/>**
+
 Client-seitige Web-App, die deutschsprachigen Anfängern Hochchinesisch (Mandarin,
 vereinfachte Zeichen) für Alltag & Familie beibringt. **Oberstes Gebot:
 Korrektheit aller Sprachdaten** — nichts wird vom LLM erfunden, alles stammt
