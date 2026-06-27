@@ -1,12 +1,14 @@
 // Deterministic data pipeline (spec section 3).
 // Downloads verified sources, merges, validates, emits data/*.json.
 // NEVER invents language data: pinyin/meanings come verbatim from the sources.
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { gunzipSync } from "node:zlib";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { parseCedict } from "./lib/cedict.mjs";
 import { numToMarks, extractTones, normalizeNum } from "./lib/pinyin.mjs";
+import { buildHanDeDictIndex } from "./lib/handedict.mjs";
 import { validateVocab, cjkChars } from "./lib/validate.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -28,6 +30,14 @@ const SOURCES = {
     url: "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt",
     license: "LGPL (code) / Arphic Public License (data)",
     file: "makemeahanzi-dictionary.txt",
+  },
+  handedict: {
+    name: "HanDeDict (Chinesisch-Deutsch)",
+    url: "http://www.handedict.de/handedict/handedict-20090711.tar.bz2",
+    license: "CC BY-SA 2.0 DE",
+    tar: "handedict.tar.bz2",
+    member: "handedict.u8", // CEDICT-format UTF-8 file inside the archive
+    file: "handedict.u8",
   },
   hsk: {
     name: "complete-hsk-vocabulary (HSK 2.0, Stufen 1-6)",
@@ -66,6 +76,41 @@ function readCedict() {
   return { parsed: parseCedict(text), meta };
 }
 
+// Download HanDeDict tar.bz2 and extract the .u8 member (one-time, cached).
+// Uses system `tar` (bsdtar on Win10+/git-bash, GNU tar on *nix) — bzip2 is not
+// in node's stdlib and we keep zero runtime deps.
+async function ensureHandedict() {
+  const outPath = join(RAW, SOURCES.handedict.file);
+  if (existsSync(outPath)) return outPath;
+  const tarPath = await ensureRaw(SOURCES.handedict.url, SOURCES.handedict.tar);
+  const exdir = join(RAW, "hd_extract");
+  mkdirSync(exdir, { recursive: true });
+  process.stdout.write("  extract handedict.u8 ... ");
+  // --force-local: GNU tar otherwise reads "C:\..." as a remote host (colon).
+  // Forward slashes keep both bsdtar and GNU tar happy on Windows/git-bash.
+  const fwd = (p) => p.replace(/\\/g, "/");
+  execFileSync("tar", ["--force-local", "-xjf", fwd(tarPath), "-C", fwd(exdir)], {
+    stdio: "pipe",
+  });
+  // locate handedict.u8 within extracted tree
+  const found = findFile(exdir, "handedict.u8");
+  if (!found) throw new Error("handedict.u8 nicht im Archiv gefunden");
+  writeFileSync(outPath, readFileSync(found));
+  console.log("ok");
+  return outPath;
+}
+
+function findFile(dir, name) {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, e.name);
+    if (e.isDirectory()) {
+      const r = findFile(p, name);
+      if (r) return r;
+    } else if (e.name === name) return p;
+  }
+  return null;
+}
+
 function readMakeMeAHanzi(neededChars) {
   const text = readFileSync(join(RAW, SOURCES.makemeahanzi.file), "utf8");
   const map = new Map();
@@ -96,6 +141,7 @@ async function main() {
     await ensureRaw(SOURCES.cedict.url, "cedict.txt.gz");
   }
   await ensureRaw(SOURCES.makemeahanzi.url, SOURCES.makemeahanzi.file);
+  await ensureHandedict();
   const hskRaw = {};
   for (const lvl of SOURCES.hsk.levels) {
     const file = `hsk2-${lvl}.json`;
@@ -107,7 +153,14 @@ async function main() {
   const { parsed: cedict, meta: cedictMeta } = readCedict();
   console.log(`   ${cedict.count} Eintraege, ${cedict.bySimplified.size} Stichwoerter`);
 
-  console.log("3) HSK-Woerter gegen CC-CEDICT aufloesen + mergen");
+  console.log("3) HanDeDict (Deutsch) indizieren");
+  const { index: hdeIndex, version: hdeVersion } = buildHanDeDictIndex(
+    readFileSync(join(RAW, SOURCES.handedict.file), "utf8")
+  );
+  const hdeTag = `handedict@${hdeVersion}`;
+  console.log(`   ${hdeIndex.size} deutsche Eintraege (Version ${hdeVersion})`);
+
+  console.log("4) HSK-Woerter gegen CC-CEDICT aufloesen + mergen");
   const vocab = [];
   const unresolved = [];
   const usedIds = new Set();
@@ -154,6 +207,10 @@ async function main() {
       while (usedIds.has(id)) id = `${simplified}-${pinyin_num.replace(/\s+/g, "")}-${++n}`;
       usedIds.add(id);
 
+      // German from HanDeDict, matched by simplified + same reading (verbatim, cleaned)
+      const de = hdeIndex.get(`${simplified}|${normalizeNum(pinyin_num)}`) || [];
+      const deFallback = de.length === 0;
+
       vocab.push({
         id,
         simplified,
@@ -161,8 +218,8 @@ async function main() {
         pinyin_num,
         pinyin_marks: numToMarks(pinyin_num),
         tones: extractTones(pinyin_num),
-        de: [], // HanDeDict nicht verfuegbar -> Fallback
-        de_fallback: true,
+        de,
+        de_fallback: deFallback,
         en: match.glosses,
         hsk: lvl,
         chars: cjkChars(simplified),
@@ -170,7 +227,7 @@ async function main() {
         sources: {
           pinyin: cedictVersion,
           en: cedictVersion,
-          de: null,
+          de: deFallback ? null : hdeTag,
           hsk: `hsk2.0-complete-hsk-vocabulary@${TODAY}`,
         },
       });
@@ -178,7 +235,7 @@ async function main() {
   }
   console.log(`   ${vocab.length} Vokabeln, ${unresolved.length} ungeloest`);
 
-  console.log("4) Zeichen-Zerlegung (Make Me a Hanzi)");
+  console.log("5) Zeichen-Zerlegung (Make Me a Hanzi)");
   const neededChars = new Set();
   for (const w of vocab) for (const c of w.chars) neededChars.add(c);
   const charMap = readMakeMeAHanzi(neededChars);
@@ -191,7 +248,7 @@ async function main() {
   }
   console.log(`   ${charMap.size}/${neededChars.size} Zeichen mit Zerlegungsdaten`);
 
-  console.log("5) Validieren");
+  console.log("6) Validieren");
   const { errors, warnings } = validateVocab(vocab, cedict, {
     strokeChars,
     writingChars: new Set(), // Phase 1: keine Schreibuebungen
@@ -211,12 +268,13 @@ async function main() {
         downloaded: TODAY,
       },
       handedict: {
-        name: "HanDeDict (deutsche Uebersetzung)",
-        url: "https://handedict.zydeo.net/",
-        license: "CC BY-SA",
-        status:
-          "NICHT geladen: zydeo liefert nur SPA-HTML, keine statische Datei. Deutsch = EN-Fallback, markiert pro Eintrag (de_fallback).",
-        downloaded: null,
+        name: SOURCES.handedict.name,
+        url: SOURCES.handedict.url,
+        license: SOURCES.handedict.license,
+        version: hdeVersion,
+        downloaded: TODAY,
+        note:
+          "Deterministisch gesaeubert (POS/Domain-Tags, (u.E.), Bsp.-Saetze, HTML-Reste entfernt). Kein geratenes Deutsch. Wo kein passender Eintrag: EN-Fallback (de_fallback).",
       },
       makemeahanzi: {
         name: SOURCES.makemeahanzi.name,
@@ -240,6 +298,7 @@ async function main() {
       unresolved: unresolved.length,
       errors: errors.length,
       warnings: warnings.length,
+      de_present: vocab.filter((w) => !w.de_fallback).length,
       en_fallback: vocab.filter((w) => w.de_fallback).length,
       pinyin_mismatch: vocab.filter((w) => w.pinyin_mismatch).length,
     },

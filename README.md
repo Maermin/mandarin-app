@@ -23,8 +23,9 @@ programmatisch aus geprüften Quellen.
   nicht in CC-CEDICT) → siehe `data/validation-report.json`.
 - **2628 Zeichen** mit Zerlegung/Radikal (Make Me a Hanzi).
 - Pinyin + Töne kommen **pro Wort** aus CC-CEDICT (Schutz vor 多音字-Fehlern).
-- Deutsch: HanDeDict aktuell nicht abrufbar → EN-Fallback, pro Eintrag markiert
-  (`de_fallback: true`). Kein geratenes Deutsch. Details: `ATTRIBUTION.md`.
+- Deutsch aus **HanDeDict** (2011-05-28, deterministisch gesäubert): 4428 Wörter
+  mit Deutsch, 558 EN-Fallback (`de_fallback: true`). Kein geratenes Deutsch.
+  Details: `ATTRIBUTION.md`.
 
 ## Befehle
 

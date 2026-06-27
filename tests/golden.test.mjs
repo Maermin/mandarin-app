@@ -17,10 +17,10 @@ const bySimp = new Map(vocab.map((w) => [w.simplified, w]));
 
 // Expected values are hand-verified against CC-CEDICT (not invented).
 const GOLDEN = [
-  { simplified: "你好", pinyin_num: "ni3 hao3", pinyin_marks: "nǐ hǎo", tones: [3, 3], de_contains: "hello" },
-  { simplified: "谢谢", pinyin_num: "xie4 xie5", pinyin_marks: "xiè xie", tones: [4, 5], de_contains: "thank" },
-  { simplified: "中国", pinyin_num: "Zhong1 guo2", pinyin_marks: "zhōng guó", tones: [1, 2], de_contains: "China" },
-  { simplified: "喜欢", pinyin_num: "xi3 huan5", pinyin_marks: "xǐ huan", tones: [3, 5], de_contains: "like" },
+  { simplified: "你好", pinyin_num: "ni3 hao3", pinyin_marks: "nǐ hǎo", tones: [3, 3], de_contains: "hello", de_word: "Hallo" },
+  { simplified: "谢谢", pinyin_num: "xie4 xie5", pinyin_marks: "xiè xie", tones: [4, 5], de_contains: "thank", de_word: "Danke" },
+  { simplified: "中国", pinyin_num: "Zhong1 guo2", pinyin_marks: "zhōng guó", tones: [1, 2], de_contains: "China", de_word: "China" },
+  { simplified: "喜欢", pinyin_num: "xi3 huan5", pinyin_marks: "xǐ huan", tones: [3, 5], de_contains: "like", de_word: "mögen" },
 ];
 
 for (const g of GOLDEN) {
@@ -43,5 +43,11 @@ for (const g of GOLDEN) {
     if (!w) return; // not in HSK 2.0 list (e.g. greetings -> Praxis-Track) — fine
     assert.equal(w.pinyin_marks, g.pinyin_marks, "vocab pinyin_marks");
     assert.deepEqual(w.tones, g.tones, "vocab tones");
+    if (!w.de_fallback) {
+      assert.ok(
+        w.de.some((d) => d.toLowerCase().includes(g.de_word.toLowerCase())),
+        `HanDeDict-Deutsch enthaelt '${g.de_word}' (hat: ${JSON.stringify(w.de)})`
+      );
+    }
   });
 }

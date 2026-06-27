@@ -21,11 +21,12 @@
       "downloaded": "2026-06-27"
     },
     "handedict": {
-      "name": "HanDeDict (deutsche Uebersetzung)",
-      "url": "https://handedict.zydeo.net/",
-      "license": "CC BY-SA",
-      "status": "NICHT geladen: zydeo liefert nur SPA-HTML, keine statische Datei. Deutsch = EN-Fallback, markiert pro Eintrag (de_fallback).",
-      "downloaded": null
+      "name": "HanDeDict (Chinesisch-Deutsch)",
+      "url": "http://www.handedict.de/handedict/handedict-20090711.tar.bz2",
+      "license": "CC BY-SA 2.0 DE",
+      "version": "Sat May 28 01:27:49 2011",
+      "downloaded": "2026-06-27",
+      "note": "Deterministisch gesaeubert (POS/Domain-Tags, (u.E.), Bsp.-Saetze, HTML-Reste entfernt). Kein geratenes Deutsch. Wo kein passender Eintrag: EN-Fallback (de_fallback)."
     },
     "makemeahanzi": {
       "name": "Make Me a Hanzi (dictionary)",

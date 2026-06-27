@@ -9,7 +9,7 @@ oder durch ein Sprachmodell erfunden.
 | **CC-CEDICT** | <https://www.mdbg.net/chinese/dictionary?page=cc-cedict> | CC BY-SA 4.0 | Pinyin-Wahrheit (Töne), englische Bedeutung, vereinfacht/traditionell |
 | **Make Me a Hanzi** | <https://github.com/skishore/makemeahanzi> | LGPL (Code) / Arphic Public License (Daten) | Zeichen-Zerlegung, Radikale, später Strichreihenfolge |
 | **complete-hsk-vocabulary** | <https://github.com/drkameleon/complete-hsk-vocabulary> | MIT | HSK-2.0-Stufenzuordnung (nur Reihenfolge-Gerüst) |
-| **HanDeDict** | <https://handedict.zydeo.net/> | CC BY-SA | Deutsche Übersetzung — **derzeit nicht eingebunden** (siehe unten) |
+| **HanDeDict** | <http://www.handedict.de/> | CC BY-SA 2.0 DE | Deutsche Übersetzung (Version 2011-05-28) |
 
 ## Weitergabe-Pflicht (CC BY-SA)
 
@@ -19,12 +19,16 @@ als abgeleitetes Werk und stehen daher ebenfalls unter CC BY-SA 4.0.
 
 ## Hinweis HanDeDict (Deutsch)
 
-HanDeDict ist über zydeo.net nur als Single-Page-App verfügbar; eine statische,
-maschinenlesbare Datei war zum Build-Zeitpunkt nicht abrufbar. Deutsche
-Übersetzungen sind daher **noch nicht** enthalten. Stattdessen wird die englische
-CC-CEDICT-Bedeutung angezeigt und jeder Eintrag ist mit `de_fallback: true`
-markiert (Status in `data/sources.json`). Sobald eine geprüfte HanDeDict-Datei
-vorliegt, wird das Deutsch ergänzt — **es wird kein Deutsch geraten**.
+Verwendet wird die originale HanDeDict-Datei (`handedict.u8`, CEDICT-Format,
+Version 2011-05-28) vom HanDeDict-Projekt (handedict.de), CC BY-SA. Das Deutsch
+wird **deterministisch gesäubert** — entfernt werden ausschließlich HanDeDicts
+eigene Markup-Elemente: POS-/Domänen-Tags wie `(S)`, `(V)`, `(Int)`, der
+Redaktionsmarker `(u.E.)`, eingebettete `Bsp.:`-Beispielsätze und HTML-Reste.
+**Es wird kein Deutsch geraten oder umformuliert.**
+
+Wörter ohne passenden HanDeDict-Eintrag (gleiches Zeichen **und** gleiche Lesung)
+behalten EN-Fallback und sind mit `de_fallback: true` markiert. Aktuell:
+4428 mit Deutsch, 558 EN-Fallback (siehe `data/validation-report.json`).
 
 ## HSK-Version
 
