@@ -23,6 +23,7 @@ const MODES = [
   { id: "production", label: "Produktion (Deutsch → Pinyin/Hanzi)" },
   { id: "tone", label: "Ton-Drill (richtiger Tonverlauf)" },
   { id: "listening", label: "Hörverstehen (Audio → Bedeutung)" },
+  { id: "writing", label: "Schreibpraxis (Strichreihenfolge)" },
 ];
 
 function yesterdayKey(now) { return dayKey(now - 86400000); }
@@ -126,6 +127,67 @@ function Listening({ word, choices, chars, phase, chosen, onPick, onNext }) {
     phase === "answered"
       ? h("div", null, h(AnswerBlock, { word, chars }), h("button", { className: "primary", onClick: onNext }, "Weiter"))
       : null);
+}
+
+// ---------- Writing practice (hanzi-writer quiz: detects wrong strokes) ----------
+function strokeLoader(c, onComplete) {
+  fetch("data/hanzi/" + encodeURIComponent(c) + ".json")
+    .then((r) => r.json())
+    .then(onComplete)
+    .catch(() => onComplete(null));
+}
+function Writing({ word, chars, onGrade }) {
+  const [idx, setIdx] = useState(0);
+  const [done, setDone] = useState(false);
+  const [mistakes, setMistakes] = useState(0);
+  const targetRef = useRef(null);
+  const writerRef = useRef(null);
+
+  useEffect(() => { setIdx(0); setDone(false); setMistakes(0); }, [word.id]);
+
+  useEffect(() => {
+    if (done) return;
+    const el = targetRef.current;
+    if (!el || !window.HanziWriter) return;
+    el.innerHTML = "";
+    const writer = window.HanziWriter.create(el, word.chars[idx], {
+      width: 240, height: 240, padding: 8,
+      showCharacter: false, showOutline: true,
+      strokeAnimationSpeed: 1.2, delayBetweenStrokes: 80,
+      charDataLoader: strokeLoader,
+    });
+    writerRef.current = writer;
+    writer.quiz({
+      onMistake: () => setMistakes((m) => m + 1),
+      onComplete: () => {
+        if (idx < word.chars.length - 1) setIdx((i) => i + 1);
+        else setDone(true);
+      },
+    });
+    return () => { try { el.innerHTML = ""; } catch {} };
+  }, [word.id, idx, done]);
+
+  if (!window.HanziWriter) return h("div", { className: "ex" }, h("div", { className: "fb no" }, "hanzi-writer nicht geladen."));
+
+  if (done) {
+    const q = mistakes === 0 ? GRADE.EASY : mistakes <= 2 ? GRADE.GOOD : GRADE.HARD;
+    return h("div", { className: "ex" },
+      h("div", { className: "fb ok" }, "Geschrieben! Fehler: " + mistakes),
+      h(AnswerBlock, { word, chars }),
+      h("div", { className: "grades two" },
+        h("button", { className: "g again", onClick: () => onGrade(GRADE.AGAIN) }, "Nochmal"),
+        h("button", { className: "g good", onClick: () => onGrade(q) },
+          mistakes === 0 ? "Perfekt → Leicht" : "Weiter")));
+  }
+  return h("div", { className: "ex" },
+    h("div", { className: "prompt" }, "Schreibe (Strichreihenfolge):"),
+    h("div", { className: "de big" }, meaningLabel(word)),
+    h(PinyinColored, { marks: word.pinyin_marks, tones: word.tones, size: "1.4rem" }),
+    h("div", { className: "progress" }, "Zeichen " + (idx + 1) + " / " + word.chars.length),
+    h("div", { className: "writer-target", ref: targetRef }),
+    h("div", { className: "wctl" },
+      h("button", { className: "speak", onClick: () => writerRef.current && writerRef.current.animateCharacter() }, "Lösung zeigen"),
+      h("button", { onClick: () => { if (idx < word.chars.length - 1) setIdx((i) => i + 1); else setDone(true); } }, "Überspringen")));
 }
 
 // ---------- Recognition (manual grades) ----------
@@ -269,6 +331,8 @@ function App({ vocab, chars, sources }) {
       card = h(ToneDrill, { word, choices: toneChoices, phase: session.phase, chosen: session.chosen, onPick: pickTone, onNext: () => advance(session.pendingGrade) });
     else if (session.mode === "listening")
       card = h(Listening, { word, chars, choices: meaningChoices, phase: session.phase, chosen: session.chosen, onPick: pickMeaning, onNext: () => advance(session.pendingGrade) });
+    else if (session.mode === "writing")
+      card = h(Writing, { word, chars, onGrade: advance });
     else
       card = h(Recognition, { word, chars, phase: session.phase, showPinyin: state.settings.showPinyin, onReveal: reveal, onGrade: advance });
 

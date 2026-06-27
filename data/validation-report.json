@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T09:29:12.688Z",
+  "generated": "2026-06-27T09:45:23.601Z",
   "counts": {
     "vocab": 4986,
     "unresolved": 5,
@@ -7,7 +7,9 @@
     "warnings": 571,
     "de_present": 4428,
     "en_fallback": 558,
-    "pinyin_mismatch": 4
+    "pinyin_mismatch": 4,
+    "stroke_covered": 2628,
+    "stroke_missing": 0
   },
   "errors": [],
   "warnings": [

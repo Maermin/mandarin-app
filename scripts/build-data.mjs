@@ -31,6 +31,12 @@ const SOURCES = {
     license: "LGPL (code) / Arphic Public License (data)",
     file: "makemeahanzi-dictionary.txt",
   },
+  graphics: {
+    name: "Make Me a Hanzi (graphics / Strichdaten)",
+    url: "https://raw.githubusercontent.com/skishore/makemeahanzi/master/graphics.txt",
+    license: "LGPL (code) / Arphic Public License (data)",
+    file: "makemeahanzi-graphics.txt",
+  },
   handedict: {
     name: "HanDeDict (Chinesisch-Deutsch)",
     url: "http://www.handedict.de/handedict/handedict-20090711.tar.bz2",
@@ -111,6 +117,33 @@ function findFile(dir, name) {
   return null;
 }
 
+// Extract hanzi-writer-compatible stroke data ({strokes, medians}) for the
+// needed characters and write one file per char to data/hanzi/. Returns the
+// set of characters actually covered.
+function writeStrokeData(neededChars) {
+  const outDir = join(DATA, "hanzi");
+  mkdirSync(outDir, { recursive: true });
+  const text = readFileSync(join(RAW, SOURCES.graphics.file), "utf8");
+  const covered = new Set();
+  for (const line of text.split(/\r?\n/)) {
+    if (!line) continue;
+    let obj;
+    try {
+      obj = JSON.parse(line);
+    } catch {
+      continue;
+    }
+    if (!neededChars.has(obj.character)) continue;
+    if (!Array.isArray(obj.strokes) || !Array.isArray(obj.medians)) continue;
+    writeFileSync(
+      join(outDir, obj.character + ".json"),
+      JSON.stringify({ strokes: obj.strokes, medians: obj.medians })
+    );
+    covered.add(obj.character);
+  }
+  return covered;
+}
+
 function readMakeMeAHanzi(neededChars) {
   const text = readFileSync(join(RAW, SOURCES.makemeahanzi.file), "utf8");
   const map = new Map();
@@ -141,6 +174,7 @@ async function main() {
     await ensureRaw(SOURCES.cedict.url, "cedict.txt.gz");
   }
   await ensureRaw(SOURCES.makemeahanzi.url, SOURCES.makemeahanzi.file);
+  await ensureRaw(SOURCES.graphics.url, SOURCES.graphics.file);
   await ensureHandedict();
   const hskRaw = {};
   for (const lvl of SOURCES.hsk.levels) {
@@ -235,24 +269,33 @@ async function main() {
   }
   console.log(`   ${vocab.length} Vokabeln, ${unresolved.length} ungeloest`);
 
-  console.log("5) Zeichen-Zerlegung (Make Me a Hanzi)");
+  console.log("5) Zeichen-Zerlegung + Strichdaten (Make Me a Hanzi)");
   const neededChars = new Set();
   for (const w of vocab) for (const c of w.chars) neededChars.add(c);
   const charMap = readMakeMeAHanzi(neededChars);
   const chars = {};
-  const strokeChars = new Set();
   for (const c of neededChars) {
     const info = charMap.get(c);
     chars[c] = { radical: info?.radical ?? null, decomposition: info?.decomposition ?? null };
-    if (info) strokeChars.add(c);
   }
-  console.log(`   ${charMap.size}/${neededChars.size} Zeichen mit Zerlegungsdaten`);
+  // Strichdaten (hanzi-writer) pro Zeichen -> data/hanzi/<char>.json
+  const strokeChars = writeStrokeData(neededChars);
+  const missingStroke = [...neededChars].filter((c) => !strokeChars.has(c));
+  writeFileSync(
+    join(DATA, "writing-index.json"),
+    JSON.stringify([...strokeChars].sort())
+  );
+  console.log(
+    `   ${charMap.size}/${neededChars.size} mit Zerlegung, ${strokeChars.size}/${neededChars.size} mit Strichdaten`
+  );
 
   console.log("6) Validieren");
+  // Schreibuebungen nutzen nur Zeichen mit Strichdaten -> Regel 9 erzwingt das.
   const { errors, warnings } = validateVocab(vocab, cedict, {
     strokeChars,
-    writingChars: new Set(), // Phase 1: keine Schreibuebungen
+    writingChars: strokeChars,
   });
+  for (const c of missingStroke) warnings.push(`Strichdaten fehlen fuer '${c}' (keine Schreibuebung)`);
 
   const sourcesOut = {
     generated: TODAY,
@@ -282,6 +325,13 @@ async function main() {
         license: SOURCES.makemeahanzi.license,
         downloaded: TODAY,
       },
+      "makemeahanzi-graphics": {
+        name: SOURCES.graphics.name,
+        url: SOURCES.graphics.url,
+        license: SOURCES.graphics.license,
+        downloaded: TODAY,
+        note: "Strichdaten (strokes/medians) im hanzi-writer-Format, pro Zeichen unter data/hanzi/.",
+      },
       hsk: {
         name: SOURCES.hsk.name,
         url: SOURCES.hsk.urlBase,
@@ -301,6 +351,8 @@ async function main() {
       de_present: vocab.filter((w) => !w.de_fallback).length,
       en_fallback: vocab.filter((w) => w.de_fallback).length,
       pinyin_mismatch: vocab.filter((w) => w.pinyin_mismatch).length,
+      stroke_covered: strokeChars.size,
+      stroke_missing: missingStroke.length,
     },
     errors,
     warnings: warnings.slice(0, 2000),

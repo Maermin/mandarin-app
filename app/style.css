@@ -87,6 +87,9 @@ button.reveal { background: var(--primary); color: #fff; border-color: var(--pri
 .fb.ok { color: #1f9d3a; }
 .fb.no { color: #c0392b; }
 .answer { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.writer-target { width: 240px; height: 240px; border: 1px dashed var(--line); border-radius: 12px; background: #fff; }
+.wctl { display: flex; gap: 10px; }
+.grades.two { grid-template-columns: 1fr 1fr; }
 
 footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
 footer a, .modal a { color: var(--primary); word-break: break-all; }

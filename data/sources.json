@@ -34,6 +34,13 @@
       "license": "LGPL (code) / Arphic Public License (data)",
       "downloaded": "2026-06-27"
     },
+    "makemeahanzi-graphics": {
+      "name": "Make Me a Hanzi (graphics / Strichdaten)",
+      "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/master/graphics.txt",
+      "license": "LGPL (code) / Arphic Public License (data)",
+      "downloaded": "2026-06-27",
+      "note": "Strichdaten (strokes/medians) im hanzi-writer-Format, pro Zeichen unter data/hanzi/."
+    },
     "hsk": {
       "name": "complete-hsk-vocabulary (HSK 2.0, Stufen 1-6)",
       "url": "https://raw.githubusercontent.com/drkameleon/complete-hsk-vocabulary/main/wordlists/exclusive/old/",

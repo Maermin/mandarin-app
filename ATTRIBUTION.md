@@ -10,6 +10,7 @@ oder durch ein Sprachmodell erfunden.
 | **Make Me a Hanzi** | <https://github.com/skishore/makemeahanzi> | LGPL (Code) / Arphic Public License (Daten) | Zeichen-Zerlegung, Radikale, später Strichreihenfolge |
 | **complete-hsk-vocabulary** | <https://github.com/drkameleon/complete-hsk-vocabulary> | MIT | HSK-2.0-Stufenzuordnung (nur Reihenfolge-Gerüst) |
 | **React / ReactDOM 18** | <https://react.dev> | MIT | UI-Bibliothek, lokal vendored unter `app/vendor/` (Offline-Betrieb) |
+| **Hanzi Writer** | <https://hanziwriter.org> | MIT | Strichanimation/Quiz, lokal vendored; Strichdaten aus Make Me a Hanzi `graphics.txt` → `data/hanzi/<zeichen>.json` |
 | **HanDeDict** | <http://www.handedict.de/> | CC BY-SA 2.0 DE | Deutsche Übersetzung (Version 2011-05-28) |
 
 ## Weitergabe-Pflicht (CC BY-SA)
