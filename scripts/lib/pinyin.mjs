@@ -80,3 +80,35 @@ export function normalizeNum(pinyinNum) {
     .replace(/v/g, "ü")
     .replace(/\s+/g, " ");
 }
+
+// Map every toned/ü vowel back to its base ascii letter.
+const DIACRITIC_TO_BASE = {
+  "ā": "a", "á": "a", "ǎ": "a", "à": "a",
+  "ē": "e", "é": "e", "ě": "e", "è": "e",
+  "ī": "i", "í": "i", "ǐ": "i", "ì": "i",
+  "ō": "o", "ó": "o", "ǒ": "o", "ò": "o",
+  "ū": "u", "ú": "u", "ǔ": "u", "ù": "u",
+  "ü": "u", "ǖ": "u", "ǘ": "u", "ǚ": "u", "ǜ": "u",
+};
+
+export function stripDiacritics(s) {
+  return s.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/g, (c) => DIACRITIC_TO_BASE[c] || c);
+}
+
+// Loose comparison key for free-text production input: tone-insensitive,
+// space/punct-insensitive, ü/v/u: -> u. Accepts numeric, marked, or bare pinyin.
+export function looseKey(s) {
+  return stripDiacritics(String(s).toLowerCase())
+    .replace(/u:/g, "u")
+    .replace(/v/g, "u")
+    .replace(/[^a-z]/g, "");
+}
+
+// Tone-less, space-separated pinyin for tone drills: "ni3 hao3" -> "ni hao".
+export function toneless(pinyinNum) {
+  return pinyinNum
+    .trim()
+    .split(/\s+/)
+    .map((syl) => stripDiacritics(syl.toLowerCase()).replace(/u:/g, "u").replace(/[^a-zü]/g, ""))
+    .join(" ");
+}

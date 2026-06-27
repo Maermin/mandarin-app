@@ -68,6 +68,26 @@ button.reveal { background: var(--primary); color: #fff; border-color: var(--pri
 .g.good { background: #1f9d3a; }
 .g.easy { background: #1565d8; }
 
+.ex { display: flex; flex-direction: column; align-items: center; gap: 14px; width: 100%; }
+.hanzi.sm { font-size: 2.6rem; }
+.prompt { color: var(--muted); }
+.de.big { font-size: 1.5rem; font-weight: 600; text-align: center; }
+.prod-input { font-size: 1.2rem; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; width: 100%; text-align: center; }
+.toneless { font-size: 1.4rem; letter-spacing: .04em; color: var(--muted); }
+.modepick { display: block; margin-bottom: 6px; }
+.modepick select { font: inherit; padding: 8px; border-radius: 8px; border: 1px solid var(--line); width: 100%; margin-top: 6px; }
+.choices { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; width: 100%; }
+.choices.col { grid-template-columns: 1fr; }
+.choice { padding: 14px; font-size: 1.1rem; border-radius: 10px; }
+.choice.correct { background: #e6f7ec; border-color: #1f9d3a; color: #14622a; }
+.choice.wrong { background: #fdecea; border-color: #c0392b; color: #8a2418; }
+.speak { background: #eaf1ff; border-color: #cfe0ff; color: var(--primary); }
+.speak.big { font-size: 1.2rem; padding: 16px 22px; }
+.fb { font-weight: 600; }
+.fb.ok { color: #1f9d3a; }
+.fb.no { color: #c0392b; }
+.answer { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+
 footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
 footer a, .modal a { color: var(--primary); word-break: break-all; }
 

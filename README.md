@@ -11,7 +11,7 @@ programmatisch aus geprüften Quellen.
 |---|---|---|
 | **1. Datenfundament** | Pipeline + Validierungs-Suite + `sources.json` | ✅ **fertig, Gate grün** |
 | **2. SRS-Kern + App** | SM-2, localStorage, Review-Queue, Erkennungs-Übung, Backup | ✅ **fertig, Gate grün** |
-| 3. Übungstypen | Produktion, Ton-Drill, Hörverstehen | offen |
+| **3. Übungstypen** | Produktion (DE→Pinyin/Hanzi), Ton-Drill, Hörverstehen (TTS) | ✅ **fertig, Gate grün** |
 | 4. Schreibpraxis | `hanzi-writer` mit Strichprüfung | offen |
 | 5. Pädagogik | Ton-Einführung, Praxis-Track, Fortschritts-UI | offen |
 | 6. Optional | Tatoeba-Sätze, austauschbare TTS, Backup-UI | offen |
