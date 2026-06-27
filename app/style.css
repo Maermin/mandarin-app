@@ -91,6 +91,22 @@ button.reveal { background: var(--primary); color: #fff; border-color: var(--pri
 .wctl { display: flex; gap: 10px; }
 .grades.two { grid-template-columns: 1fr 1fr; }
 
+.tones-btn { background: #f3eaff; border-color: #e0ccff; color: var(--accent); font-size: 1rem; }
+.goal { color: var(--muted); }
+.tones-view { display: flex; flex-direction: column; gap: 12px; padding: 12px 0; }
+.tone-card { display: flex; align-items: center; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.contour { width: 80px; height: 48px; flex: none; background: #fafbfd; border-radius: 8px; }
+.tone-meta { flex: 1; }
+.tone-name { font-weight: 600; margin-bottom: 2px; }
+.hanzi.xs { font-size: 1.6rem; font-family: "Noto Sans SC", system-ui, sans-serif; }
+.hsk-prog { display: flex; flex-direction: column; gap: 6px; margin: 6px 0; }
+.prog-title { font-weight: 600; font-size: .9rem; color: var(--muted); }
+.bar-row { display: flex; align-items: center; gap: 10px; font-size: .85rem; }
+.bar-label { width: 56px; color: var(--muted); }
+.bar { flex: 1; height: 10px; background: #eef1f6; border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--primary); border-radius: 999px; transition: width .3s; }
+.bar-num { width: 70px; text-align: right; color: var(--muted); }
+
 footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
 footer a, .modal a { color: var(--primary); word-break: break-all; }
 

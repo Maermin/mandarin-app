@@ -194,80 +194,113 @@ async function main() {
   const hdeTag = `handedict@${hdeVersion}`;
   console.log(`   ${hdeIndex.size} deutsche Eintraege (Version ${hdeVersion})`);
 
-  console.log("4) HSK-Woerter gegen CC-CEDICT aufloesen + mergen");
-  const vocab = [];
+  console.log("4) HSK + Praxis-Track gegen CC-CEDICT aufloesen + mergen");
+  const byId = new Map(); // id -> entry (dedupe across HSK + tracks)
   const unresolved = [];
   const usedIds = new Set();
   const cedictVersion = `cc-cedict@${TODAY}`;
 
+  // Pick the correct CC-CEDICT reading for a word. Never guesses: a pinyin hint
+  // disambiguates multi-reading entries; without a hint only single-reading words
+  // resolve, the rest are reported.
+  // Prefer a common-noun reading (lowercase pinyin) over a proper-noun/surname
+  // reading (CC-CEDICT capitalises those), among entries with the same reading.
+  const preferLower = (list) => list.find((e) => /^[a-zü]/.test(e.pinyinNum)) || list[0];
+
+  function resolveReading(simplified, hint) {
+    const cands = cedict.bySimplified.get(simplified);
+    if (!cands || cands.length === 0) return { error: "nicht in CC-CEDICT" };
+    const norm = (e) => normalizeNum(e.pinyinNum);
+    if (hint) {
+      const hn = normalizeNum(hint);
+      const hits = cands.filter((e) => norm(e) === hn);
+      if (hits.length) return { match: preferLower(hits), mismatch: null };
+      if (cands.length === 1) return { match: cands[0], mismatch: { hint, cedict: cands[0].pinyinNum } };
+      return { error: `Pinyin-Hinweis '${hint}' nicht in Lesungen`, readings: cands.map((e) => e.pinyinNum) };
+    }
+    // no hint: unambiguous only if all candidates share one normalized reading
+    const distinct = [...new Set(cands.map(norm))];
+    if (distinct.length === 1) return { match: preferLower(cands), mismatch: null };
+    return { error: "mehrdeutige Lesung, kein Pinyin-Hinweis", readings: distinct };
+  }
+
+  // Create or fetch the vocab entry for a resolved reading; merge hsk/track tags.
+  function upsert(match, mismatch, { hsk = null, track = null }) {
+    const pinyin_num = match.pinyinNum;
+    let id = `${match.simplified}-${pinyin_num.replace(/\s+/g, "").replace(/:/g, "")}`;
+    if (!byId.has(id) && usedIds.has(id)) { let n = 1; while (usedIds.has(id)) id = `${match.simplified}-${pinyin_num.replace(/\s+/g, "")}-${++n}`; }
+    let e = byId.get(id);
+    if (!e) {
+      const de = hdeIndex.get(`${match.simplified}|${normalizeNum(pinyin_num)}`) || [];
+      const deFallback = de.length === 0;
+      e = {
+        id, simplified: match.simplified, traditional: match.traditional,
+        pinyin_num, pinyin_marks: numToMarks(pinyin_num), tones: extractTones(pinyin_num),
+        de, de_fallback: deFallback, en: match.glosses,
+        hsk: null, tracks: [], chars: cjkChars(match.simplified),
+        ...(mismatch ? { pinyin_mismatch: mismatch } : {}),
+        sources: {
+          pinyin: cedictVersion, en: cedictVersion, de: deFallback ? null : hdeTag,
+          hsk: null, tracks: null,
+        },
+      };
+      byId.set(id, e);
+      usedIds.add(id);
+    }
+    if (hsk != null && e.hsk == null) {
+      e.hsk = hsk;
+      e.sources.hsk = `hsk2.0-complete-hsk-vocabulary@${TODAY}`;
+    }
+    if (track && !e.tracks.includes(track)) {
+      e.tracks.push(track);
+      e.sources.tracks = `praxis-track@${TODAY}`;
+    }
+    return e;
+  }
+
+  // HSK words
   for (const lvl of SOURCES.hsk.levels) {
     for (const entry of hskRaw[lvl]) {
       const simplified = entry.simplified;
-      const form = (entry.forms && entry.forms[0]) || {};
-      const traditional = form.traditional || simplified;
-      const hskNum = form.transcriptions?.numeric || "";
-      const candidates = cedict.bySimplified.get(simplified);
-
-      if (!candidates || candidates.length === 0) {
-        unresolved.push({ simplified, hsk: lvl, reason: "nicht in CC-CEDICT" });
-        continue;
-      }
-      // pick CEDICT reading: prefer the one matching HSK pinyin
-      let match = candidates.find(
-        (e) => normalizeNum(e.pinyinNum) === normalizeNum(hskNum)
-      );
-      let mismatch = null;
-      if (!match) {
-        if (candidates.length === 1) {
-          match = candidates[0];
-          if (normalizeNum(match.pinyinNum) !== normalizeNum(hskNum)) {
-            mismatch = { hsk: hskNum, cedict: match.pinyinNum };
-          }
-        } else {
-          // ambiguous multi-reading + no HSK match -> do NOT guess
-          unresolved.push({
-            simplified,
-            hsk: lvl,
-            reason: "mehrdeutige Lesung, kein HSK-Pinyin-Treffer",
-            readings: candidates.map((e) => e.pinyinNum),
-          });
-          continue;
-        }
-      }
-
-      const pinyin_num = match.pinyinNum;
-      let id = `${simplified}-${pinyin_num.replace(/\s+/g, "").replace(/:/g, "")}`;
-      let n = 1;
-      while (usedIds.has(id)) id = `${simplified}-${pinyin_num.replace(/\s+/g, "")}-${++n}`;
-      usedIds.add(id);
-
-      // German from HanDeDict, matched by simplified + same reading (verbatim, cleaned)
-      const de = hdeIndex.get(`${simplified}|${normalizeNum(pinyin_num)}`) || [];
-      const deFallback = de.length === 0;
-
-      vocab.push({
-        id,
-        simplified,
-        traditional,
-        pinyin_num,
-        pinyin_marks: numToMarks(pinyin_num),
-        tones: extractTones(pinyin_num),
-        de,
-        de_fallback: deFallback,
-        en: match.glosses,
-        hsk: lvl,
-        chars: cjkChars(simplified),
-        ...(mismatch ? { pinyin_mismatch: mismatch } : {}),
-        sources: {
-          pinyin: cedictVersion,
-          en: cedictVersion,
-          de: deFallback ? null : hdeTag,
-          hsk: `hsk2.0-complete-hsk-vocabulary@${TODAY}`,
-        },
-      });
+      const hskNum = entry.forms?.[0]?.transcriptions?.numeric || "";
+      const r = resolveReading(simplified, hskNum);
+      if (r.error) { unresolved.push({ simplified, hsk: lvl, reason: r.error, readings: r.readings }); continue; }
+      upsert(r.match, r.mismatch, { hsk: lvl });
     }
   }
-  console.log(`   ${vocab.length} Vokabeln, ${unresolved.length} ungeloest`);
+
+  // Praxis-Track (relationship/family/etc). Curation of WHICH dictionary entries,
+  // not invented data: pinyin/meaning/strokes all come from the verified sources.
+  const trackDef = JSON.parse(readFileSync(join(ROOT, "scripts", "practice-track.json"), "utf8"));
+  const tracksMeta = [];
+  for (const t of trackDef.tracks) {
+    tracksMeta.push({ id: t.id, label: t.label });
+    for (const wd of t.words) {
+      const r = resolveReading(wd.s, wd.p);
+      if (r.error) { unresolved.push({ simplified: wd.s, track: t.id, reason: r.error, readings: r.readings }); continue; }
+      upsert(r.match, r.mismatch, { track: t.id });
+    }
+  }
+
+  // Tone-introduction anchors: the classic 5 readings of "ma", pulled verbatim
+  // from CC-CEDICT (verified), used by the tone lesson.
+  const TONE_WORDS = [
+    { tone: 1, s: "妈", p: "ma1" }, { tone: 2, s: "麻", p: "ma2" },
+    { tone: 3, s: "马", p: "ma3" }, { tone: 4, s: "骂", p: "ma4" },
+    { tone: 5, s: "吗", p: "ma5" },
+  ];
+  tracksMeta.push({ id: "toene", label: "Töne-Beispiele (妈麻马骂吗)" });
+  const toneExamples = [];
+  for (const tw of TONE_WORDS) {
+    const r = resolveReading(tw.s, tw.p);
+    if (r.error) { unresolved.push({ simplified: tw.s, tone: tw.tone, reason: r.error }); continue; }
+    const e = upsert(r.match, r.mismatch, { track: "toene" });
+    toneExamples.push({ tone: tw.tone, id: e.id, simplified: e.simplified, pinyin_marks: e.pinyin_marks,
+      de: e.de, en: e.en, de_fallback: e.de_fallback });
+  }
+
+  const vocab = [...byId.values()];
+  console.log(`   ${vocab.length} Vokabeln, ${tracksMeta.length} Praxis-Tracks, ${unresolved.length} ungeloest`);
 
   console.log("5) Zeichen-Zerlegung + Strichdaten (Make Me a Hanzi)");
   const neededChars = new Set();
@@ -353,6 +386,9 @@ async function main() {
       pinyin_mismatch: vocab.filter((w) => w.pinyin_mismatch).length,
       stroke_covered: strokeChars.size,
       stroke_missing: missingStroke.length,
+      tracks: tracksMeta.length,
+      track_words: vocab.filter((w) => w.tracks.length > 0).length,
+      tone_examples: toneExamples.length,
     },
     errors,
     warnings: warnings.slice(0, 2000),
@@ -361,6 +397,8 @@ async function main() {
 
   writeFileSync(join(DATA, "vocab.json"), JSON.stringify(vocab, null, 1));
   writeFileSync(join(DATA, "chars.json"), JSON.stringify(chars, null, 1));
+  writeFileSync(join(DATA, "tracks.json"), JSON.stringify(tracksMeta, null, 1));
+  writeFileSync(join(DATA, "tone-examples.json"), JSON.stringify(toneExamples, null, 1));
   writeFileSync(join(DATA, "sources.json"), JSON.stringify(sourcesOut, null, 2));
   writeFileSync(join(DATA, "validation-report.json"), JSON.stringify(report, null, 2));
   console.log(

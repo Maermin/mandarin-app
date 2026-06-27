@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildSession, progress, rollDay, dayKey } from "../app/deck.js";
+import { buildSession, progress, rollDay, dayKey, deckMatch } from "../app/deck.js";
 import { newCard, schedule, GRADE, DAY } from "../app/srs.js";
 
 const NOW = 1_700_000_000_000;
@@ -43,6 +43,27 @@ test("buildSession respects newToday already used", () => {
   const s = buildSession(vocab, {}, { dailyNew: 3 }, stats, NOW);
   assert.equal(s.remainingNew, 0);
   assert.equal(s.queue.length, 0);
+});
+
+test("deckMatch: all / hsk:N / track:ID", () => {
+  const w = { id: "x", hsk: 2, tracks: ["familie"] };
+  assert.equal(deckMatch(w, "all"), true);
+  assert.equal(deckMatch(w, undefined), true);
+  assert.equal(deckMatch(w, "hsk:2"), true);
+  assert.equal(deckMatch(w, "hsk:3"), false);
+  assert.equal(deckMatch(w, "track:familie"), true);
+  assert.equal(deckMatch(w, "track:essen"), false);
+});
+
+test("buildSession new cards limited to selected deck", () => {
+  const voc = [
+    { id: "a", hsk: 1, tracks: [] },
+    { id: "b", hsk: 2, tracks: ["familie"] },
+    { id: "c", hsk: null, tracks: ["familie"] },
+  ];
+  const stats = { dayKey: dayKey(NOW), newToday: 0 };
+  const s = buildSession(voc, {}, { dailyNew: 10, deck: "track:familie" }, stats, NOW);
+  assert.deepEqual(s.queue.sort(), ["b", "c"]); // 'a' excluded (not in track)
 });
 
 test("progress counts learned cards", () => {

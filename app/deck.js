@@ -16,20 +16,31 @@ export function rollDay(stats, now = Date.now()) {
   return { ...stats, dayKey: k, reviewsToday: 0, newToday: 0 };
 }
 
+// Does a word belong to the selected learning deck?
+//   'all' | 'hsk:N' | 'track:ID'
+export function deckMatch(word, deck) {
+  if (!deck || deck === "all") return true;
+  if (deck.startsWith("hsk:")) return word.hsk === Number(deck.slice(4));
+  if (deck.startsWith("track:")) return Array.isArray(word.tracks) && word.tracks.includes(deck.slice(6));
+  return true;
+}
+
 // Build the session queue.
 //   vocab: array of words (data/vocab.json)
 //   cards: map id -> cardState
-//   settings: { dailyNew }
+//   settings: { dailyNew, deck }
+// New cards are drawn only from the selected deck; due reviews always included.
 // Returns { due, newAvail, queue } where queue is ordered word ids.
 export function buildSession(vocab, cards, settings, stats, now = Date.now()) {
+  const deck = settings.deck || "all";
   const dueIds = [];
   const newIds = [];
   for (const w of vocab) {
     const card = cards[w.id];
     if (!card) {
-      newIds.push(w.id); // never studied
+      if (deckMatch(w, deck)) newIds.push(w.id); // never studied, in selected deck
     } else if (card.due <= now) {
-      dueIds.push(w.id); // due review (incl. lapsed)
+      dueIds.push(w.id); // due review (incl. lapsed), any deck
     }
   }
   // due first, earliest due first

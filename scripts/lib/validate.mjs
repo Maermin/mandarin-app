@@ -94,13 +94,20 @@ export function validateVocab(vocab, cedict, opts = {}) {
       );
     }
 
-    // Rule 7: HSK back-binding
-    if (!(Number.isInteger(w.hsk) && w.hsk >= 1 && w.hsk <= 6)) {
-      errors.push(`${tag}: ungueltige HSK-Stufe ${w.hsk}`);
+    // Rule 7: HSK back-binding (HSK optional; tracks are an alternative deck tag)
+    const tracks = Array.isArray(w.tracks) ? w.tracks : null;
+    if (!tracks) errors.push(`${tag}: tracks-Feld fehlt`);
+    if (w.hsk != null) {
+      if (!(Number.isInteger(w.hsk) && w.hsk >= 1 && w.hsk <= 6))
+        errors.push(`${tag}: ungueltige HSK-Stufe ${w.hsk}`);
+      else if (!w.sources || w.sources.hsk == null)
+        errors.push(`${tag}: HSK ohne Quellenangabe (geschaetzt?)`);
     }
-    if (!w.sources || w.sources.hsk == null) {
-      errors.push(`${tag}: HSK ohne Quellenangabe (geschaetzt?)`);
-    }
+    // every word must belong to at least one deck (HSK level or a track)
+    if (w.hsk == null && (!tracks || tracks.length === 0))
+      errors.push(`${tag}: weder HSK-Stufe noch Track (verwaist)`);
+    if (tracks && tracks.length > 0 && (!w.sources || w.sources.tracks == null))
+      errors.push(`${tag}: Track ohne Quellenangabe`);
 
     // Rule 8: German present, else must be flagged en-fallback
     const hasDe = Array.isArray(w.de) && w.de.length > 0;
@@ -112,7 +119,7 @@ export function validateVocab(vocab, cedict, opts = {}) {
     // Rule 11: source pinyin mismatch (resolved, reported not silently overwritten)
     if (w.pinyin_mismatch) {
       warnings.push(
-        `${tag}: HSK-Pinyin '${w.pinyin_mismatch.hsk}' weicht ab, CC-CEDICT '${w.pinyin_mismatch.cedict}' verwendet`
+        `${tag}: Pinyin-Hinweis '${w.pinyin_mismatch.hint}' weicht ab, CC-CEDICT '${w.pinyin_mismatch.cedict}' verwendet`
       );
     }
 

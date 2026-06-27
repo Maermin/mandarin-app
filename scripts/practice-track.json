@@ -1,0 +1,59 @@
+{
+  "_note": "Kuratierte Auswahl WELCHER Woerterbuch-Eintraege in den Praxis-Track kommen. Keine Sprachdaten erfunden: Pinyin/Bedeutung/Striche stammen aus den geprueften Quellen. 's' = vereinfachtes Hanzi, optional 'p' = Pinyin-Hinweis (Tonzahlen) zur Aufloesung von Mehrfachlesungen. Nicht aufloesbare Eintraege landen im validation-report, nicht in der App.",
+  "tracks": [
+    {
+      "id": "begruessung",
+      "label": "Begrüßung & Höflichkeit",
+      "words": [
+        { "s": "你好" }, { "s": "您好" }, { "s": "谢谢" }, { "s": "不客气" },
+        { "s": "再见" }, { "s": "对不起" }, { "s": "没关系" }, { "s": "请" },
+        { "s": "晚安" }, { "s": "早上" }
+      ]
+    },
+    {
+      "id": "vorstellung",
+      "label": "Sich vorstellen",
+      "words": [
+        { "s": "我" }, { "s": "你" }, { "s": "您" }, { "s": "名字" },
+        { "s": "叫" }, { "s": "是" }, { "s": "认识" }, { "s": "高兴" },
+        { "s": "这", "p": "zhe4" }, { "s": "那", "p": "na4" }
+      ]
+    },
+    {
+      "id": "familie",
+      "label": "Familie (家人)",
+      "words": [
+        { "s": "家" }, { "s": "爸爸" }, { "s": "妈妈" }, { "s": "哥哥" },
+        { "s": "姐姐" }, { "s": "弟弟" }, { "s": "妹妹" }, { "s": "儿子" },
+        { "s": "女儿" }, { "s": "孩子" }, { "s": "爷爷" }, { "s": "奶奶" },
+        { "s": "妻子", "p": "qi1 zi5" }, { "s": "丈夫" }
+      ]
+    },
+    {
+      "id": "essen",
+      "label": "Essen & Trinken",
+      "words": [
+        { "s": "吃" }, { "s": "喝", "p": "he1" }, { "s": "饭" }, { "s": "水" },
+        { "s": "茶" }, { "s": "米饭" }, { "s": "面条" }, { "s": "菜" },
+        { "s": "好吃", "p": "hao3 chi1" }, { "s": "饿" }, { "s": "渴" }
+      ]
+    },
+    {
+      "id": "gefuehle",
+      "label": "Gefühle & Zuneigung",
+      "words": [
+        { "s": "爱" }, { "s": "喜欢" }, { "s": "想" }, { "s": "开心" },
+        { "s": "累", "p": "lei4" }, { "s": "难过" }, { "s": "害怕" }, { "s": "想念" }
+      ]
+    },
+    {
+      "id": "smalltalk",
+      "label": "Smalltalk",
+      "words": [
+        { "s": "今天" }, { "s": "天气" }, { "s": "好", "p": "hao3" }, { "s": "忙" },
+        { "s": "工作" }, { "s": "怎么样" }, { "s": "哪里" }, { "s": "多少", "p": "duo1 shao3" },
+        { "s": "几", "p": "ji3" }
+      ]
+    }
+  ]
+}

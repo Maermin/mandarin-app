@@ -1,5 +1,5 @@
 // App bootstrap + UI (React.createElement, no JSX). Native ES module.
-import { newCard, schedule, GRADE } from "./srs.js";
+import { newCard, schedule, GRADE, isLearned } from "./srs.js";
 import { buildSession, progress, rollDay, dayKey } from "./deck.js";
 import { loadState, saveState, exportBackup, importBackup } from "./storage.js";
 import { toneSegments, TONE_COLOR } from "./tones.js";
@@ -209,6 +209,51 @@ function Recognition({ word, chars, phase, showPinyin, onReveal, onGrade }) {
       h("button", { className: "g easy", onClick: () => onGrade(GRADE.EASY) }, "Leicht")));
 }
 
+// ---------- Tone introduction (pedagogy: tones first) ----------
+const TONE_INFO = [
+  { tone: 1, name: "1. Ton — hoch & gleichbleibend", path: "M8,12 L92,12" },
+  { tone: 2, name: "2. Ton — steigend", path: "M8,46 L92,12" },
+  { tone: 3, name: "3. Ton — fallend-steigend", path: "M8,22 L34,52 L92,14" },
+  { tone: 4, name: "4. Ton — fallend (scharf)", path: "M8,12 L92,50" },
+  { tone: 5, name: "neutraler Ton — leicht & kurz", path: "M36,32 L64,34" },
+];
+function ToneIntro({ examples, onBack }) {
+  const byTone = new Map((examples || []).map((e) => [e.tone, e]));
+  return h("div", { className: "tones-view" },
+    h("p", { className: "lead" },
+      "Mandarin ist tonal: dieselbe Silbe „ma“ heißt je nach Tonhöhe etwas anderes. Höre und vergleiche."),
+    TONE_INFO.map((ti) => {
+      const ex = byTone.get(ti.tone);
+      return h("div", { key: ti.tone, className: "tone-card" },
+        h("svg", { viewBox: "0 0 100 60", className: "contour" },
+          h("path", { d: ti.path, fill: "none", stroke: TONE_COLOR[ti.tone], strokeWidth: 4, strokeLinecap: "round", strokeLinejoin: "round" })),
+        h("div", { className: "tone-meta" },
+          h("div", { className: "tone-name" }, ti.name),
+          ex ? h("div", null,
+                h("span", { className: "hanzi xs", style: { color: TONE_COLOR[ti.tone] } }, ex.simplified),
+                " ", h("b", null, ex.pinyin_marks), " — ",
+                (ex.de_fallback || !ex.de.length ? ex.en : ex.de).join("; ")) : null),
+        ex && ttsAvailable() ? h("button", { className: "speak", onClick: () => speak(ex.simplified) }, "🔊") : null);
+    }),
+    h("button", { className: "primary", onClick: onBack }, "Zurück"));
+}
+
+// ---------- HSK level progress ----------
+function HskProgress({ vocab, cards }) {
+  const rows = [];
+  for (let l = 1; l <= 6; l++) {
+    const ws = vocab.filter((w) => w.hsk === l);
+    const learned = ws.filter((w) => isLearned(cards[w.id])).length;
+    rows.push({ l, total: ws.length, learned });
+  }
+  return h("div", { className: "hsk-prog" },
+    h("div", { className: "prog-title" }, "Fortschritt nach HSK-Stufe"),
+    rows.map((r) => h("div", { key: r.l, className: "bar-row" },
+      h("span", { className: "bar-label" }, "HSK " + r.l),
+      h("div", { className: "bar" }, h("div", { className: "bar-fill", style: { width: (r.total ? (100 * r.learned) / r.total : 0) + "%" } })),
+      h("span", { className: "bar-num" }, r.learned + "/" + r.total))));
+}
+
 // ---------- About ----------
 function About({ sources, onClose }) {
   const s = sources ? sources.sources : {};
@@ -231,7 +276,7 @@ function About({ sources, onClose }) {
 }
 
 // ---------- App ----------
-function App({ vocab, chars, sources }) {
+function App({ vocab, chars, sources, tracks, toneExamples }) {
   const [state, setState] = useState(() => loadState());
   const [view, setView] = useState("dashboard");
   const [session, setSession] = useState(null); // {ids,pos,mode,phase,pendingGrade,chosen,result}
@@ -322,8 +367,18 @@ function App({ vocab, chars, sources }) {
       h("span", null, "🔥 ", h("b", null, rollDay(state.stats).streak || 0)),
       h("span", null, "Gelernt ", h("b", null, prog.learned), "/", prog.total)));
 
+  const deckOptions = [
+    { v: "all", l: "Alle (HSK + Praxis)" },
+    ...[1, 2, 3, 4, 5, 6].map((n) => ({ v: "hsk:" + n, l: "HSK " + n })),
+    ...(tracks || []).map((t) => ({ v: "track:" + t.id, l: "Praxis: " + t.label })),
+  ];
+  const goal = state.settings.dailyGoal || 20;
+  const reviewsToday = rollDay(state.stats).reviewsToday || 0;
+
   let body;
-  if (view === "review" && session && word) {
+  if (view === "tones") {
+    body = h(ToneIntro, { examples: toneExamples, onBack: () => setView("dashboard") });
+  } else if (view === "review" && session && word) {
     let card;
     if (session.mode === "production")
       card = h(Production, { word, chars, phase: session.phase, result: session.result, onSubmit: submitProduction, onNext: () => advance(session.pendingGrade) });
@@ -342,14 +397,23 @@ function App({ vocab, chars, sources }) {
       h("button", { className: "link", onClick: () => { setSession(null); setView("dashboard"); } }, "Sitzung beenden"));
   } else {
     body = h("div", { className: "dashboard" },
-      h("p", { className: "lead" }, "Wähle eine Übung. Spaced-Repetition steuert die Reihenfolge."),
+      h("p", { className: "lead" }, "Wähle Lernpfad und Übung. Spaced-Repetition steuert die Reihenfolge."),
+      h("button", { className: "tones-btn", onClick: () => setView("tones") }, "🎵 Die Töne lernen"),
+      h("label", { className: "modepick" }, "Lernpfad: ",
+        h("select", {
+          value: state.settings.deck || "all",
+          onChange: (e) => setState((p) => ({ ...p, settings: { ...p.settings, deck: e.target.value } })),
+        }, deckOptions.map((o) => h("option", { key: o.v, value: o.v }, o.l)))),
       h("label", { className: "modepick" }, "Übungstyp: ",
         h("select", {
           value: mode,
           onChange: (e) => setState((p) => ({ ...p, settings: { ...p.settings, mode: e.target.value } })),
         }, MODES.map((m) => h("option", { key: m.id, value: m.id }, m.label)))),
+      h("div", { className: "goal" }, "Tagesziel: ", h("b", null, reviewsToday), " / ", goal, " Wiederholungen",
+        reviewsToday >= goal ? " ✅" : null),
       h("button", { className: "primary", disabled: sess.queue.length === 0, onClick: startReview },
         sess.queue.length === 0 ? "Heute nichts fällig 🎉" : "Lernen starten (" + sess.queue.length + ")"),
+      h(HskProgress, { vocab, cards: state.cards }),
       h("div", { className: "settings" },
         h("label", null,
           h("input", { type: "checkbox", checked: state.settings.showPinyin,
@@ -357,7 +421,10 @@ function App({ vocab, chars, sources }) {
           " Pinyin auf Vorderseite zeigen (Erkennung)"),
         h("label", null, "Neue Karten/Tag: ",
           h("input", { type: "number", min: 0, max: 200, value: state.settings.dailyNew,
-            onChange: (e) => setState((p) => ({ ...p, settings: { ...p.settings, dailyNew: Math.max(0, Number(e.target.value) || 0) } })) }))),
+            onChange: (e) => setState((p) => ({ ...p, settings: { ...p.settings, dailyNew: Math.max(0, Number(e.target.value) || 0) } })) })),
+        h("label", null, "Tagesziel (Wdh.): ",
+          h("input", { type: "number", min: 1, max: 500, value: goal,
+            onChange: (e) => setState((p) => ({ ...p, settings: { ...p.settings, dailyGoal: Math.max(1, Number(e.target.value) || 1) } })) }))),
       h("div", { className: "backup" },
         h("button", { onClick: doExport }, "Backup exportieren"),
         h("button", { onClick: () => fileRef.current.click() }, "Backup importieren"),
@@ -376,12 +443,14 @@ function App({ vocab, chars, sources }) {
 async function main() {
   const root = document.getElementById("root");
   try {
-    const [vocab, chars, sources] = await Promise.all([
+    const [vocab, chars, sources, tracks, toneExamples] = await Promise.all([
       fetch("data/vocab.json").then((r) => r.json()),
       fetch("data/chars.json").then((r) => r.json()),
       fetch("data/sources.json").then((r) => r.json()).catch(() => null),
+      fetch("data/tracks.json").then((r) => r.json()).catch(() => []),
+      fetch("data/tone-examples.json").then((r) => r.json()).catch(() => []),
     ]);
-    ReactDOM.createRoot(root).render(h(App, { vocab, chars, sources }));
+    ReactDOM.createRoot(root).render(h(App, { vocab, chars, sources, tracks, toneExamples }));
   } catch (e) {
     root.textContent = "Fehler beim Laden der Daten: " + e.message + " — erst `npm run build:data` ausführen.";
   }

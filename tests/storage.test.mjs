@@ -21,7 +21,7 @@ function fakeStore() {
 
 test("defaultState shape", () => {
   const d = defaultState();
-  assert.deepEqual(d.settings, { showPinyin: true, dailyNew: 15 });
+  assert.deepEqual(d.settings, { showPinyin: true, dailyNew: 15, dailyGoal: 20, mode: "recognition", deck: "all" });
   assert.deepEqual(d.cards, {});
   assert.equal(d.stats.streak, 0);
 });

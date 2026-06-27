@@ -1,0 +1,89 @@
+[
+ {
+  "tone": 1,
+  "id": "妈-ma1",
+  "simplified": "妈",
+  "pinyin_marks": "mā",
+  "de": [
+   "Mama, Mutter"
+  ],
+  "en": [
+   "ma",
+   "mom",
+   "mother"
+  ],
+  "de_fallback": false
+ },
+ {
+  "tone": 2,
+  "id": "麻-ma2",
+  "simplified": "麻",
+  "pinyin_marks": "má",
+  "de": [
+   "Anästhesie",
+   "beschäftigen, ärgern",
+   "Hanf",
+   "prickeln, taub werden",
+   "betäubt, empfindungslos",
+   "uneben, rauh, pockenartig",
+   "Radikal Nr. 200 = Hanf, Flachs, Jute, Sesam"
+  ],
+  "en": [
+   "hemp (variant of 麻[ma2])"
+  ],
+  "de_fallback": false
+ },
+ {
+  "tone": 3,
+  "id": "马-ma3",
+  "simplified": "马",
+  "pinyin_marks": "mǎ",
+  "de": [
+   "Pferd; groß",
+   "Springer (schwarzer Stein im chinesischen Schach)",
+   "Ma (Eig, Fam)",
+   "Radikal Nr. 187 = Pferd"
+  ],
+  "en": [
+   "horse",
+   "CL:匹[pi3]",
+   "horse or cavalry piece in Chinese chess",
+   "knight in Western chess"
+  ],
+  "de_fallback": false
+ },
+ {
+  "tone": 4,
+  "id": "骂-ma4",
+  "simplified": "骂",
+  "pinyin_marks": "mà",
+  "de": [
+   "beschimpfen, schelten",
+   "beschuldigen",
+   "blamieren",
+   "fluchen",
+   "verleumden"
+  ],
+  "en": [
+   "to scold",
+   "to abuse",
+   "to curse",
+   "CL:通[tong4],頓|顿[dun4]"
+  ],
+  "de_fallback": false
+ },
+ {
+  "tone": 5,
+  "id": "吗-ma5",
+  "simplified": "吗",
+  "pinyin_marks": "ma",
+  "de": [
+   "Fragepartikel",
+   "Satzpartikel zur Bildung von Fragen"
+  ],
+  "en": [
+   "(question particle for \"yes-no\" questions)"
+  ],
+  "de_fallback": false
+ }
+]

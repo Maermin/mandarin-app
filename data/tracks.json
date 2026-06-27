@@ -1,0 +1,30 @@
+[
+ {
+  "id": "begruessung",
+  "label": "Begrüßung & Höflichkeit"
+ },
+ {
+  "id": "vorstellung",
+  "label": "Sich vorstellen"
+ },
+ {
+  "id": "familie",
+  "label": "Familie (家人)"
+ },
+ {
+  "id": "essen",
+  "label": "Essen & Trinken"
+ },
+ {
+  "id": "gefuehle",
+  "label": "Gefühle & Zuneigung"
+ },
+ {
+  "id": "smalltalk",
+  "label": "Smalltalk"
+ },
+ {
+  "id": "toene",
+  "label": "Töne-Beispiele (妈麻马骂吗)"
+ }
+]

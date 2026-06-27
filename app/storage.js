@@ -6,7 +6,7 @@ export function defaultState() {
   return {
     version: 1,
     cards: {},
-    settings: { showPinyin: true, dailyNew: 15 },
+    settings: { showPinyin: true, dailyNew: 15, dailyGoal: 20, mode: "recognition", deck: "all" },
     stats: { streak: 0, lastStudyDay: null, dayKey: null, reviewsToday: 0, newToday: 0 },
   };
 }
