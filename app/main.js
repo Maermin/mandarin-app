@@ -24,6 +24,7 @@ const MODES = [
   { id: "tone", label: "Ton-Drill (richtiger Tonverlauf)" },
   { id: "listening", label: "Hörverstehen (Audio → Bedeutung)" },
   { id: "writing", label: "Schreibpraxis (Strichreihenfolge)" },
+  { id: "cloze", label: "Satzkontext (Lückentext)" },
 ];
 
 function yesterdayKey(now) { return dayKey(now - 86400000); }
@@ -190,6 +191,38 @@ function Writing({ word, chars, onGrade }) {
       h("button", { onClick: () => { if (idx < word.chars.length - 1) setIdx((i) => i + 1); else setDone(true); } }, "Überspringen")));
 }
 
+// ---------- Cloze (Satzkontext / Lückentext) ----------
+function Cloze({ word, sentence, chars, phase, result, onSubmit, onNext }) {
+  const [val, setVal] = useState("");
+  useEffect(() => { setVal(""); }, [word.id]);
+  const zh = sentence.zh;
+  const at = zh.indexOf(word.simplified);
+  const before = at >= 0 ? zh.slice(0, at) : zh;
+  const after = at >= 0 ? zh.slice(at + word.simplified.length) : "";
+
+  if (phase === "answered") {
+    return h("div", { className: "ex" },
+      h("div", { className: "de-sentence" }, sentence.de),
+      h("div", { className: "zh-sentence" }, before,
+        h("span", { className: "cloze-fill" }, word.simplified), after),
+      h("div", { className: result.ok ? "fb ok" : "fb no" },
+        result.ok ? "Richtig!" : "Deine Eingabe: " + (val || "—")),
+      h(AnswerBlock, { word, chars }),
+      h("button", { className: "primary", onClick: onNext }, "Weiter"));
+  }
+  return h("div", { className: "ex" },
+    h("div", { className: "prompt" }, "Fülle die Lücke (Pinyin oder Hanzi):"),
+    h("div", { className: "de-sentence" }, sentence.de),
+    h("div", { className: "zh-sentence" }, before, h("span", { className: "cloze-blank" }, "＿＿"), after),
+    h("input", {
+      className: "prod-input", autoFocus: true, value: val,
+      placeholder: "fehlendes Wort",
+      onChange: (e) => setVal(e.target.value),
+      onKeyDown: (e) => { if (e.key === "Enter") onSubmit(val); },
+    }),
+    h("button", { className: "primary", onClick: () => onSubmit(val) }, "Prüfen"));
+}
+
 // ---------- Recognition (manual grades) ----------
 function Recognition({ word, chars, phase, showPinyin, onReveal, onGrade }) {
   if (phase === "q") {
@@ -276,7 +309,7 @@ function About({ sources, onClose }) {
 }
 
 // ---------- App ----------
-function App({ vocab, chars, sources, tracks, toneExamples }) {
+function App({ vocab, chars, sources, tracks, toneExamples, sentences }) {
   const [state, setState] = useState(() => loadState());
   const [view, setView] = useState("dashboard");
   const [session, setSession] = useState(null); // {ids,pos,mode,phase,pendingGrade,chosen,result}
@@ -303,8 +336,13 @@ function App({ vocab, chars, sources, tracks, toneExamples }) {
 
   function startReview() {
     const built = buildSession(vocab, state.cards, state.settings, rollDay(state.stats), Date.now());
-    if (built.queue.length === 0) return;
-    setSession({ ids: built.queue.slice(), pos: 0, mode, phase: "q", pendingGrade: null, chosen: null, result: null });
+    let queue = built.queue.slice();
+    if (mode === "cloze") queue = queue.filter((id) => sentences && sentences[id] && sentences[id].length);
+    if (queue.length === 0) {
+      if (mode === "cloze") alert("Keine Beispielsätze für die fälligen/neuen Karten in diesem Pfad. Anderen Übungstyp oder Pfad wählen.");
+      return;
+    }
+    setSession({ ids: queue, pos: 0, mode, phase: "q", pendingGrade: null, chosen: null, result: null });
     setView("review");
   }
 
@@ -339,6 +377,10 @@ function App({ vocab, chars, sources, tracks, toneExamples }) {
     setSession((p) => ({ ...p, phase: "answered", pendingGrade: correct ? GRADE.GOOD : GRADE.AGAIN, ...extra }));
 
   function submitProduction(val) {
+    const r = checkProduction(val, word);
+    answerAuto(r.ok, { result: r });
+  }
+  function submitCloze(val) {
     const r = checkProduction(val, word);
     answerAuto(r.ok, { result: r });
   }
@@ -388,6 +430,8 @@ function App({ vocab, chars, sources, tracks, toneExamples }) {
       card = h(Listening, { word, chars, choices: meaningChoices, phase: session.phase, chosen: session.chosen, onPick: pickMeaning, onNext: () => advance(session.pendingGrade) });
     else if (session.mode === "writing")
       card = h(Writing, { word, chars, onGrade: advance });
+    else if (session.mode === "cloze")
+      card = h(Cloze, { word, chars, sentence: (sentences[word.id] || [])[0], phase: session.phase, result: session.result, onSubmit: submitCloze, onNext: () => advance(session.pendingGrade) });
     else
       card = h(Recognition, { word, chars, phase: session.phase, showPinyin: state.settings.showPinyin, onReveal: reveal, onGrade: advance });
 
@@ -443,14 +487,15 @@ function App({ vocab, chars, sources, tracks, toneExamples }) {
 async function main() {
   const root = document.getElementById("root");
   try {
-    const [vocab, chars, sources, tracks, toneExamples] = await Promise.all([
+    const [vocab, chars, sources, tracks, toneExamples, sentences] = await Promise.all([
       fetch("data/vocab.json").then((r) => r.json()),
       fetch("data/chars.json").then((r) => r.json()),
       fetch("data/sources.json").then((r) => r.json()).catch(() => null),
       fetch("data/tracks.json").then((r) => r.json()).catch(() => []),
       fetch("data/tone-examples.json").then((r) => r.json()).catch(() => []),
+      fetch("data/sentences.json").then((r) => r.json()).catch(() => ({})),
     ]);
-    ReactDOM.createRoot(root).render(h(App, { vocab, chars, sources, tracks, toneExamples }));
+    ReactDOM.createRoot(root).render(h(App, { vocab, chars, sources, tracks, toneExamples, sentences }));
   } catch (e) {
     root.textContent = "Fehler beim Laden der Daten: " + e.message + " — erst `npm run build:data` ausführen.";
   }

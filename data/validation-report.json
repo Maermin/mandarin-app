@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T10:07:35.566Z",
+  "generated": "2026-06-27T16:37:28.926Z",
   "counts": {
     "vocab": 4998,
     "unresolved": 5,
@@ -12,7 +12,8 @@
     "stroke_missing": 0,
     "tracks": 7,
     "track_words": 67,
-    "tone_examples": 5
+    "tone_examples": 5,
+    "words_with_sentences": 3438
   },
   "errors": [],
   "warnings": [

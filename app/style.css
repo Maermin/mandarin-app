@@ -87,6 +87,10 @@ button.reveal { background: var(--primary); color: #fff; border-color: var(--pri
 .fb.ok { color: #1f9d3a; }
 .fb.no { color: #c0392b; }
 .answer { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.de-sentence { font-style: italic; color: var(--muted); text-align: center; }
+.zh-sentence { font-size: 1.6rem; font-family: "Noto Sans SC", system-ui, sans-serif; text-align: center; line-height: 1.5; }
+.cloze-blank { color: var(--accent); font-weight: 700; letter-spacing: 2px; }
+.cloze-fill { color: var(--primary); font-weight: 700; }
 .writer-target { width: 240px; height: 240px; border: 1px dashed var(--line); border-radius: 12px; background: #fff; }
 .wctl { display: flex; gap: 10px; }
 .grades.two { grid-template-columns: 1fr 1fr; }

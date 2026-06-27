@@ -14,7 +14,7 @@ programmatisch aus geprüften Quellen.
 | **3. Übungstypen** | Produktion (DE→Pinyin/Hanzi), Ton-Drill, Hörverstehen (TTS) | ✅ **fertig, Gate grün** |
 | **4. Schreibpraxis** | `hanzi-writer` Quiz-Modus mit Strichfehler-Erkennung | ✅ **fertig, Gate grün** |
 | **5. Pädagogik** | Ton-Einführung, Praxis-Track (Familie etc.), HSK-Fortschritt, Lernpfade | ✅ **fertig, Gate grün** |
-| 6. Optional | Tatoeba-Sätze, austauschbare TTS, Backup-UI | offen |
+| **6. Satzkontext** | Tatoeba zh/de Lückentext-Übung (austauschbare TTS + Backup-UI schon in Phase 2–3) | ✅ **fertig, Gate grün** |
 
 ## Datenstand (Phase 1)
 

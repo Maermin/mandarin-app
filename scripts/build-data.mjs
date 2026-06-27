@@ -1,7 +1,8 @@
 // Deterministic data pipeline (spec section 3).
 // Downloads verified sources, merges, validates, emits data/*.json.
 // NEVER invents language data: pinyin/meanings come verbatim from the sources.
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, createReadStream } from "node:fs";
+import { createInterface } from "node:readline";
 import { gunzipSync } from "node:zlib";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
@@ -44,6 +45,13 @@ const SOURCES = {
     tar: "handedict.tar.bz2",
     member: "handedict.u8", // CEDICT-format UTF-8 file inside the archive
     file: "handedict.u8",
+  },
+  tatoeba: {
+    name: "Tatoeba (Satzpaare zh/de)",
+    license: "CC BY 2.0 FR",
+    cmn: { url: "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2", bz2: "tatoeba-cmn.tsv.bz2" },
+    deu: { url: "https://downloads.tatoeba.org/exports/per_language/deu/deu_sentences.tsv.bz2", bz2: "tatoeba-deu.tsv.bz2" },
+    links: { url: "https://downloads.tatoeba.org/exports/links.tar.bz2", tar: "tatoeba-links.tar.bz2" },
   },
   hsk: {
     name: "complete-hsk-vocabulary (HSK 2.0, Stufen 1-6)",
@@ -142,6 +150,84 @@ function writeStrokeData(neededChars) {
     covered.add(obj.character);
   }
   return covered;
+}
+
+// Decompress a .bz2 with the system bzip2 (kept zero-dep). Returns the path.
+function bunzip(bz2Path) {
+  const out = bz2Path.replace(/\.bz2$/, "");
+  if (!existsSync(out)) execFileSync("bzip2", ["-dkf", bz2Path], { stdio: "pipe" });
+  return out;
+}
+
+// Parse a Tatoeba "*_sentences.tsv" (id\tlang\ttext) into a Map id->text.
+function readTatoebaSentences(path) {
+  const m = new Map();
+  const text = readFileSync(path, "utf8");
+  for (const line of text.split(/\r?\n/)) {
+    if (!line) continue;
+    const tab1 = line.indexOf("\t");
+    const tab2 = line.indexOf("\t", tab1 + 1);
+    if (tab1 < 0 || tab2 < 0) continue;
+    m.set(line.slice(0, tab1), line.slice(tab2 + 1));
+  }
+  return m;
+}
+
+// Best-effort: attach verified Tatoeba zh/de sentence pairs to vocab words.
+// A sentence is only used if the word's exact characters appear in it — no
+// invented content. Returns { byWord, counts } or null on failure.
+async function buildSentences(vocab) {
+  const t = SOURCES.tatoeba;
+  await ensureRaw(t.cmn.url, t.cmn.bz2);
+  await ensureRaw(t.deu.url, t.deu.bz2);
+  await ensureRaw(t.links.url, t.links.tar);
+
+  const cmnText = readTatoebaSentences(bunzip(join(RAW, t.cmn.bz2)));
+  const deuText = readTatoebaSentences(bunzip(join(RAW, t.deu.bz2)));
+
+  // extract links.csv (tar.bz2)
+  const exdir = join(RAW, "tatoeba_links");
+  mkdirSync(exdir, { recursive: true });
+  const fwd = (p) => p.replace(/\\/g, "/");
+  if (!findFile(exdir, "links.csv"))
+    execFileSync("tar", ["--force-local", "-xjf", fwd(join(RAW, t.links.tar)), "-C", fwd(exdir)], { stdio: "pipe" });
+  const linksPath = findFile(exdir, "links.csv");
+  if (!linksPath) throw new Error("links.csv nicht gefunden");
+
+  // stream links -> first German translation per Chinese sentence id
+  const pairDe = new Map();
+  const rl = createInterface({ input: createReadStream(linksPath), crlfDelay: Infinity });
+  for await (const line of rl) {
+    const tab = line.indexOf("\t");
+    if (tab < 0) continue;
+    const a = line.slice(0, tab);
+    const b = line.slice(tab + 1).trim();
+    if (cmnText.has(a) && deuText.has(b)) { if (!pairDe.has(a)) pairDe.set(a, deuText.get(b)); }
+    else if (cmnText.has(b) && deuText.has(a)) { if (!pairDe.has(b)) pairDe.set(b, deuText.get(a)); }
+  }
+
+  // index vocab by simplified, assign matching sentences (longest word wins, cap 2)
+  const simpToId = new Map();
+  for (const w of vocab) if (!simpToId.has(w.simplified)) simpToId.set(w.simplified, w.id);
+  const byWord = {};
+  const CAP = 2;
+  for (const [cid, zh] of cmnText) {
+    const de = pairDe.get(cid);
+    if (!de || zh.length > 24) continue;
+    const matched = [];
+    for (let L = 4; L >= 1; L--)
+      for (let i = 0; i + L <= zh.length; i++) {
+        const sub = zh.slice(i, i + L);
+        if (simpToId.has(sub) && !matched.includes(sub)) matched.push(sub);
+      }
+    for (const sub of matched) {
+      const id = simpToId.get(sub);
+      const arr = (byWord[id] ||= []);
+      if (arr.length < CAP && !arr.some((s) => s.zh === zh)) arr.push({ zh, de });
+    }
+  }
+  const counts = { words_with_sentences: Object.keys(byWord).length, pairs: pairDe.size };
+  return { byWord, counts };
 }
 
 function readMakeMeAHanzi(neededChars) {
@@ -330,6 +416,22 @@ async function main() {
   });
   for (const c of missingStroke) warnings.push(`Strichdaten fehlen fuer '${c}' (keine Schreibuebung)`);
 
+  console.log("7) Tatoeba Satzpaare (optional, best-effort)");
+  let sentences = {};
+  let sentenceCounts = { words_with_sentences: 0, pairs: 0 };
+  let tatoebaStatus = "uebersprungen";
+  try {
+    const res = await buildSentences(vocab);
+    sentences = res.byWord;
+    sentenceCounts = res.counts;
+    tatoebaStatus = "ok";
+    console.log(`   ${sentenceCounts.words_with_sentences} Woerter mit Satz, ${sentenceCounts.pairs} zh/de-Paare`);
+  } catch (e) {
+    console.warn("   Tatoeba uebersprungen: " + e.message);
+    tatoebaStatus = "uebersprungen: " + e.message;
+  }
+  writeFileSync(join(DATA, "sentences.json"), JSON.stringify(sentences));
+
   const sourcesOut = {
     generated: TODAY,
     hsk_version: "HSK 2.0 (6 Stufen)",
@@ -371,6 +473,15 @@ async function main() {
         license: SOURCES.hsk.license,
         downloaded: TODAY,
       },
+      tatoeba: {
+        name: SOURCES.tatoeba.name,
+        url: "https://tatoeba.org",
+        license: SOURCES.tatoeba.license,
+        status: tatoebaStatus,
+        words_with_sentences: sentenceCounts.words_with_sentences,
+        downloaded: tatoebaStatus === "ok" ? TODAY : null,
+        note: "Lückentext-Sätze; nur Sätze, in denen das Zielwort woertlich vorkommt. Nichts erfunden.",
+      },
     },
   };
 
@@ -389,6 +500,7 @@ async function main() {
       tracks: tracksMeta.length,
       track_words: vocab.filter((w) => w.tracks.length > 0).length,
       tone_examples: toneExamples.length,
+      words_with_sentences: sentenceCounts.words_with_sentences,
     },
     errors,
     warnings: warnings.slice(0, 2000),

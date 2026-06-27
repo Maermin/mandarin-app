@@ -46,6 +46,15 @@
       "url": "https://raw.githubusercontent.com/drkameleon/complete-hsk-vocabulary/main/wordlists/exclusive/old/",
       "license": "MIT",
       "downloaded": "2026-06-27"
+    },
+    "tatoeba": {
+      "name": "Tatoeba (Satzpaare zh/de)",
+      "url": "https://tatoeba.org",
+      "license": "CC BY 2.0 FR",
+      "status": "ok",
+      "words_with_sentences": 3438,
+      "downloaded": "2026-06-27",
+      "note": "Lückentext-Sätze; nur Sätze, in denen das Zielwort woertlich vorkommt. Nichts erfunden."
     }
   }
 }
